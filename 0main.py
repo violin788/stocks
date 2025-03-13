@@ -480,7 +480,7 @@ def prices_around_earnings(match_file,required_ratio):
             new["name"]=name
             final_cr2.append(new)
         #abort, leave =="" if you just want it to run
-        if symbol=="CCL":
+        if symbol=="":
             sys.exit()
     #final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
     final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
@@ -536,8 +536,8 @@ match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
-finnhub_end = "2025-03-21"
-list_length = 200
+finnhub_end = "2025-04-01"
+list_length = 99999999
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -545,7 +545,7 @@ get_finnhub_earnings(finnhub_folder,finnhub_start,finnhub_end)
 stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
 get_yahoo_history(upcoming_file,compare_file)
-get_sec_earn_dates(compare_file)
+#get_sec_earn_dates(compare_file)
 prices_around_earnings(compare_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)

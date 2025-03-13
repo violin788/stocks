@@ -192,7 +192,3 @@ function get_option() {
 </body>
 </html>
     """
-
-
-
-
