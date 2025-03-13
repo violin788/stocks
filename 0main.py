@@ -480,8 +480,8 @@ def prices_around_earnings(match_file,required_ratio):
             new["name"]=name
             final_cr2.append(new)
         #abort, leave =="" if you just want it to run
-        #if symbol=="":
-        #    sys.exit()
+        if symbol=="CCL":
+            sys.exit()
     #final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
     final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
     #final_cr2.reverse()
