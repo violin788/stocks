@@ -185,7 +185,7 @@ def get_sec_earn_dates(match_file):
                 #if not os.path.isdir(stock_folder):
                 with open(no_response_file, 'r') as file:
                     content = file.read()
-                text_check = "\n"+check_stock+"\n"
+                text_check = "\n"+check_stock
                 if text_check not in content:
                     content=content+"\n"+check_stock
                     with open(no_response_file, 'w') as file:
