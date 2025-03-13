@@ -181,6 +181,17 @@ def get_sec_earn_dates(match_file):
             except Exception as e:
                 print(f"Error Type: {type(e)}")
                 print("does not exist!!")
+                no_response_file = '0sec_no_return.txt'
+                #if not os.path.isdir(stock_folder):
+                with open(no_response_file, 'r') as file:
+                    content = file.read()
+                text_check = "\n"+check_stock+"\n"
+                if text_check not in content:
+                    content=content+"\n"+check_stock
+                    with open(no_response_file, 'w') as file:
+                        file.write(content)
+                continue
+
                 print("will continue in 5 seconds!!")
                 time.sleep(5)
             print("now upcoming 8k for stock "+ticker_symbol)
@@ -203,7 +214,7 @@ def get_sec_earn_dates(match_file):
             
             #see what is in earnings to see why it gets deleted
             #if have problem, this to diagnostic it
-            stop = "DOMH"
+            stop = ""
             if check_stock==stop:
                 print("stopped at",stop)
                 sys.exit()
@@ -230,22 +241,21 @@ def get_sec_earn_dates(match_file):
                 print(check_file)
                 with open(check_file, 'r') as file:
                     content = file.read()  # Read the entire content of the file
-                    #print(content)
-                    if "Results of Operations and Financial Condition" not in content:
-                        to_delete = os.path.join(stock_folder,date)
-                        print("deleting= "+to_delete)
-                        shutil.rmtree(to_delete)
-                        continue
-                        """
-                    if "ITEM INFORMATION:		Regulation FD Disclosure" in content:
-                        to_delete = os.path.join(stock_folder,date)
-                        print("deleting= "+to_delete)
-                        shutil.rmtree(to_delete)
-                        continue
-                        """
-                    #else:
-                    with open(check_file, "w") as file:
-                        file.write(content[0:1000])   
+                    to_delete = os.path.join(stock_folder,date)            
+                    if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
+                        if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
+                                continue
+                    print("deleting= "+to_delete)
+                    shutil.rmtree(to_delete)
+                    """
+                    if "earn" not in content or "Earn" not in content:
+                                print("deleting= "+to_delete)
+                                shutil.rmtree(to_delete)
+                                continue
+                            """
+
+                #with open(check_file, 'w') as file:
+                #    file.write(content[0:3000])
                                 
                    
 def get_yahoo_history(upcoming_file,compare_file):
@@ -336,6 +346,7 @@ def prices_around_earnings(match_file,required_ratio):
         except:
             continue
         earnings_dates = []
+        date_identifier = "DATE AS OF CHANGE:"
         for k8_code in k8_list:
             if "-25-" not in k8_code and "-24-" not in k8_code and "-23-" not in k8_code: 
                 continue
@@ -343,7 +354,7 @@ def prices_around_earnings(match_file,required_ratio):
             with open(file_to_load, 'r') as file:
                 content = file.read()
                 if "Results of Operations and Financial Condition" in content and "Financial Statements and Exhibits" in content:
-                    what_to_find = "FILED AS OF DATE:"
+                    what_to_find = date_identifier
                     dates_start = content.find(what_to_find)
                     date_end = content.find("\n",dates_start)
                     date = content[dates_start:date_end]
@@ -352,10 +363,11 @@ def prices_around_earnings(match_file,required_ratio):
         earnings_dates.reverse()
         earnings_dates=earnings_dates[0:8]
         earnings_dates.reverse()
+        #print(earnings_dates)
         earnings_dates1 = earnings_dates
         earn_dates2 = []
         for date in earnings_dates1:
-            new = date.replace("FILED AS OF DATE:","")
+            new = date.replace(date_identifier,"")
             new = new.replace("\t","")
             earn_dates2.append(new)
         dates_list = earn_dates2
@@ -371,10 +383,10 @@ def prices_around_earnings(match_file,required_ratio):
         reverse_dictionary = {}
         more = {}
         stock_cr = []
-        for date in dates_list:
-            print("date look for=",date)
+        #for date in dates_list:
+        #    print("date look for=",date)
         for specific_date in dates_list:
-            print("specific_date",specific_date)
+            #print("specific_date",specific_date)
             days_surrounding = {}
             for day_prices in list_prices:
                 try:
@@ -452,12 +464,13 @@ def prices_around_earnings(match_file,required_ratio):
                     if ratio_continue==ratio_reverse:
                         new["Direction"]="E"
                         new["Amount"]=ratio_continue
+                    print("gap",gap)
                     stock_cr.append(new)
         stock_cr.sort(key=lambda x: x["Date"])
         cr_string = ""
         for item in stock_cr:
             cr_string=cr_string+item["Direction"]
-            print("item",item)
+            #print("item",item)
         if len(stock_cr)==0:
             continue
         #min_value=stock_cr[0]["Amount"]
@@ -476,12 +489,14 @@ def prices_around_earnings(match_file,required_ratio):
             new["name"]=name
             final_cr2.append(new)
         #abort, leave =="" if you just want it to run
-        if symbol=="":
-            sys.exit()
+        #if symbol=="":
+        #    sys.exit()
     #final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
     final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
-    final_cr2.reverse()
-    sorted_cr = []
+    #final_cr2.reverse()
+    #final_cr2.
+    #sorted_cr = []
+    """
     for item in final_cr2:
         if item["direction"]=="CCCCCCCC" or item["direction"]=="RRRRRRRR":
             sorted_cr.append(item)
@@ -489,9 +504,12 @@ def prices_around_earnings(match_file,required_ratio):
         if item in sorted_cr:
             continue
         sorted_cr.append(item)
-    sorted_cr.reverse()    
-    for item in sorted_cr:
-        print(item)
+    sorted_cr.reverse()  
+    """  
+    for item in final_cr2:
+        print("item",item)
+
+
 def specific_day(start_day,end_day, file_to_load):
     list = []
     with open(file_to_load, mode='r') as file:
@@ -514,7 +532,7 @@ def specific_day(start_day,end_day, file_to_load):
                 correct_date.append(val)
     correct_date = correct_date[0:30]
     for a,val in enumerate(correct_date):
-        print(val)    
+        print("val",val)    
 
 required_ratio=100
 finnhub_folder = "finnhub_earnings"
