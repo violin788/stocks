@@ -33,6 +33,19 @@ def copy_to_main():
     shutil.copy(source_file, destination_file)
     print(f"Contents of {source_file} have been copied to {destination_file}.")
 
+def create_if_not_exist():
+    cwd = os.getcwd()
+    files = os.listdir(cwd)
+    create = []
+    create.append("0sec_no_return.txt")
+    for check in create:
+        if check not in files:
+            if ".txt" in check:
+                with open(check, 'w') as file:
+                    pass  # The file is now created or emptied (if it already existed)
+
+    
+
 def get_finnhub_earnings(finnhub_folder,start_date,end_date):
     #get_finnhub_earnings("finnhub_earnings",start_date,end_date)
     cwd = os.getcwd()
@@ -515,9 +528,10 @@ file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-04-01"
 finnhub_end = "2025-04-05"
-list_length = 200
+list_length = 20
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
+create_if_not_exist()
 get_finnhub_earnings(finnhub_folder,finnhub_start,finnhub_end)
 stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
