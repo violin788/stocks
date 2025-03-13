@@ -479,7 +479,6 @@ def prices_around_earnings(match_file,required_ratio):
     sorted_cr.reverse()    
     for item in sorted_cr:
         print(item)
-    
 def specific_day(start_day,end_day, file_to_load):
     list = []
     with open(file_to_load, mode='r') as file:
@@ -514,14 +513,11 @@ history_header = [["date","open","high","low","close","volume"]]
 match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 
-#week = 
 finnhub_start = "2025-04-01"
 finnhub_end = "2025-04-05"
 list_length = 200
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
-
-#copy_to_main()
 get_finnhub_earnings(finnhub_folder,finnhub_start,finnhub_end)
 stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
@@ -530,29 +526,4 @@ get_sec_earn_dates(compare_file)
 prices_around_earnings(compare_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
-"""
-#push codespace to github repo
-#git add . && git commit -m "Replace all files with Codespaces files" && git push --progress origin main  # or master if your default branch is master
-"""
-| Frequency       | Economic Data Release                              | Source                          | Typical Release Day & Time (ET)   |
-|---------------|------------------------------------------------|--------------------------------|---------------------------------|
-| **Weekly**     | Initial Jobless Claims                        | BLS                            | **Thursday, 8:30 AM**          |
-|               | Continuing Jobless Claims                     | BLS                            | **Thursday, 8:30 AM**          |
-|               | EIA Crude Oil Inventory Report                 | EIA                            | **Wednesday, 10:30 AM**        |
-| **Monthly**    | Consumer Price Index (CPI)                    | BLS                            | **10th-13th of the month, 8:30 AM** |
-|               | Producer Price Index (PPI)                    | BLS                            | **11th-14th of the month, 8:30 AM** |
-|               | Non-Farm Payrolls (NFP) & Unemployment Rate   | BLS                            | **First Friday of the month, 8:30 AM** |
-|               | Retail Sales                                  | U.S. Census Bureau            | **13th-16th of the month, 8:30 AM** |
-|               | Industrial Production                        | Federal Reserve               | **15th-17th of the month, 9:15 AM** |
-|               | Consumer Sentiment (U. of Michigan, Conf. Board) | U. of Michigan, Conf. Board   | **Mid-month & final Friday, 10:00 AM** |
-|               | Trade Balance                                 | BEA                            | **4th-7th of the month, 8:30 AM** |
-|               | Housing Starts & Building Permits            | U.S. Census Bureau            | **Around 16th-19th of the month, 8:30 AM** |
-|               | Personal Consumption Expenditures (PCE)      | BEA                            | **Last few days of the month, 8:30 AM** |
-| **Quarterly**  | Gross Domestic Product (GDP) Growth          | BEA                            | **Last week of the quarter, 8:30 AM** |
-|               | Corporate Earnings Reports                   | SEC, Individual Companies      | **Varies (Mostly mid-January, April, July, October)** |
-| **Federal Reserve Releases** (Varies) | FOMC Interest Rate Decisions (Every 6-8 weeks) | Federal Reserve | **Wednesday, 2:00 PM (After meeting)** |
-|               | Beige Book (Every 6 weeks)                   | Federal Reserve               | **Wednesday, 2:00 PM** |
-
-
-
 """

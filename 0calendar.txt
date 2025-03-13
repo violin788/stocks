@@ -1,0 +1,20 @@
+"""
+| Frequency       | Economic Data Release                              | Source                          | Typical Release Day & Time (ET)   |
+|---------------|------------------------------------------------|--------------------------------|---------------------------------|
+| **Weekly**     | Initial Jobless Claims                        | BLS                            | **Thursday, 8:30 AM**          |
+|               | Continuing Jobless Claims                     | BLS                            | **Thursday, 8:30 AM**          |
+|               | EIA Crude Oil Inventory Report                 | EIA                            | **Wednesday, 10:30 AM**        |
+| **Monthly**    | Consumer Price Index (CPI)                    | BLS                            | **10th-13th of the month, 8:30 AM** |
+|               | Producer Price Index (PPI)                    | BLS                            | **11th-14th of the month, 8:30 AM** |
+|               | Non-Farm Payrolls (NFP) & Unemployment Rate   | BLS                            | **First Friday of the month, 8:30 AM** |
+|               | Retail Sales                                  | U.S. Census Bureau            | **13th-16th of the month, 8:30 AM** |
+|               | Industrial Production                        | Federal Reserve               | **15th-17th of the month, 9:15 AM** |
+|               | Consumer Sentiment (U. of Michigan, Conf. Board) | U. of Michigan, Conf. Board   | **Mid-month & final Friday, 10:00 AM** |
+|               | Trade Balance                                 | BEA                            | **4th-7th of the month, 8:30 AM** |
+|               | Housing Starts & Building Permits            | U.S. Census Bureau            | **Around 16th-19th of the month, 8:30 AM** |
+|               | Personal Consumption Expenditures (PCE)      | BEA                            | **Last few days of the month, 8:30 AM** |
+| **Quarterly**  | Gross Domestic Product (GDP) Growth          | BEA                            | **Last week of the quarter, 8:30 AM** |
+|               | Corporate Earnings Reports                   | SEC, Individual Companies      | **Varies (Mostly mid-January, April, July, October)** |
+| **Federal Reserve Releases** (Varies) | FOMC Interest Rate Decisions (Every 6-8 weeks) | Federal Reserve | **Wednesday, 2:00 PM (After meeting)** |
+|               | Beige Book (Every 6 weeks)                   | Federal Reserve               | **Wednesday, 2:00 PM** |
+"""
