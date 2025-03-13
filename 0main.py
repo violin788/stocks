@@ -1,4 +1,3 @@
-
 import json
 import os
 import csv
@@ -25,6 +24,14 @@ def book_to_csv(book,output_file):
         writer.writeheader()
         writer.writerows(book)
 
+def copy_to_main():
+    import shutil
+    # Specify the source and destination files
+    source_file = '0main.py'
+    destination_file = 'main.py'
+    # Copy the contents from the source file to the destination file
+    shutil.copy(source_file, destination_file)
+    print(f"Contents of {source_file} have been copied to {destination_file}.")
 
 def get_finnhub_earnings(finnhub_folder,start_date,end_date):
     #get_finnhub_earnings("finnhub_earnings",start_date,end_date)
@@ -94,16 +101,16 @@ def most_vol_pri(list_length,file_vol_pri,file_upcoming):
         reader = csv.DictReader(f)        
         list_vol_pri = list(reader)
     redone = []
-    for item in list_upcoming:
+    for check_upcoming in list_upcoming:
         new_item = {}
         new_item["vol*pri"]=0
-        for check in (list_vol_pri):
-            if item["symbol"]==check["symbol"]:
-                new_item["vol*pri"]=check["vol_pri"]
-        new_item["symbol"]=item["symbol"]
-        new_item["date"]=item["date"]
-        new_item["name"]=item["name"]
-        item = new_item
+        for check_vp in (list_vol_pri):
+            if check_upcoming["symbol"]==check_vp["Symbol"]:
+                new_item["vol*pri"]=check_vp["vol*pri"]
+        new_item["symbol"]=check_upcoming["symbol"]
+        new_item["date"]=check_upcoming["date"]
+        new_item["name"]=check_upcoming["name"]
+        #item = new_item
         #print(item)
         redone.append(new_item)
     redone = sorted(redone, key=lambda x: float(x["vol*pri"]),reverse=True)
@@ -514,6 +521,7 @@ list_length = 200
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 
+#copy_to_main()
 get_finnhub_earnings(finnhub_folder,finnhub_start,finnhub_end)
 stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
