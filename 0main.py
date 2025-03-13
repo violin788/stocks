@@ -210,16 +210,12 @@ def get_sec_earn_dates(match_file):
                 continue
             earn_dates = os.listdir(stock_folder)
             print(earn_dates) 
-            
-            
             #see what is in earnings to see why it gets deleted
             #if have problem, this to diagnostic it
             stop = ""
             if check_stock==stop:
                 print("stopped at",stop)
                 sys.exit()
-            
-
             for b,date in enumerate(earn_dates):
                 print(len(look_at),b,len(earn_dates))
             #print(earn_dates)
@@ -544,9 +540,9 @@ history_header = [["date","open","high","low","close","volume"]]
 match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 
-finnhub_start = "2025-04-01"
-finnhub_end = "2025-04-05"
-list_length = 20
+finnhub_start = "2025-03-17"
+finnhub_end = "2025-03-21"
+list_length = 100
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
