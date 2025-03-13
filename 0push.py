@@ -1,4 +1,3 @@
-token = "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"
 import requests
 repo_owner = 'violin788'  
 repo_name = 'stocks'  
