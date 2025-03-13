@@ -509,7 +509,7 @@ file_vol_pri = "0vol_pri_list.csv"
 
 #week = 
 finnhub_start = "2025-04-01"
-finnhub_end = "2025-04-10"
+finnhub_end = "2025-04-05"
 list_length = 200
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
