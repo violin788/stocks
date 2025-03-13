@@ -240,18 +240,13 @@ def get_sec_earn_dates(match_file):
                     to_delete = os.path.join(stock_folder,date)            
                     if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
                         if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
+                            if "earn" in content or "Earn" in content:
+                                with open(check_file, 'w') as file:
+                                    file.write(content[0:3000])
                                 continue
                     print("deleting= "+to_delete)
                     shutil.rmtree(to_delete)
-                    """
-                    if "earn" not in content or "Earn" not in content:
-                                print("deleting= "+to_delete)
-                                shutil.rmtree(to_delete)
-                                continue
-                            """
-
-                #with open(check_file, 'w') as file:
-                #    file.write(content[0:3000])
+                        
                                 
                    
 def get_yahoo_history(upcoming_file,compare_file):
