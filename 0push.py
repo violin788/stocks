@@ -1,3 +1,30 @@
+"""
+git add .
+git commit -m "Updated files in Codespace"
+git push origin main
+"""
+
+import subprocess
+
+# Example command to run in the terminal
+#command = "ls"  # List directory contents (replace with any terminal command)
+command = """
+git add .
+git commit -m "Updated files in Codespace"
+git push origin main
+"""
+
+result = subprocess.run(command, shell=True, text=True, capture_output=True)
+
+# Print the output of the command
+print(result.stdout)
+
+
+
+
+
+
+"""
 import requests
 repo_owner = 'violin788'  
 repo_name = 'stocks'  
@@ -36,10 +63,6 @@ print(in_codespaces)
 #print(cwd)
 #for file in in_repo:
 #    print(file)
-
-
-
-"""
 def run_git_command(command):
     result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=repo_path)
     if result.returncode != 0:
