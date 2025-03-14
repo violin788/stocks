@@ -12,7 +12,7 @@ for stock in edgar_list:
     except:
         continue
     number_of_dates = len(k8_date_list)
-    if number_of_dates<20:
+    if number_of_dates>20:
         folder_delete = os.path.join(edgar_folder,stock)
         print(number_of_dates,stock,"will delete = "+folder_delete)
-        shutil.rmtree(folder_delete)
+    #shutil.rmtree(folder_delete)

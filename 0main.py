@@ -171,18 +171,17 @@ def get_sec_earn_dates(match_file):
             continue
         if "\n"+symbol in sec_no_data_list:
             continue
-        print(stocks.index(val),len(stocks),"check_stock =",check_stock)
+        index = stocks.index(val)
+        print(index,len(stocks),"stock = "+check_stock)
         stock_folder = os.path.join(edgar_folder,stock,"8-K")
         #print(stock_folder)
         try:
-            print("now getting 8k for")
+            print("now getting 8k for "+symbol)
             dl.get("8-K", symbol)
         except:
             sec_no_data_list = sec_no_data_list+"\n"+symbol
             write_txt_file(sec_no_data_file,sec_no_data_list)
             continue
-        print("now upcoming 8k for stock "+symbol)
-        print(stock)
         try:
             earn_dates = os.listdir(stock_folder)
         except:
@@ -220,10 +219,12 @@ def get_sec_earn_dates(match_file):
                 if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
                     if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
                         if "earn" in content or "Earn" in content:
+                            """
                             with open(check_file, 'w') as file:
                                 file.write(content[0:3000])
+                                """
                             continue
-                file.close()
+                file.close()        
                 print("deleting= "+to_delete)
                 shutil.rmtree(to_delete)
                     
