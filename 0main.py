@@ -12,26 +12,16 @@ import yfinance as yf
 import finnhub
 import psutil
 
-# Function to check which process is locking a folder
-def find_locking_process(folder_path):
-    # Path to the handle.exe tool (update if necessary)
-    handle_path = r"sysinternals\handle.exe"  # Adjust the path if necessary
-
-    try:
-        # Run handle.exe to find processes locking the folder
-        output = subprocess.check_output([handle_path, folder_path], universal_newlines=True)
-        if output:
-            print("Found processes using files in the folder:")
-            print(output)
-        else:
-            print("No process is locking the folder.")
-    except subprocess.CalledProcessError as e:
-        print(f"Error: {e}")
-    except FileNotFoundError:
-        print(f"Error: 'handle.exe' not found. Ensure it's located at {handle_path}.")
-
-
-
+def load_txt_file(txt_file):
+    #content = load_txt_file("file.txt")
+    with open(txt_file, 'r') as file:
+        content = file.read()  # Read the entire content of the file
+    return content
+def write_txt_file(txt_file,content):
+    #write_txt_file("file.txt",content)
+    with open(txt_file, 'w') as file:
+        file.write(content)
+        file.close()
 
 def csv_to_book(file_to_load):
     #list = csv_to_book("0upcoming.csv")
@@ -60,23 +50,22 @@ def create_if_not_exist():
     files = os.listdir(cwd)
     create = []
     create.append("0sec_no_return.txt")
+    create.append("sec-edgar-filings")
+    create.append("finnhub-earnings")
     for check in create:
         if check not in files:
             if ".txt" in check:
                 with open(check, 'w') as file:
                     pass  # The file is now created or emptied (if it already existed)
-
+            if '.' not in check:
+                os.makedirs(check, exist_ok=True)
     
 
 def get_finnhub_earnings(finnhub_folder,start_date,end_date):
     #get_finnhub_earnings("finnhub_earnings",start_date,end_date)
     cwd = os.getcwd()
     finnhub_directory = os.path.join(cwd, finnhub_folder)
-    try:
-        finnhub_list = os.listdir(finnhub_directory)
-    except:
-        os.makedirs(finnhub_directory, exist_ok=True)
-        finnhub_list = os.listdir(finnhub_directory)
+    finnhub_list = os.listdir(finnhub_directory)
     finnhub_file_name = start_date+"."+end_date+".json"
     if finnhub_file_name not in finnhub_list:
         finnhub_client = finnhub.Client(
@@ -167,114 +156,80 @@ def get_sec_earn_dates(match_file):
     from pathlib import Path
     cwd = os.getcwd()
     edgar_folder = os.path.join(cwd,"sec-edgar-filings")
-    try:
-        files = os.listdir(edgar_folder)  
-    except:
-        os.makedirs(edgar_folder, exist_ok=True)
-        files = os.listdir(edgar_folder)  
-    #files = os.listdir(edgar_folder)    
+    edgar_stocks = os.listdir(edgar_folder)  
     from sec_edgar_downloader import Downloader
     dl = Downloader("MyCompanyName", "my.email@domain.com")
-    print(files)
+    print(edgar_stocks)
     stocks = csv_to_book(match_file)
-    for item in stocks:
-        print(item)
-        check_stock = item["symbol"]
-        k8_directory = os.path.join(edgar_folder,check_stock,"8-K")
-        if not os.path.isdir(k8_directory):
-            continue
-        print(k8_directory)
-        k8_list = os.listdir(k8_directory)
-        print(len(k8_list))
-        print(item)
-        if len(k8_list)==0:
-            print(item)
-            print(len(k8_list))
-            remove_folder = os.path.join(edgar_folder,check_stock)
-            shutil.rmtree(remove_folder)
+    sec_no_data_file = "0sec_no_data.txt"
+    sec_no_data_list = load_txt_file(sec_no_data_file)
     for val in stocks:
         check_stock = val["symbol"]
         stock = check_stock
-        if check_stock not in files:
+        symbol = stock
+        if check_stock in edgar_stocks:
+            continue
+        if "\n"+symbol in sec_no_data_list:
+            continue
+        print(stocks.index(val),len(stocks),"check_stock =",check_stock)
+        stock_folder = os.path.join(edgar_folder,stock,"8-K")
+        #print(stock_folder)
+        try:
             print("now getting 8k for")
-            print(stocks.index(val),len(stocks),"check_stock =",check_stock)
-            ticker_symbol = check_stock
-            try:
-                dl.get("8-K", ticker_symbol)
-            except Exception as e:
-                print(f"Error Type: {type(e)}")
-                print("does not exist!!")
-                no_response_file = '0sec_no_return.txt'
-                #if not os.path.isdir(stock_folder):
-                with open(no_response_file, 'r') as file:
-                    content = file.read()
-                text_check = "\n"+check_stock
-                if text_check not in content:
-                    content=content+"\n"+check_stock
-                    with open(no_response_file, 'w') as file:
-                        file.write(content)
-                continue
-
-                print("will continue in 5 seconds!!")
-                time.sleep(5)
-            print("now upcoming 8k for stock "+ticker_symbol)
-            print(stock)
-            stock_folder = os.path.join(edgar_folder,stock,"8-K")
-            print(stock_folder)
-            check_file = '0sec_no_return.txt'
-            if not os.path.isdir(stock_folder):
-                with open(check_file, 'r') as file:
-                    content = file.read()
-                text_check = "\n"+check_stock+"\n"
-                if text_check not in content:
-                    content=content+"\n"+check_stock
-                    with open(check_file, 'w') as file:
-                        file.write(content)
-                continue
+            dl.get("8-K", symbol)
+        except:
+            sec_no_data_list = sec_no_data_list+"\n"+symbol
+            write_txt_file(sec_no_data_file,sec_no_data_list)
+            continue
+        print("now upcoming 8k for stock "+symbol)
+        print(stock)
+        try:
             earn_dates = os.listdir(stock_folder)
-            print(earn_dates) 
-            #see what is in earnings to see why it gets deleted
-            #if have problem, this to diagnostic it
-            stop = ""
-            if check_stock==stop:
-                print("stopped at",stop)
-                sys.exit()
-            for b,date in enumerate(earn_dates):
-                print(len(look_at),b,len(earn_dates))
-            #print(earn_dates)
-                if "-25-" not in date:
-                    if "-24-" not in date:
-                        if "-23-" not in date:
-                            if "-22-" not in date:
-                                if "-21-" not in date:
-                                    if "-20-" not in date:
-                                        #print(a,len(look_at),b,len(earn_dates))
-                                        #print(date)
-                                        to_delete = os.path.join(stock_folder,date)
-                                        print(to_delete)
-                                        shutil.rmtree(to_delete)
+        except:
+            sec_no_data_list = sec_no_data_list+"\n"+symbol
+            write_txt_file(sec_no_data_file,sec_no_data_list)            
+            continue
+        print(earn_dates) 
+        stock_stop_at = ""
+        if check_stock==stock_stop_at:
+            print("stopped at",stock_stop_at)
+            sys.exit()
+        for b,date in enumerate(earn_dates):
+            print(len(look_at),b,len(earn_dates))
+        #print(earn_dates)
+            if "-25-" not in date:
+                if "-24-" not in date:
+                    if "-23-" not in date:
+                        if "-22-" not in date:
+                            if "-21-" not in date:
+                                if "-20-" not in date:
+                                    #print(a,len(look_at),b,len(earn_dates))
+                                    #print(date)
+                                    to_delete = os.path.join(stock_folder,date)
+                                    print(to_delete)
+                                    shutil.rmtree(to_delete)
 
-            earn_dates = os.listdir(stock_folder)
-            for b,date in enumerate(earn_dates):
-                print(len(look_at),b,len(earn_dates))
-                check_file = os.path.join(stock_folder,date,"full-submission.txt")
-                print(check_file)
-                with open(check_file, 'r') as file:
-                    content = file.read()  # Read the entire content of the file
-                    to_delete = os.path.join(stock_folder,date)            
-                    if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
-                        if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
-                            if "earn" in content or "Earn" in content:
-                                with open(check_file, 'w') as file:
-                                    file.write(content[0:3000])
-                                continue
-                    file.close()
-                    print("deleting= "+to_delete)
-                    shutil.rmtree(to_delete)
-                        
-                                
+        earn_dates = os.listdir(stock_folder)
+        for b,date in enumerate(earn_dates):
+            print(len(look_at),b,len(earn_dates))
+            check_file = os.path.join(stock_folder,date,"full-submission.txt")
+            print(check_file)
+            with open(check_file, 'r') as file:
+                content = file.read()  # Read the entire content of the file
+                to_delete = os.path.join(stock_folder,date)            
+                if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
+                    if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
+                        if "earn" in content or "Earn" in content:
+                            with open(check_file, 'w') as file:
+                                file.write(content[0:3000])
+                            continue
+                file.close()
+                print("deleting= "+to_delete)
+                shutil.rmtree(to_delete)
+                    
+                            
                    
-def get_yahoo_history(upcoming_file,compare_file):
+def get_yahoo_history(upcoming_file):
     # Open the CSV file and load it as a dictionary
     with open(upcoming_file, 'r') as f:
         reader = csv.DictReader(f)        
@@ -551,7 +506,7 @@ def specific_day(start_day,end_day, file_to_load):
         print("val",val)    
 
 required_ratio=100
-finnhub_folder = "finnhub_earnings"
+finnhub_folder = "finnhub-earnings"
 upcoming_file = "0upcoming_earnings.csv"
 stock_name_file = "0stock_names.csv"
 compare_file = "0compare.csv"
@@ -569,9 +524,9 @@ create_if_not_exist()
 get_finnhub_earnings(finnhub_folder,finnhub_start,finnhub_end)
 stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
-get_yahoo_history(upcoming_file,compare_file)
-get_sec_earn_dates(compare_file)
-prices_around_earnings(compare_file,required_ratio)
+get_yahoo_history(upcoming_file)
+get_sec_earn_dates(upcoming_file)
+#prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
