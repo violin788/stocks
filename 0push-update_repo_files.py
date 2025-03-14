@@ -3,7 +3,7 @@ import subprocess
 #command = "ls"  # List directory contents (replace with any terminal command)
 command = """
 git add .
-git commit -m "Updated files in Codespace"
+git commit -m "Updated files"
 git push origin main
 """
 result = subprocess.run(command, shell=True, text=True, capture_output=True)
