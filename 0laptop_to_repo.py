@@ -1,9 +1,13 @@
 import subprocess
-import os
+import os,sys
+
+token_file_location = "C:\\Users\\--\\code\\00token_github.txt"
+with open(token_file_location, 'r') as file:
+    token = file.read()
 repo_path = r'C:\Users\--\code\stocks'
 github_username = 'violin788'
 git_user_email = 'violin78@protonmail.com'
-github_token = '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'
+github_token = token
 repo_name = "stocks"
 def run_git_command(command, repo_path):
     try:
