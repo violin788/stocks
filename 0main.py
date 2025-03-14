@@ -10,6 +10,28 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 import finnhub
+import psutil
+
+# Function to check which process is locking a folder
+def find_locking_process(folder_path):
+    # Path to the handle.exe tool (update if necessary)
+    handle_path = r"sysinternals\handle.exe"  # Adjust the path if necessary
+
+    try:
+        # Run handle.exe to find processes locking the folder
+        output = subprocess.check_output([handle_path, folder_path], universal_newlines=True)
+        if output:
+            print("Found processes using files in the folder:")
+            print(output)
+        else:
+            print("No process is locking the folder.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error: {e}")
+    except FileNotFoundError:
+        print(f"Error: 'handle.exe' not found. Ensure it's located at {handle_path}.")
+
+
+
 
 def csv_to_book(file_to_load):
     #list = csv_to_book("0upcoming.csv")
@@ -71,6 +93,7 @@ def get_finnhub_earnings(finnhub_folder,start_date,end_date):
         print("Earnings data has been saved to " + output_file + ".json")
         print("request made")
     else:
+        print(finnhub_file_name)
         print("already exists")
 
 def stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file):
@@ -230,6 +253,7 @@ def get_sec_earn_dates(match_file):
                                         to_delete = os.path.join(stock_folder,date)
                                         print(to_delete)
                                         shutil.rmtree(to_delete)
+
             earn_dates = os.listdir(stock_folder)
             for b,date in enumerate(earn_dates):
                 print(len(look_at),b,len(earn_dates))
@@ -244,6 +268,7 @@ def get_sec_earn_dates(match_file):
                                 with open(check_file, 'w') as file:
                                     file.write(content[0:3000])
                                 continue
+                    file.close()
                     print("deleting= "+to_delete)
                     shutil.rmtree(to_delete)
                         
