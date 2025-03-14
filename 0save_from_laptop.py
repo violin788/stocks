@@ -18,7 +18,7 @@ def update_github_repo(repo_path, commit_message):
     subprocess.run(['git', 'config', '--global', 'user.email', git_user_email], cwd=repo_path, check=True)
     run_git_command(['git', 'add', '.'], repo_path)
     run_git_command(['git', 'commit', '-m', commit_message], repo_path)
-    push_command = f"git push https://{github_username}:{github_token}@github.com/{github_username}/your-repo-name.git main"
+    push_command = f"git push https://{github_username}:{github_token}@github.com/{github_username}/stocks.git main"
     subprocess.run(push_command, cwd=repo_path, shell=True, check=True)
     print("Changes pushed to GitHub successfully.")
 commit_message = "Your commit message here"
