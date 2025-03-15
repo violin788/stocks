@@ -467,7 +467,7 @@ def prices_around_earnings(match_file,required_ratio):
             new["direction"]=cr_string
             new["ratio"]=min2
             print("specific",specific)
-            new["vol*pri"]=int(specific["vol*pri"])
+            new["vol*pri"]=int(float(specific["vol*pri"]))
             new["name"]=name
             final_cr2.append(new)
         #abort, leave =="" if you just want it to run
@@ -537,7 +537,7 @@ stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
 get_yahoo_history(upcoming_file)
 get_sec_earn_dates(upcoming_file)
-#prices_around_earnings(upcoming_file,required_ratio)
+prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
