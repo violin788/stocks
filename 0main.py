@@ -527,8 +527,8 @@ match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
-finnhub_end = "2025-04-01"
-list_length = 150
+finnhub_end = "2025-05-01"
+list_length = 50
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
