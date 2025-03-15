@@ -168,7 +168,17 @@ def get_sec_earn_dates(match_file):
         stock = check_stock
         symbol = stock
         if check_stock in edgar_stocks:
-            continue
+            k8_folder = os.path.join(edgar_folder,stock,"8-K")    
+            k8_date_list = os.listdir(k8_folder)
+            #when this fails..then add it to the
+            #sec_no_data list, now =9PM..i am go bed..
+            number_of_dates = len(k8_date_list)
+            if number_of_dates>25:
+                folder_delete = os.path.join(edgar_folder,stock)
+                print(number_of_dates,stock,"will delete = "+folder_delete)
+                shutil.rmtree(folder_delete) 
+            else: 
+                continue
         if "\n"+symbol in sec_no_data_list:
             continue
         index = stocks.index(val)
