@@ -1,0 +1,57 @@
+<SEC-DOCUMENT>0001133421-22-000041.txt : 20221027
+<SEC-HEADER>0001133421-22-000041.hdr.sgml : 20221027
+<ACCEPTANCE-DATETIME>20221027063014
+ACCESSION NUMBER:		0001133421-22-000041
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20221027
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20221027
+DATE AS OF CHANGE:		20221027
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			NORTHROP GRUMMAN CORP /DE/
+		CENTRAL INDEX KEY:			0001133421
+		STANDARD INDUSTRIAL CLASSIFICATION:	SEARCH, DETECTION, NAVIGATION, GUIDANCE, AERONAUTICAL SYS [3812]
+		IRS NUMBER:				800640649
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-16411
+		FILM NUMBER:		221334785
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2980 FAIRVIEW PARK DRIVE
+		STREET 2:		C/O NORTHROP GRUMMAN CORP
+		CITY:			FALLS CHURCH
+		STATE:			VA
+		ZIP:			22042
+		BUSINESS PHONE:		703-280-2900
+
+	MAIL ADDRESS:	
+		STREET 1:		2980 FAIRVIEW PARK DRIVE
+		STREET 2:		C/O NORTHROP GRUMMAN CORP
+		CITY:			FALLS CHURCH
+		STATE:			VA
+		ZIP:			22042
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	NNG INC
+		DATE OF NAME CHANGE:	20010129
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>noc-20221027.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" ?><!--XBRL Document Created with Wdesk from Workiva--><!--Copyright 2022 Workiva--><!--r:253aa089-4079-41aa-a432-f8a30edf79bd,g:a4685a89-ddb9-4bd4-afd6-eaf811c0a965,d:b04e22609cbe46418da7cc986c90213b--><html xmlns="http://www.w3.org/1999/xhtml" xmlns:noc="http://www.northropgrumman.com/20221027" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2020-02-12" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:xbrli="http://www.xbrl.org/2003/instance" xml:lang="en-US"><head><meta http-equiv="Content-Type" content="text/html"/>
+
+
+<title>noc-20221027</title></head><body><div style="display:none"><ix:header><ix:hidden><ix:nonNumeric contextRef="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027" name="dei:AmendmentFlag" id="id3VybDovL2RvY3MudjEvZG9jOmIwNGUyMjYwOWNiZTQ2NDE4ZGE3Y2M5ODZjOTAyMTNiL3NlYzpiMDRlMjI2MDljYmU0NjQxOGRhN2NjOTg2YzkwMjEzYl80L2ZyYWc6OThhZGE0MDM2ZjViNGQ1NmIyNDgwNGE4MTQ5NWY2YzEvdGFibGU6NTY5MTk5ZTBmNDBkNDc4OWIxMDVmYTA0NWJiMDliMzkvdGFibGVyYW5nZTo1NjkxOTllMGY0MGQ0Nzg5YjEwNWZhMDQ1YmIwOWIzOV80LTEtMS0xLTE1NTI0Mg_16abba86-9a1a-4687-95cc-1b0ff485c021">false</ix:nonNumeric><ix:nonNumeric contextRef="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027" name="dei:EntityRegistrantName" id="id3VybDovL2RvY3MudjEvZG9jOmIwNGUyMjYwOWNiZTQ2NDE4ZGE3Y2M5ODZjOTAyMTNiL3NlYzpiMDRlMjI2MDljYmU0NjQxOGRhN2NjOTg2YzkwMjEzYl80L2ZyYWc6OThhZGE0MDM2ZjViNGQ1NmIyNDgwNGE4MTQ5NWY2YzEvdGFibGU6NTY5MTk5ZTBmNDBkNDc4OWIxMDVmYTA0NWJiMDliMzkvdGFibGVyYW5nZTo1NjkxOTllMGY0MGQ0Nzg5YjEwNWZhMDQ1YmIwOWIzOV81LTEtMS0xLTE1NTI0Mg_5ffb06d4-f3a4-4db1-a1f0-145e302e77d5">NORTHROP GRUMMAN CORP /DE/</ix:nonNumeric><ix:nonNumeric contextRef="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027" name="dei:EntityCentralIndexKey" id="id3VybDovL2RvY3MudjEvZG9jOmIwNGUyMjYwOWNiZTQ2NDE4ZGE3Y2M5ODZjOTAyMTNiL3NlYzpiMDRlMjI2MDljYmU0NjQxOGRhN2NjOTg2YzkwMjEzYl80L2ZyYWc6OThhZGE0MDM2ZjViNGQ1NmIyNDgwNGE4MTQ5NWY2YzEvdGFibGU6NTY5MTk5ZTBmNDBkNDc4OWIxMDVmYTA0NWJiMDliMzkvdGFibGVyYW5nZTo1NjkxOTllMGY0MGQ0Nzg5YjEwNWZhMDQ1YmIwOWIzOV82LTEtMS0xLTE1NTI0Mg_28e75072-4c67-4792-9d97-2de4a6ab6a3e">0001133421</ix:nonNumeric></ix:hidden><ix:references xml:lang="en-US"><link:schemaRef xlink:type="simple" xlink:href="noc-20221027.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001133421</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2022-10-27</xbrli:startDate><xbrli:endDate>2022-10-27</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div><div id="ib04e22609cbe46418da7cc986c90213b_1"></div><div style="min-height:45pt;width:100%"><div><span><br/></span></div></div><div style="-sec-extract:summary;text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:14pt;font-weight:700;line-height:120%">UNITED STATES</span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:14pt;font-weight:700;line-height:120%">SECURITIES AND EXCHANGE COMMISSION</span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:12pt;font-weight:700;line-height:120%">Washington, D.C. 20549</span></div><div style="margin-top:5pt;text-align:center"><table style="border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:41.228%"><tr><td style="width:1.0%"></td><td style="width:53.864%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:43.936%"></td><td style="width:0.1%"></td></tr><tr><td colspan="3" style="border-top:1pt solid #000000;padding:2px 1pt;text-align:right;vertical-align:middle"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:18pt;font-weight:700;line-height:100%">FORM</span></td><td colspan="3" style="border-bottom:1pt solid #000000;border-top:1pt solid #000000;padding:2px 1pt;text-align:left;vertical-align:middle"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:18pt;font-weight:700;line-height:100%"><ix:nonNumeric contextRef="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027" name="dei:DocumentType" id="id3VybDovL2RvY3MudjEvZG9jOmIwNGUyMjYwOWNiZTQ2NDE4ZGE3Y2M5ODZjOTAyMTNiL3NlYzpiMDRlMjI2MDljYmU0NjQxOGRhN2NjOTg2YzkwMjEzYl8xL2ZyYWc6ZTdjNDhjNzg2NjhiNGQ4OTg2MDU2NTkxZDE1NTVkYmEvdGFibGU6OTczYTlhNjcyZDJkNGY0ZTk4N2UyODVhN2IzYmI5OWMvdGFibGVyYW5nZTo5NzNhOWE2NzJkMmQ0ZjRlOTg3ZTI4NWE3YjNiYjk5Y18wLTEtMS0xLTE1NTI0Mg_8f84872a-a399-4ba3-b0fb-a686d4d56573">8-K</ix:nonNumeric></span></td></tr><tr><td colspan="6" style="border-top:1pt solid #000000;padding:2px 1pt;text-align:left;vertical-align:middle"><div style="margin-bottom:3pt;text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:12pt;font-weight:700;line-height:100%">CURRENT REPORT<br/>Pursuant to Section&#160;13 or 15(d) of the<br/>Securities Exchange Act of 1934<br/></span><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:700;line-height:100%">Date of Report (Date of earliest event reported)</span></div></td></tr><tr><td colspan="6" style="border-bottom:1pt solid #000000;padding:2px 1pt;text-align:center;vertical-align:top"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:400;line-height:100%"><ix:nonNumeric contextRef="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027" name="dei:DocumentPeriodEndDate" format="ixt:date-monthname-day-year-en" id="id3VybDovL2RvY3MudjEvZG9jOmIwNGUyMjYwOWNiZTQ2NDE4ZGE3Y2M5ODZjOTAyMTNiL3NlYzpiMDRlMjI2MDljYmU0NjQxOGRhN2NjOTg2YzkwMjEzYl8xL2ZyYWc6ZTdjNDhjNzg2NjhiNGQ4OTg2MDU2NTkxZDE1NTVkYmEvdGFibGU6OTczYTlhNjcyZDJkNGY0ZTk4N2UyODVhN2IzYmI5OWMvdGFibGVyYW5nZTo5NzNhOWE2NzJkMmQ0ZjRlOTg3ZTI4NWE3YjNiYjk5Y18yLTAtMS0xLTE1NTI0Mg_ffeee39e-c0fe-4a5b-ab49-2855c34e211e">October 27, 2022</ix:nonNumeric></span></td></tr></table></div><div style="margin-bottom:3pt;text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:24pt;font-weight:700;line-height:174%">NORTHROP GRUMMAN CORPORATION </span></div><div style="margin-bottom:3pt;text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:700;line-height:120%">(Exact name of registrant as specified in its charter)</span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:9pt;font-weight:400;line-height:120%">&#160;</span><table style="border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:41.081%"><tr><td style="width:1.0%"></td><td style="width:98.900%"></td><td style="width:0.1%"></td></tr><tr style="height:9pt"><td colspan="3" style="border-top:1pt solid #000000;padding:0 1pt"></td></tr></table></div><div style="margin-top:5pt"><table style="border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:99.853%"><tr><td style="width:1.0%"></td><td style="width:30.085%"></td><td style="width:0.1%"></td><td style="width:0.1%"></td><td style="width:2.728%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:30.378%"></td><td style="width:0.1%"></td><td style="width:0.1%"></td><td style="width:2.728%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:30.381%"></td><td style="width:0.1%"></td></tr><tr style="height:15pt"><td colspan="15" style="padding:0 1pt"></td></tr><tr style="height:15pt"><td colspan="3" style="padding:0 1pt"></td><td colspan="3" style="padding:0 1pt"></td><td colspan="3" style="padding:0 1pt"></td><td colspan="3" style="padding:0 1pt"></td><td colspan="3" style="padding:0 1pt"></td></tr><tr><td colspan="3" style="padding:2px 1pt;text-align:center;vertical-align:bottom"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:700;line-height:100%"><ix:nonNumeric contextRef="if4beb03a209f4ecc82824774db283a1c_D20221027-20221027" name="dei:EntityIncorporationStateCountryCode" format="ixt-sec:stateprovnameen" id="id3VybDovL2RvY3MudjEvZG9jOmIwNGUyMjYwOWNiZTQ2NDE4ZGE3Y2M5ODZjOTAyMTNiL3NlYzpiMDRlMjI2MDljYmU0NjQxOGRhN2NjOTg2YzkwMjEzYl8xL2ZyYWc6ZTdjNDhjNzg2NjhiNGQ4OTg2MDU2NTkxZDE1NTVkYmEvdGFi

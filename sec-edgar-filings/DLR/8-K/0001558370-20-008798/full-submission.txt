@@ -1,0 +1,63 @@
+<SEC-DOCUMENT>0001558370-20-008798.txt : 20200807
+<SEC-HEADER>0001558370-20-008798.hdr.sgml : 20200807
+<ACCEPTANCE-DATETIME>20200730201819
+ACCESSION NUMBER:		0001558370-20-008798
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		43
+CONFORMED PERIOD OF REPORT:	20200730
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Regulation FD Disclosure
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20200730
+DATE AS OF CHANGE:		20200730
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			DIGITAL REALTY TRUST, INC.
+		CENTRAL INDEX KEY:			0001297996
+		STANDARD INDUSTRIAL CLASSIFICATION:	REAL ESTATE INVESTMENT TRUSTS [6798]
+		IRS NUMBER:				260081711
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-32336
+		FILM NUMBER:		201062979
+
+	BUSINESS ADDRESS:	
+		STREET 1:		FOUR EMBARCADERO CENTER
+		STREET 2:		SUITE 3200
+		CITY:			SAN FRANCISCO
+		STATE:			CA
+		ZIP:			94111
+		BUSINESS PHONE:		(415)738-6500
+
+	MAIL ADDRESS:	
+		STREET 1:		FOUR EMBARCADERO CENTER
+		STREET 2:		SUITE 3200
+		CITY:			SAN FRANCISCO
+		STATE:			CA
+		ZIP:			94111
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Digital Realty Trust, Inc.
+		DATE OF NAME CHANGE:	20040722
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>dlr-20200730x8k.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version='1.0' encoding='UTF-8'?>
+
+      <!-- iXBRL document created with: Toppan Merrill Bridge iXBRL 9.6.7401.38943 -->
+      <!-- Based on: iXBRL 1.1 -->
+      <!-- Created on: 7/31/2020 12:17:48 AM -->
+      <!-- iXBRL Library version: 1.0.7401.38955 -->
+      <!-- iXBRL Service Job ID: 4c2b90dd-0096-481c-80b4-ea36c742340d -->
+
+  <html xmlns:us-gaap="http://fasb.org/us-gaap/2020-01-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dei="http://xbrl.sec.gov/dei/2020-01-31" xmlns="http://www.w3.org/1999/xhtml" xmlns:dlr="http://www.digitalrealty.com/20200730" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:xbrldi="http://xbrl.org/2006/xbrldi"><head><meta content="text/html" http-equiv="content-type" /><title></title></head><body><div style="margin-top:30pt;"></div><div style="display:none;"><ix:header><ix:hidden><ix:nonNumeric contextRef="Duration_7_30_2020_To_7_30_2020_SPsaY7jmJ0q5vUET03Bmfw" name="dei:EntityCentralIndexKey" id="Tc_pwTXSgk5hEamNZ9dASpb1g_2_1">0001297996</ix:nonNumeric><ix:nonNumeric contextRef="Duration_7_30_2020_To_7_30_2020_SPsaY7jmJ0q5vUET03Bmfw" name="dei:AmendmentFlag" id="Tc_lTDGkXDSWUiM2Z-04c95GA_3_1">false</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:type="simple" xlink:href="dlr-20200730.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_us-gaap_SeriesGPreferredStockMember_Wz6LHJHe40OGefPZOmR7tQ"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesGPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_us-gaap_SeriesCPreferredStockMember_VNpdpSDud0S1f-fdG3pB_A"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesCPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_us-gaap_CommonStockMember_RSZhgDrwqk-ZJXytlLWf4A"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_dlr_SeriesLPreferredStockMember_cQp9zK2-rEqY5nxeI0GAWQ"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">dlr:SeriesLPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_dlr_SeriesKPreferredStockMember_69dIp3vIzEi5OLDqzfTqhw"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">dlr:SeriesKPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_dlr_SeriesJPreferredStockMember_J521XtnunEGVZSYx-My5-A"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">dlr:SeriesJPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_us-gaap_StatementClassOfStockAxis_dlr_SeriesIPreferredStockMember_GyLSWR9nPUuHDEJmmAybWg"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">dlr:SeriesIPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="Duration_7_30_2020_To_7_30_2020_SPsaY7jmJ0q5vUET03Bmfw"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001297996</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2020-07-30</xbrli:startDate><xbrli:endDate>2020-07-30</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div><div style="max-width:100%;padding-left:4.47%;padding-right:4.47%;position:relative;"><div style="clear:both;max-width:100%;position:relative;min-height:5.75pt;"><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;line-height:1pt;padding-bottom:1pt;padding-top:1pt;text-align:center;text-indent:0pt;border-bottom:1px solid #000000;border-top:3.0pt solid #000000;margin:0pt;"><span style="font-size:1pt;font-weight:bold;margin-bottom:12pt;visibility:hidden;">&#8203;</span></p><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><span style="font-size:5pt;margin-bottom:12pt;visibility:hidden;">&#8203;</span></p><a id="_642e4774_b87d_4c99_933d_1609a321b6bf"></a><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><b style="font-size:18pt;font-weight:bold;">UNITED STATES</b></p><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><b style="font-size:18pt;font-weight:bold;">SECURITIES AND EXCHANGE COMMISSION</b></p><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><b style="font-size:12pt;font-weight:bold;">Washington, D.C. 20549</b></p><div style="font-family:'Times New Roman','Times','serif';font-size:5.0pt;margin-bottom:0pt;margin-top:0pt;min-height:1.19em;position:relative;width:100%;"><div style="background-color:#000000;height:1pt;position:relative;top:0.6em;width:25.0%;border:none;margin:0 auto;"></div></div><p style="font-family:'Times New Roman','Times','serif';font-size:18pt;text-align:center;text-indent:0pt;margin:0pt;"><b style="font-weight:bold;white-space:pre-wrap;">FORM  </b><ix:nonNumeric contextRef="Duration_7_30_2020_To_7_30_2020_SPsaY7jmJ0q5vUET03Bmfw" name="dei:DocumentType" id="Narr_PV0vLMuOGkaLNzU9W6wmyw"><b style="font-weight:bold;">8-K</b></ix:nonNumeric></p><div style="font-family:'Times New Roman','Times','serif';font-size:5.0pt;margin-bottom:0pt;min-height:1.19em;position:relative;width:100%;"><div style="background-color:#000000;height:1pt;position:relative;top:0.6em;width:25.0%;border:none;margin:0 auto;"></div></div><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><b style="font-size:12pt;font-weight:bold;">CURRENT REPORT</b></p><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><b style="font-size:12pt;font-weight:bold;">Pursuant to Section&#160;13 OR 15(d)<br />of The Securities Exchange Act of 1934</b></p><p style="font-family:'Times New Roman','Times','serif';font-size:10pt;text-align:center;text-indent:0pt;margin:0pt;"><span style="font-size:5pt;margin-bottom:12pt;visib

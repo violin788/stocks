@@ -228,7 +228,15 @@ def get_sec_earn_dates(match_file):
                 to_delete = os.path.join(stock_folder,date)            
                 if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
                     if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
-                        if "earn" in content or "Earn" in content:
+                        count_earn_lower = content.count("earn")
+                        count_earn_upper = content.count("Earn")
+                        count_earn_total = count_earn_lower+count_earn_upper
+                        print("count_earn_lower",count_earn_lower)
+                        print("count_earn_upper",count_earn_upper)
+                        print("count_earn_total",count_earn_total)
+                        
+                        if count_earn_total>10:
+                        #if "earn" in content or "Earn" in content:
                             """
                             with open(check_file, 'w') as file:
                                 file.write(content[0:3000])
@@ -237,7 +245,9 @@ def get_sec_earn_dates(match_file):
                 file.close()        
                 print("deleting= "+to_delete)
                 shutil.rmtree(to_delete)
-                    
+        #if "TSLA" == symbol:
+        #    sys.exit()
+                                    
                             
                    
 def get_yahoo_history(upcoming_file):
@@ -473,24 +483,16 @@ def prices_around_earnings(match_file,required_ratio):
         #abort, leave =="" if you just want it to run
         if symbol=="":
             sys.exit()
-    #final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
-    final_cr2 = sorted(final_cr2,key=lambda x: x["vol*pri"])
-    #final_cr2.reverse()
-    #final_cr2.
-    #sorted_cr = []
-    """
-    for item in final_cr2:
-        if item["direction"]=="CCCCCCCC" or item["direction"]=="RRRRRRRR":
-            sorted_cr.append(item)
-    for item in final_cr2:
-        if item in sorted_cr:
-            continue
-        sorted_cr.append(item)
-    sorted_cr.reverse()  
-    """  
-    for item in final_cr2:
-        print("item",item)
+    final = sorted(final_cr2,key=lambda x: x["vol*pri"])
+    final2 = final
 
+    for item in final:
+        direction = item["direction"]
+        print(item,direction)
+        #if "CCCCCCCC" in direction or "RRRRRRRR" in direction:
+        #    final2.append(item)
+    for item in final2:
+        print("item",item)
 
 def specific_day(start_day,end_day, file_to_load):
     list = []
@@ -528,7 +530,7 @@ file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-05-01"
-list_length = 50
+list_length = 100
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()

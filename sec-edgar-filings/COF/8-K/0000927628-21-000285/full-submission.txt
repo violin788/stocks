@@ -1,0 +1,58 @@
+<SEC-DOCUMENT>0000927628-21-000285.txt : 20210929
+<SEC-HEADER>0000927628-21-000285.hdr.sgml : 20210929
+<ACCEPTANCE-DATETIME>20210929165003
+ACCESSION NUMBER:		0000927628-21-000285
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20210923
+ITEM INFORMATION:		Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20210929
+DATE AS OF CHANGE:		20210929
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CAPITAL ONE FINANCIAL CORP
+		CENTRAL INDEX KEY:			0000927628
+		STANDARD INDUSTRIAL CLASSIFICATION:	NATIONAL COMMERCIAL BANKS [6021]
+		IRS NUMBER:				541719854
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-13300
+		FILM NUMBER:		211292340
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1680 CAPITAL ONE DRIVE
+		STREET 2:		SUITE 1400
+		CITY:			MCLEAN
+		STATE:			VA
+		ZIP:			22102
+		BUSINESS PHONE:		7037201000
+
+	MAIL ADDRESS:	
+		STREET 1:		1680 CAPITAL ONE DRIVE
+		STREET 2:		SUITE 1400
+		CITY:			MCLEAN
+		STATE:			VA
+		ZIP:			22102
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	OAKSTONE FINANCIAL CORP
+		DATE OF NAME CHANGE:	19940728
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>cof-20210923.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" ?><!--XBRL Document Created with Wdesk from Workiva--><!--Copyright 2021 Workiva--><!--r:be00ee91-5a61-4cc6-9816-65f6c7d06b97,g:f93b461c-1932-48aa-87b3-80f1777013ad,d:030386adea2e4ee8aeb6ff073df1e779--><html xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:us-gaap="http://fasb.org/us-gaap/2020-01-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns="http://www.w3.org/1999/xhtml" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cof="http://www.capitalone.com/20210923" xmlns:dei="http://xbrl.sec.gov/dei/2020-01-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2020-02-12" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en-US"><head><meta http-equiv="Content-Type" content="text/html"/>
+
+
+<title>cof-20210923</title></head><body><div style="display:none"><ix:header><ix:hidden><ix:nonNumeric contextRef="i78bbe55e9bc84cc8b85508304d78ea48_D20210923-20210923" name="dei:AmendmentFlag" id="id3VybDovL2RvY3MudjEvZG9jOjAzMDM4NmFkZWEyZTRlZThhZWI2ZmYwNzNkZjFlNzc5L3NlYzowMzAzODZhZGVhMmU0ZWU4YWViNmZmMDczZGYxZTc3OV80L2ZyYWc6YzZiYjA5YjMwODJkNGUzZTljYjgxNzkyMmYzYjMwZDcvdGFibGU6MDg1ZmM4ZmI0ZTcwNDZmMzk3OTgwOTA0NDcxYjlmYzkvdGFibGVyYW5nZTowODVmYzhmYjRlNzA0NmYzOTc5ODA5MDQ0NzFiOWZjOV8xLTItMS0xLTUyNDcx_ee87f65f-d450-414a-b70b-51af94340964">false</ix:nonNumeric><ix:nonNumeric contextRef="i78bbe55e9bc84cc8b85508304d78ea48_D20210923-20210923" name="dei:EntityCentralIndexKey" id="id3VybDovL2RvY3MudjEvZG9jOjAzMDM4NmFkZWEyZTRlZThhZWI2ZmYwNzNkZjFlNzc5L3NlYzowMzAzODZhZGVhMmU0ZWU4YWViNmZmMDczZGYxZTc3OV80L2ZyYWc6YzZiYjA5YjMwODJkNGUzZTljYjgxNzkyMmYzYjMwZDcvdGFibGU6MDg1ZmM4ZmI0ZTcwNDZmMzk3OTgwOTA0NDcxYjlmYzkvdGFibGVyYW5nZTowODVmYzhmYjRlNzA0NmYzOTc5ODA5MDQ0NzFiOWZjOV80LTItMS0xLTUyNDcx_404ba126-193b-44e7-ba55-7cd65790a6fb">0000927628</ix:nonNumeric><ix:nonNumeric contextRef="i78bbe55e9bc84cc8b85508304d78ea48_D20210923-20210923" format="ixt:date-month-day" name="dei:CurrentFiscalYearEndDate" id="id3VybDovL2RvY3MudjEvZG9jOjAzMDM4NmFkZWEyZTRlZThhZWI2ZmYwNzNkZjFlNzc5L3NlYzowMzAzODZhZGVhMmU0ZWU4YWViNmZmMDczZGYxZTc3OV80L2ZyYWc6YzZiYjA5YjMwODJkNGUzZTljYjgxNzkyMmYzYjMwZDcvdGFibGU6MDg1ZmM4ZmI0ZTcwNDZmMzk3OTgwOTA0NDcxYjlmYzkvdGFibGVyYW5nZTowODVmYzhmYjRlNzA0NmYzOTc5ODA5MDQ0NzFiOWZjOV81LTItMS0xLTU0NTc5_847317d9-b6f0-4900-861b-4100224d500a">12/31</ix:nonNumeric></ix:hidden><ix:references xml:lang="en-US"><link:schemaRef xlink:type="simple" xlink:href="cof-20210923.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="i78bbe55e9bc84cc8b85508304d78ea48_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i0c03c00add9043e3b5a3cf8eb71cb98f_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i14741c067d9d482394f95479e3f33236_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesGPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ifd02198c64654c6d86e6286e75f07163_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesHPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i7adb2c1389f24ec4a05f9302361a411e_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesIPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i6e8d6966c7254da984af4b6d7df9e6b1_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesJPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i6cc5ae76a0334e019bdb01b9b711d50c_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesKPreferredStockMemberMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i6355b569bb67447897bc6ebcc9afc6e2_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesLPreferredStockMemberMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="id00de84cc24c4db8a582ab0db056044d_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesNPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ifdda375c2dbb42b0ae7ea7d20cee0aa8_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="cof:ClassofSecuritiesAxis">cof:SeniorNotesDue2024Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="iec69e20021594d71a6a4e7fd46970040_D20210923-20210923"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="cof:ClassofSecuritiesAxis">cof:SeniorNotesDue2029Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2021-09-23</xbrli:startDate><xbrli:endDate>2021-09-23</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div><div id="i030386adea2e4ee8aeb6ff073df1e779_1"></div><div style="min-height:42.75pt;width:100%"><div style="text-align:justify"><span><br/></span></div><div style="text-align:justify"><span><br/></span></div><div style="text-align:justify"><span><br/></span></div><div style="text-align:justify"><span><br/></span></div></div><div style="-sec-extract:summary;text-align:center"><table style="border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:99.415%"><tr><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td></tr><tr style="height:3pt"><td colspan="15" style="border-top:2pt solid #000000;padding:0 1pt

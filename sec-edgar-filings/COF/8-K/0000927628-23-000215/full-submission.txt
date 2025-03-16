@@ -1,0 +1,58 @@
+<SEC-DOCUMENT>0000927628-23-000215.txt : 20230615
+<SEC-HEADER>0000927628-23-000215.hdr.sgml : 20230615
+<ACCEPTANCE-DATETIME>20230614204537
+ACCESSION NUMBER:		0000927628-23-000215
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20230614
+ITEM INFORMATION:		Regulation FD Disclosure
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20230615
+DATE AS OF CHANGE:		20230614
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			CAPITAL ONE FINANCIAL CORP
+		CENTRAL INDEX KEY:			0000927628
+		STANDARD INDUSTRIAL CLASSIFICATION:	NATIONAL COMMERCIAL BANKS [6021]
+		IRS NUMBER:				541719854
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-13300
+		FILM NUMBER:		231015782
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1680 CAPITAL ONE DRIVE
+		STREET 2:		SUITE 1400
+		CITY:			MCLEAN
+		STATE:			VA
+		ZIP:			22102
+		BUSINESS PHONE:		7037201000
+
+	MAIL ADDRESS:	
+		STREET 1:		1680 CAPITAL ONE DRIVE
+		STREET 2:		SUITE 1400
+		CITY:			MCLEAN
+		STATE:			VA
+		ZIP:			22102
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	OAKSTONE FINANCIAL CORP
+		DATE OF NAME CHANGE:	19940728
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>cof-20230614.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" ?><!--XBRL Document Created with the Workiva Platform--><!--Copyright 2023 Workiva--><!--r:31bc0c9d-b28f-41a5-88d4-e383404aba43,g:a6c0bba1-d6a9-4db1-b82f-fcfdeb8af111,d:66e95a129eb34a4fab20073388bb932c--><html xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2020-02-12" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:cof="http://www.capitalone.com/20230614" xml:lang="en-US"><head><meta http-equiv="Content-Type" content="text/html"/>
+
+
+<title>cof-20230614</title></head><body><div style="display:none"><ix:header><ix:hidden><ix:nonNumeric contextRef="if671bfd122064886be6b85d47bcd4599_D20230614-20230614" name="dei:AmendmentFlag" id="id3VybDovL2RvY3MudjEvZG9jOjY2ZTk1YTEyOWViMzRhNGZhYjIwMDczMzg4YmI5MzJjL3NlYzo2NmU5NWExMjllYjM0YTRmYWIyMDA3MzM4OGJiOTMyY180L2ZyYWc6Yjg5MzdiYWE4NTQ4NDE0NmIzNWIxZmYxNDA5MTc2ZjQvdGFibGU6MzI2ZTJlZjcyZGQyNDdkYWI1ZWQ5M2ZkNWE2NzhkMTcvdGFibGVyYW5nZTozMjZlMmVmNzJkZDI0N2RhYjVlZDkzZmQ1YTY3OGQxN18xLTItMS0xLTc3MzMwOQ_779ef4b2-6f52-46de-8ca4-98ca67b779a0">false</ix:nonNumeric><ix:nonNumeric contextRef="if671bfd122064886be6b85d47bcd4599_D20230614-20230614" name="dei:EntityCentralIndexKey" id="id3VybDovL2RvY3MudjEvZG9jOjY2ZTk1YTEyOWViMzRhNGZhYjIwMDczMzg4YmI5MzJjL3NlYzo2NmU5NWExMjllYjM0YTRmYWIyMDA3MzM4OGJiOTMyY180L2ZyYWc6Yjg5MzdiYWE4NTQ4NDE0NmIzNWIxZmYxNDA5MTc2ZjQvdGFibGU6MzI2ZTJlZjcyZGQyNDdkYWI1ZWQ5M2ZkNWE2NzhkMTcvdGFibGVyYW5nZTozMjZlMmVmNzJkZDI0N2RhYjVlZDkzZmQ1YTY3OGQxN180LTItMS0xLTc3MzMwOQ_2751f33a-6a98-46a5-8870-9725c0cef768">0000927628</ix:nonNumeric></ix:hidden><ix:references xml:lang="en-US"><link:schemaRef xlink:type="simple" xlink:href="cof-20230614.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="if671bfd122064886be6b85d47bcd4599_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ifd53f3ca8b324280a0806b4363b65889_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ia84a3c5530174a6682aa5aaa7d82a7a6_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesIPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i571414dea46447cb98029d81ddd38045_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesJPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ibd725e37cede4c5da67bc4624f37f1fb_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesKPreferredStockMemberMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i18e12540e1c94523aba17d5f0da28da2_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesLPreferredStockMemberMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="ie1980e92e6f14792b0fd4d7569022781_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cof:SeriesNPreferredStockMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="i74b6c7344c6d4b7ca56e3a32977fa26f_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="cof:ClassofSecuritiesAxis">cof:SeniorNotesDue2024Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="id51345417ed744f8ace28d20aed3e040_D20230614-20230614"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000927628</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="cof:ClassofSecuritiesAxis">cof:SeniorNotesDue2029Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-06-14</xbrli:startDate><xbrli:endDate>2023-06-14</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div><div id="i66e95a129eb34a4fab20073388bb932c_1"></div><div style="min-height:42.75pt;width:100%"><div style="text-align:justify"><span><br/></span></div><div style="text-align:justify"><span><br/></span></div><div style="text-align:justify"><span><br/></span></div><div style="text-align:justify"><span><br/></span></div></div><div style="-sec-extract:summary;text-align:center"><table style="border-collapse:collapse;display:inline-table;margin-bottom:5pt;vertical-align:text-bottom;width:99.415%"><tr><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td><td style="width:1.0%"></td><td style="width:18.900%"></td><td style="width:0.1%"></td></tr><tr style="height:3pt"><td colspan="15" style="border-top:2pt solid #000000;padding:0 1pt"></td></tr></table></div><div style="text-align:center"><span><br/></span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:12pt;font-weight:700;line-height:120%">UNITED STATES</span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:12pt;font-weight:700;line-height:120%">SECURITIES AND EXCHANGE COMMISSION</span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:10pt;font-weight:700;line-height:120%">Washington, D.C. 20549</span></div><div style="margin-bottom:3pt;text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:6pt;font-weight:400;line-height:120%">____________________________________</span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',sans-serif;font-size:14pt;font-weight:700;line-height:120%">FORM <ix:nonNumeric contextRef="if671bfd122064886be6b85d47bcd4599_D20230614-20230614" name="dei:DocumentType" id="id3VybDovL2RvY3MudjEvZG9jOjY2ZTk1YTEyOWViMzRhNGZhYjIwMDczMzg4YmI5MzJjL3NlYzo2NmU5NWExMjllYjM0YTRmYWIyMDA3MzM4OGJiOTMyY18xL2ZyYWc6N2I1ZDA0NWEzNGQ3NDRlMjlkNGI4MjMxOTFjNjYyMjIvdGV4dHJlZ2lvbjo3YjVkMDQ1YTM0ZDc0NGUyOWQ0YjgyMzE5MWM2NjIyMl8xODMz_943d58ae-36a8-4f55-be02-cd6070ec72c3">8-K</ix:nonNumeric> </span></div><div style="text-align:center"><span style="color:#000000;font-family:'Times New Roman',

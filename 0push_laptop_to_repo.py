@@ -1,10 +1,10 @@
 import subprocess
 import os,sys
 
-token_file_location = "C:\\Users\\--\\code\\00token_github.txt"
+token_file_location = "C:\\Users\\--\\0code\\00token_github.txt"
 with open(token_file_location, 'r') as file:
     token = file.read()
-repo_path = r'C:\Users\--\code\stocks'
+repo_path = r'C:\Users\--\0stocks'
 github_username = 'violin788'
 git_user_email = 'violin78@protonmail.com'
 github_token = token
