@@ -257,8 +257,6 @@ def get_sec_earn_dates(match_file):
             #redo..but then just do a search for 1 earn value..
             meow="meow"
 
-
-
 def get_yahoo_history(upcoming_file):
     # Open the CSV file and load it as a dictionary
     with open(upcoming_file, 'r') as f:

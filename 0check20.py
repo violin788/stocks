@@ -22,7 +22,7 @@ for stock in stock_list:
         zero.append(data)    
     if k8_count==20:
         twenty.append(data)
-    if k8_count<20:
+    if k8_count>0 and k8_count<20:
         under.append(data)
     if k8_count>20:
         over_20.append(data)
@@ -37,6 +37,9 @@ for key,data  in amounts.items():
     print(key)
     for item in data:
         print(key,item)
+    continue
+    """
     if key=="zero":
         folder_delete = os.path.join(edgar_folder,item["stock"])
         shutil.rmtree(folder_delete) 
+        """
