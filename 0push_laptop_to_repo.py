@@ -1,7 +1,7 @@
 import subprocess
 import os,sys
-
-token_file_location = "C:\\Users\\--\\0code\\00token_github.txt"
+#token_file_location = "C:\\Users\\--\\0code\\00token_github.txt"
+token_file_location = "C:\\Users\\--\\00token_github.txt"
 with open(token_file_location, 'r') as file:
     token = file.read()
 repo_path = r'C:\Users\--\0stocks'

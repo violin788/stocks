@@ -82,8 +82,7 @@ def get_finnhub_earnings(finnhub_folder,start_date,end_date):
         print("Earnings data has been saved to " + output_file + ".json")
         print("request made")
     else:
-        print(finnhub_file_name)
-        print("already exists")
+        print("already exists",finnhub_file_name)
 
 def stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file):
     # Open and load JSON file
@@ -484,14 +483,14 @@ def prices_around_earnings(match_file,required_ratio):
         if symbol=="":
             sys.exit()
     final = sorted(final_cr2,key=lambda x: x["vol*pri"])
-    final2 = final
-
+    same_direction = []
     for item in final:
         direction = item["direction"]
-        print(item,direction)
-        #if "CCCCCCCC" in direction or "RRRRRRRR" in direction:
-        #    final2.append(item)
-    for item in final2:
+        if "CCCCCCCC" in direction or "RRRRRRRR" in direction:
+            same_direction.append(item)
+    final = final+same_direction
+
+    for item in final:
         print("item",item)
 
 def specific_day(start_day,end_day, file_to_load):
@@ -530,7 +529,7 @@ file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-05-01"
-list_length = 100
+list_length = 75
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
