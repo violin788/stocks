@@ -1,0 +1,267 @@
+12
+<SEC-DOCUMENT>0000950159-21-000014.txt : 20210204
+<SEC-HEADER>0000950159-21-000014.hdr.sgml : 20210204
+<ACCEPTANCE-DATETIME>20210204061526
+ACCESSION NUMBER:		0000950159-21-000014
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20210204
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20210204
+DATE AS OF CHANGE:		20210204
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Cigna Corp
+		CENTRAL INDEX KEY:			0001739940
+		STANDARD INDUSTRIAL CLASSIFICATION:	HOSPITAL & MEDICAL SERVICE PLANS [6324]
+		IRS NUMBER:				824991898
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-38769
+		FILM NUMBER:		21588754
+
+	BUSINESS ADDRESS:	
+		STREET 1:		900 COTTAGE GROVE ROAD
+		CITY:			BLOOMFIELD
+		STATE:			CT
+		ZIP:			06002
+		BUSINESS PHONE:		8602266000
+
+	MAIL ADDRESS:	
+		STREET 1:		900 COTTAGE GROVE ROAD
+		CITY:			BLOOMFIELD
+		STATE:			CT
+		ZIP:			06002
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Halfmoon Parent, Inc.
+		DATE OF NAME CHANGE:	20180508
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>cigna8k.htm
+<DESCRIPTION>CIGNA CORPORATION FORM 8K
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2020-01-31" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:us-gaap="http://fasb.org/us-gaap/2020-01-31" xmlns:us-roles="http://fasb.org/us-roles/2020-01-31" xmlns:country="http://xbrl.sec.gov/country/2020-01-31" xmlns:srt="http://fasb.org/srt/2020-01-31" xmlns:CI="http://cigna.com/20210204">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html" />
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_029_US%2DGAAP%2D2020 -->
+<!-- Field: Set; Name: xdx; ID: xdx_03D_CI_cigna.com_20210204 -->
+<!-- Field: Set; Name: xdx; ID: xdx_049_20210204_20210204 -->
+<!-- Field: Set; Name: xdx; ID: xdx_058_edei%2D%2DEntityCentralIndexKey_0001739940 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body>
+<div style="display: none">
+<ix:header>
+  <ix:hidden>
+    <ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityCentralIndexKey">0001739940</ix:nonNumeric>
+    <ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:booleanfalse" name="dei:AmendmentFlag">false</ix:nonNumeric>
+    </ix:hidden>
+  <ix:references>
+    <link:schemaRef xlink:href="ci-20210204.xsd" xlink:type="simple" />
+    </ix:references>
+  <ix:resources>
+    <xbrli:context id="From2021-02-04to2021-02-04">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001739940</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2021-02-04</xbrli:startDate>
+        <xbrli:endDate>2021-02-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+    </ix:resources>
+  </ix:header>
+</div>
+
+
+<!-- Field: Rule-Page --><div style="margin-top: 1pt; margin-bottom: 1pt; width: 100%"><div style="border-top: Black 3.5pt solid; font-size: 1pt; border-bottom: Black 1pt solid">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">Washington, D.C. 20549</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>FORM <span id="xdx_902_edei--DocumentType_c20210204__20210204_z98Bx8dYpte9"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">CURRENT REPORT</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">Pursuant to Section 13 or 15(d) of the</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: center">Securities Exchange Act of 1934</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: center">Date of Report (Date of earliest event
+reported) <b><span id="xdx_902_edei--DocumentPeriodEndDate_c20210204__20210204_zE38uCGYd3h3"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:datemonthdayyearen" name="dei:DocumentPeriodEndDate">February 4, 2021</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b><span id="xdx_904_edei--EntityRegistrantName_c20210204__20210204_zp7GRAQu1XZ9"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityRegistrantName">Cigna Corporation</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">(Exact name of registrant as specified in its
+charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="width: 100%; border-collapse: collapse">
+<tr style="vertical-align: top">
+    <td style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 30%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><b><span id="xdx_905_edei--EntityIncorporationStateCountryCode_c20210204__20210204_zg2jRqprL9Pg"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt-sec:stateprovnameen" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span><br />
+</b>(State or other jurisdiction of incorporation)</span></td>
+    <td style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 37%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif; background-color: white"><b><span id="xdx_904_edei--EntityFileNumber_c20210204__20210204_z9iMaSXEgQ1l"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityFileNumber">001-38769</ix:nonNumeric></span><br />
+</b></span><span style="font: 10pt Times New Roman, Times, Serif">(Commission File Number)</span></td>
+    <td style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 33%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif; background-color: white"><b><span id="xdx_90C_edei--EntityTaxIdentificationNumber_c20210204__20210204_zEy0O9aurMed"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityTaxIdentificationNumber">82-4991898</ix:nonNumeric></span><br />
+</b></span><span style="font: 10pt Times New Roman, Times, Serif">(IRS Employer<br />
+Identification No.)</span></td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b><span id="xdx_908_edei--EntityAddressAddressLine1_c20210204__20210204_zKKaCFikQTA1"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityAddressAddressLine1">900 Cottage Grove Road</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b><span id="xdx_908_edei--EntityAddressCityOrTown_c20210204__20210204_zkEb12fHyq8g"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityAddressCityOrTown">Bloomfield</ix:nonNumeric></span>, <span id="xdx_90A_edei--EntityAddressStateOrProvince_c20210204__20210204_zkgDIf5MqNgd"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt-sec:stateprovnameen" name="dei:EntityAddressStateOrProvince">Connecticut</ix:nonNumeric></span> <span id="xdx_903_edei--EntityAddressPostalZipCode_c20210204__20210204_zRAkBatP6iz1"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:EntityAddressPostalZipCode">06002</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: center">(Address of principal executive offices)
+(Zip Code)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center">Registrant&#8217;s telephone number, including
+area code:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: center"><b><span id="xdx_90A_edei--CityAreaCode_c20210204__20210204_zrbdeVA5Oto"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:CityAreaCode">(860)</ix:nonNumeric> </span><span id="xdx_903_edei--LocalPhoneNumber_c20210204__20210204_z4OSpdN4l5m6"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:LocalPhoneNumber">226-6000</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; text-align: center"><b>Not Applicable</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt; text-align: center">(Former name or former address, if changed
+since last report)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt">Check the appropriate box below if the Form 8-K filing is
+intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span id="xdx_904_edei--WrittenCommunications_c20210204__20210204_zlG55GMTEeAf"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:booleanfalse" name="dei:WrittenCommunications">[_]</ix:nonNumeric></span> Written communications pursuant to Rule 425 under the Securities
+Act (17 CFR 230.425)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"><span id="xdx_907_edei--SolicitingMaterial_c20210204__20210204_zCdbeNS6uU3"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:booleanfalse" name="dei:SolicitingMaterial">[_]</ix:nonNumeric></span> Soliciting material pursuant to Rule 14a-12 under the Exchange
+Act (17 CFR 240.14a-12)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 0 0.25in; text-indent: -0.25in"><span id="xdx_903_edei--PreCommencementTenderOffer_c20210204__20210204_zmQTtJMBFYI2"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:booleanfalse" name="dei:PreCommencementTenderOffer">[_]</ix:nonNumeric></span> Pre-commencement communications
+pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt 0.25in; text-indent: -0.25in"><span id="xdx_908_edei--PreCommencementIssuerTenderOffer_c20210204__20210204_zv5fbHYdaLCj"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:booleanfalse" name="dei:PreCommencementIssuerTenderOffer">[_]</ix:nonNumeric></span> Pre-commencement communications
+pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 12pt">Securities registered pursuant to Section 12(b) of the Act:</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 11pt Calibri, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse">
+<tr style="vertical-align: top">
+    <td style="border: black 1pt solid; width: 33%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif">Title of each class</span></td>
+    <td style="border-top: black 1pt solid; width: 25%; border-right: black 1pt solid; border-bottom: black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif">Trading Symbol(s)</span></td>
+    <td style="border-top: black 1pt solid; width: 42%; border-right: black 1pt solid; border-bottom: black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif">Name of each exchange on which registered</span></td></tr>
+<tr>
+    <td style="border-right: black 1pt solid; border-bottom: black 1pt solid; border-left: black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><span id="xdx_90D_edei--Security12bTitle_c20210204__20210204_z5HCUOjHz7vd"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:Security12bTitle">Common Stock, Par Value $0.01</ix:nonNumeric></span></span></td>
+    <td style="border-right: black 1pt solid; border-bottom: black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><span id="xdx_909_edei--TradingSymbol_c20210204__20210204_zf3yxzwLWsSi"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" name="dei:TradingSymbol">CI</ix:nonNumeric></span></span></td>
+    <td style="border-right: black 1pt solid; border-bottom: black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt; text-align: center"><span style="font: 10pt Times New Roman, Times, Serif"><span id="xdx_906_edei--SecurityExchangeName_c20210204__20210204_zyR1ZAz7zNFe"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt-sec:exchnameen" name="dei:SecurityExchangeName">New York Stock Exchange</ix:nonNumeric></span>, Inc.</span></td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">Indicate by check mark whether the registrant
+is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (17 CFR &#167;230.405) or Rule 12b-2 of the
+Securities Exchange Act of 1934 (17 CFR &#167;240.12b-2).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&#160;</p>
+
+<p style="font: 10pt Calibri, Helvetica, Sans-Serif; margin: 0; background-color: white"><span style="font-family: Times New Roman, Times, Serif">Emerging
+growth company </span><span style="font-family: Segoe UI Symbol,sans-serif"><span id="xdx_90F_edei--EntityEmergingGrowthCompany_c20210204__20210204_zyjKE871mckc"><ix:nonNumeric contextRef="From2021-02-04to2021-02-04" format="ixt:booleanfalse" name="dei:EntityEmergingGrowthCompany">&#9744;</ix:nonNumeric></span></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white">&#160;</p>
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0"><span style="font-family: Times New Roman, Times, Serif">If
+an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for
+complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. </span><span style="font-family: Segoe UI Symbol,sans-serif">&#9744;</span></p>
+
+<p style="font: 10pt/107% Calibri, Helvetica, Sans-Serif; margin: 0"><span style="font-family: Segoe UI Symbol,sans-serif">&#160;</span></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 1pt; margin-bottom: 1pt; width: 100%"><div style="border-top: Black 1pt solid; font-size: 1pt; border-bottom: Black 3.5pt solid">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0">&#160;</p>
+
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="margin-bottom: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <div style="break-before: page; margin-top: 6pt"><table cellpadding="0" cellspacing="0" style="width: 100%"><tr><td style="text-align: center; width: 100%">&#160;</td></tr></table></div>
+    <!-- Field: /Page -->
+
+
+<p style="margin: 0">&#160;</p>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"></p>
+
+<table cellspacing="0" cellpadding="0" style="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+<tr style="vertical-align: top">
+    <td style="width: 14%; padding-right: 5.4pt; padding-left: 0"><b>Item 2.02&#160;</b></td>
+    <td style="width: 86%; padding-right: 5.4pt; padding-left: 0"><b>Results of Operations and Financial Condition.</b></td></tr>
+</table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0"></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; color: #212529">On February 4, 2021, Cigna
+Corporation issued a press release announcing results for the three months and year ended December 31, 2020. The press release
+is furnished as Exhibit 99.1 to this Current Report on Form 8-K and incorporated herein by reference.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; color: #212529">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0; background-color: white; color: #212529">This information shall
+not be deemed &#8220;filed&#8221; for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the &#8220;Exchange
+Act&#8221;), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act whether
+made before or after the date of this Current Report on Form 8-K, except as shall be expressly set forth by specific reference
+in such a filing.</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0 0 8pt; background-color: white">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="width: 100%; font: 10pt Times New Roman, Times, Serif; border-collapse: collapse">
+<tr style="vertical-align: top">
+    <td style="width: 14%; padding-right: 5.4pt; padding-left: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Item
+    9.01</b></span></td>
+    <td style="width: 86%; padding-right: 5.4pt; padding-left: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Financial
+    Statements and Exhibits.</b></span></td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td>
+    <td style="padding-right: 5.4pt; padding-left: 5.4pt">&#160;</td></tr>
+<tr style="vertical-align: top">
+    <td style="padding-right: 5.4pt; padding-left: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(d)</span></td>
+    <td style="padding-right: 5.4pt; padding-left: 0"><span style="font

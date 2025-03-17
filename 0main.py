@@ -179,7 +179,7 @@ def get_sec_earn_dates(match_file):
             k8_folder = os.path.join(edgar_folder,stock,"8-K")    
             k8_date_list = os.listdir(k8_folder)
             number_of_dates = len(k8_date_list)
-            if number_of_dates>25:
+            if number_of_dates>30:
                 folder_delete = os.path.join(edgar_folder,stock)
                 print(number_of_dates,stock,"will delete = "+folder_delete)
                 shutil.rmtree(folder_delete)
@@ -537,7 +537,7 @@ file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-05-01"
-list_length = 50
+list_length = 100
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()

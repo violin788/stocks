@@ -1,0 +1,108 @@
+67
+<SEC-DOCUMENT>0001404912-20-000014.txt : 20200804
+<SEC-HEADER>0001404912-20-000014.hdr.sgml : 20200804
+<ACCEPTANCE-DATETIME>20200804064953
+ACCESSION NUMBER:		0001404912-20-000014
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		17
+CONFORMED PERIOD OF REPORT:	20200804
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20200804
+DATE AS OF CHANGE:		20200804
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			KKR & Co. Inc.
+		CENTRAL INDEX KEY:			0001404912
+		STANDARD INDUSTRIAL CLASSIFICATION:	INVESTMENT ADVICE [6282]
+		IRS NUMBER:				260426107
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-34820
+		FILM NUMBER:		201070889
+
+	BUSINESS ADDRESS:	
+		STREET 1:		9 WEST 57TH STREET
+		STREET 2:		SUITE 4200
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10019
+		BUSINESS PHONE:		212-750-8300
+
+	MAIL ADDRESS:	
+		STREET 1:		9 WEST 57TH STREET
+		STREET 2:		SUITE 4200
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10019
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	KKR & Co. L.P.
+		DATE OF NAME CHANGE:	20070627
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>q220earningsreleasewra.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--p:b328273b6cc649d1bb4bc0c7c1bcb361,x:d6aef450594e41cf96c95c1d13e91488-->
+<!-- Document created using Wdesk  -->
+<!-- Copyright 2020 Workiva -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:schedoi-fednote="http://fasb.org/dis/schedoi-fednote/2019-01-31" xmlns:fs-interest="http://fasb.org/dis/fs-interest/2019-01-31" xmlns:sfp-ibo="http://fasb.org/stm/sfp-ibo/2019-01-31" xmlns:sfp-sbo="http://fasb.org/stm/sfp-sbo/2019-01-31" xmlns:sic-std="http://xbrl.sec.gov/sic-std/2011-01-31" xmlns:stpr-std="http://xbrl.sec.gov/stpr-std-std-std/2018-01-31" xmlns:currency-ent-std="http://xbrl.sec.gov/currency-ent-std/2019-01-31" xmlns:lea="http://fasb.org/dis/lea/2019-01-31" xmlns:ctbl="http://fasb.org/dis/ctbl/2019-01-31" xmlns:guar="http://fasb.org/dis/guar/2019-01-31" xmlns:ru="http://fasb.org/dis/ru/2019-01-31" xmlns:stpr-all="http://xbrl.sec.gov/stpr-all-all-all/2018-01-31" xmlns:leas="http://fasb.org/dis/leas/2019-01-31" xmlns:sfp-clreo="http://fasb.org/stm/sfp-clreo/2019-01-31" xmlns:iaoi="http://fasb.org/dis/iaoi/2019-01-31" xmlns:soi-ins="http://fasb.org/stm/soi-ins/2019-01-31" xmlns:country-ent-std="http://xbrl.sec.gov/country-ent-std/2017-01-31" xmlns:country="http://xbrl.sec.gov/country/2017-01-31" xmlns:fs-insa="http://fasb.org/dis/fs-insa/2019-01-31" xmlns:naics="http://xbrl.sec.gov/naics/2017-01-31" xmlns:cce="http://fasb.org/dis/cce/2019-01-31" xmlns:inv="http://fasb.org/dis/inv/2019-01-31" xmlns:naics-ent-std="http://xbrl.sec.gov/naics-ent-std/2017-01-31" xmlns:srt-std="http://fasb.org/srt-std/2019-01-31" xmlns:stpr-ent-all="http://xbrl.sec.gov/stpr-ent-all-all-all/2018-01-31" xmlns:stpr-ent-std="http://xbrl.sec.gov/stpr-ent-std-std-std/2018-01-31" xmlns:schedoi-iiaa="http://fasb.org/dis/schedoi-iiaa/2019-01-31" xmlns:us-arcroles="http://fasb.org/us-arcroles/2019-01-31" xmlns:dccpoa="http://fasb.org/dis/dccpoa/2019-01-31" xmlns:soi-sbi="http://fasb.org/stm/soi-sbi/2019-01-31" xmlns:us-gaap-all="http://fasb.org/us-gaap-all/2019-01-31" xmlns:scf-sd="http://fasb.org/stm/scf-sd/2019-01-31" xmlns:ceclcalc3l="http://fasb.org/dis/ceclcalc3l/2019-01-31" xmlns:dei-ent-all="http://xbrl.sec.gov/dei-ent-all/2019-01-31" xmlns:deprecated="http://www.xbrl.org/2009/arcrole/deprecated" xmlns:naics-all="http://xbrl.sec.gov/naics-all/2017-01-31" xmlns:re="http://fasb.org/dis/re/2019-01-31" xmlns:srt-types="http://fasb.org/srt-types/2019-01-31" xmlns:reorg="http://fasb.org/dis/reorg/2019-01-31" xmlns:invco="http://fasb.org/dis/invco/2019-01-31" xmlns:currency-ent-all="http://xbrl.sec.gov/currency-ent-all/2019-01-31" xmlns:currency-std="http://xbrl.sec.gov/currency-std/2019-01-31" xmlns:currency-ent-dep="http://xbrl.sec.gov/currency-ent-dep/2019-01-31" xmlns:aro="http://fasb.org/dis/aro/2019-01-31" xmlns:exch="http://xbrl.sec.gov/exch/2019-01-31" xmlns:ocpfs="http://fasb.org/dis/ocpfs/2019-01-31" xmlns:currency="http://xbrl.sec.gov/currency/2019-01-31" xmlns:naics-std="http://xbrl.sec.gov/naics-std/2017-01-31" xmlns:srt-all="http://fasb.org/srt-all/2019-01-31" xmlns:codification-part="http://fasb.org/codification-part/2019-01-31" xmlns:srt="http://fasb.org/srt/2019-01-31" xmlns:deprecated1="http://www.xbrl.org/2009/role/deprecated" xmlns:sec-re="http://fasb.org/dis/sec-re/2019-01-31" xmlns:soi-int="http://fasb.org/stm/soi-int/2019-01-31" xmlns:emjv="http://fasb.org/dis/emjv/2019-01-31" xmlns:sec-suppc="http://fasb.org/dis/sec-suppc/2019-01-31" xmlns:equity="http://fasb.org/dis/equity/2019-01-31" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:se="http://fasb.org/dis/se/2019-01-31" xmlns:crcrb="http://fasb.org/dis/crcrb/2019-01-31" xmlns:edco="http://fasb.org/dis/edco/2019-01-31" xmlns:te="http://fasb.org/dis/te/2019-01-31" xmlns:dei-all="http://xbrl.sec.gov/dei-all/2019-01-31" xmlns:fs-bd="http://fasb.org/dis/fs-bd/2019-01-31" xmlns:hco="http://fasb.org/dis/hco/2019-01-31" xmlns:fs-bt="http://fasb.org/dis/fs-bt/2019-01-31" xmlns:us-roles="http://fasb.org/us-roles/2019-01-31" xmlns:dr="http://fasb.org/dis/dr/2019-01-31" xmlns:ero="http://fasb.org/dis/ero/2019-01-31" xmlns:country-ent-all="http://xbrl.sec.gov/country-ent-all/2017-01-31" xmlns:schedoi-oocw="http://fasb.org/dis/schedoi-oocw/2019-01-31" xmlns:cecl="http://fasb.org/dis/cecl/2019-01-31" xmlns:rpd="http://fasb.org/dis/rpd/2019-01-31" xmlns:schedoi-sumhold="http://fasb.org/dis/schedoi-sumhold/2019-01-31" xmlns:ceclcalc2="http://fasb.org/dis/ceclcalc2/2019-01-31" xmlns:othliab="http://fasb.org/dis/othliab/2019-01-31" xmlns:soi-egm="http://fasb.org/stm/soi-egm/2019-01-31" xmlns:schedoi-shorthold="http://fasb.org/dis/schedoi-shorthold/2019-01-31" xmlns:soi="http://fasb.org/stm/soi/2019-01-31" xmlns:diha="http://fasb.org/dis/diha/2019-01-31" xmlns:debt="http://fasb.org/dis/debt/2019-01-31" xmlns:schedoi-hold="http://fasb.org/dis/schedoi-hold/2019-01-31" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:us-gaap-ent-std="http://fasb.org/us-gaap-ent-std/2019-01-31" xmlns:bc="http://fasb.org/dis/bc/2019-01-31" xmlns:sic-ent-all="http://xbrl.sec.gov/sic-ent-all/2011-01-31" xmlns:exch-ent-std="http://xbrl.sec.gov/exch-ent-std/2019-01-31" xmlns:rcc="http://fasb.org/dis/rcc/2019-01-31" xmlns:rd="http://fasb.org/dis/rd/2019-01-31" xmlns:sfp-ucreo="http://fasb.org/stm/sfp-ucreo/2019-01-31" xmlns:eui="http://fasb.org/dis/eui/2019-01-31" xmlns:dei="http://xbrl.sec.gov/dei/2019-01-31" xmlns:ap="http://fasb.org/dis/ap/2019-01-31" xmlns:soi-reit="http://fasb.org/stm/soi-reit/2019-01-31" xmlns:fs-mort="http://fasb.org/dis/fs-mort/2019-01-31" xmlns:sec-reins="http://fasb.org/dis/sec-reins/2019-01-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:sec-cndfir="http://fasb.org/dis/sec-cndfir/2019-01-31" xmlns:sr="http://fasb.org/dis/sr/2019-01-31" xmlns:currency-all="http://xbrl.sec.gov/currency-all/2019-01-31" xmlns:scf-dbo="http://fasb.org/stm/scf-dbo/2019-01-31" xmlns:fs-fhlb="http://fasb.org/dis/fs-fhlb/2019-01-31" xmlns:crcpb="http://fasb.org/dis/crcpb/2019-01-31" xmlns:dei-ent-std="http://xbrl.sec.gov/dei-ent-std/2019-01-31" xmlns:us-types="http://fasb.org/us-types/2019-01-31" xmlns:scf-inv="http://fasb.org/stm/scf-inv/2019-01-31" xmlns:scf-indira="http://fasb.org/stm/scf-indira/2019-01-31" xmlns:bsoff="http://fasb.org/dis/bsoff/2019-01-31" xmlns:exch-ent-all="http://xbrl.sec.gov/exch-ent-all/2019-01-31" xmlns:oi="http://fasb.org/dis/oi/2019-01-31" xmlns:soi-indira="http://fasb.org/stm/soi-indira/2019-01-31" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:schedoi-otsh="http://fasb.org/dis/schedoi-otsh/2019-01-31" xmlns:sfp-dbo="http://fasb.org/stm/sfp-dbo/2019-01-31" xmlns:cc="http://fasb.org/dis/cc/2019-01-31" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:crcsbp="http://fasb.org/dis/crcsbp/2019-01-31" xmlns:disops="http://fasb.org/dis/disops/2019-01-31" xmlns:reference="http://www.xbrl.org/2009/role/reference" xmlns:cn-part="http://fasb.org/cn-part/2019-01-31" xmlns:us-gaap="http://fasb.org/us-gaap/2019-01-31" xmlns:srt-roles="http://fasb.org/srt-roles/2019-01-31" xmlns:country-std="http://xbrl.sec.gov/country-std/2017-01-31" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:scf-indir="http://fasb.org/stm/scf-indir/2019-01-31" xmlns:rlnro="http://fasb.org/dis/rlnro/2019-01-31" xmlns:ts="http://fasb.org/dis/ts/2019-01-31" xmlns:us-gaap-std="http://fasb.org/us-gaap-std/2019-01-31" xmlns:naics-ent-all="http://xbrl.sec.gov/naics-ent-all/2017-01-31" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:scf-dir="http://fasb.org/stm/scf-dir/2019-01-31" xmlns:dei-std="http://xbrl.sec.gov/dei-std/2019-01-31" xmlns:ni="http://fasb.org/dis/ni/2019-01-31" xmlns:sec-mort="http://fasb.org/dis/sec-mort/2019-01-31" xmlns:fifvd="http://fasb.org/dis/fifvd/2019-01-31" xmlns:otherexp="http://fasb.org/dis/otherexp/2019-01-31" xmlns:scf-re="http://fasb.org/stm/scf-re/2019-01-31" xmlns:sec-vq="http://fasb.org/dis/sec-vq/2019-01-31" xmlns:sec-sum="http://fasb.org/dis/sec-sum/2019-01-31" xmlns:exch-std="http://xbrl.sec.gov/exch-std/2019-01-31" xmlns:kkr="http://www.kkr.com/20200804" xmlns:ir="http://fasb.org/dis/ir/2019-01-31" xmlns:sheci="http://fasb.org/stm/sheci/2019-01-31" xmlns:foct="http://fasb.org/dis/foct/2019-01-31" xmlns:soc="http://fasb.org/stm/soc/2019-01-31" xmlns:scf-sbo="http://fasb.org/stm/scf-sbo/2019-01-31" xmlns:inctax="http://fasb.org/dis/inctax/2019-01-31" xmlns:ppe="http://fasb.org/dis/ppe/2019-01-31" xmlns:country-all="http://xbrl.sec.gov/country-all/2017-01-31" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:con="http://fasb.org/dis/con/2019-01-31" xmlns:sic-ent-std="http://xbrl.sec.gov/sic-ent-std/2011-01-31" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:fs-ins="http://fasb.org/dis/fs-ins/2019-01-31" xmlns:eps="http://fasb.org/dis/eps/2019-01-31" xmlns:stpr="http://xbrl.sec.gov/stpr/2018-01-31" xmlns:iago="http://fasb.org/dis/iago/2019-01-31" xmlns:pay="http://fasb.org/dis/pay/2019-01-31" xmlns:sic="http://xbrl.sec.gov/sic/2011-01-31" xmlns:tin-part="http://fasb.org/tin-part/2019-01-31" xmlns:acec="http://fasb.org/dis/acec/2019-01-31" xmlns:us-gaap-entryPoint-all="http://fasb.org/us-gaap-entryPoint-all/2019-01-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:nt="http://fasb.org/dis/nt/2019-01-31" xmlns:spc="http://fasb.org/stm/spc/2019-01-31" xmlns:exch-all="http://xbrl.sec.gov/exch-all/2019-01-31" xmlns:ides="http://fasb.org/dis/ides/2019-01-31" xmlns:sec-supins="http://fasb.org/dis/sec-supins/2019-01-31" xmlns:sic-all="http://xbrl.sec.gov/sic-all/2011-01-31" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:regop="http://fasb.org/dis/regop/2019-01-31" xmlns:sfp-cls="http://fasb.org/stm/sfp-cls/2019-01-31" xmlns:com="http://fasb.org/stm/com/2019-01-31" xmlns:soi-re="http://fasb.org/stm/soi-re/2019-01-31" xmlns:crcgen="http://fasb.org/dis/crcgen/2019-01-31" xmlns:exch-ent-dep="http://xbrl.sec.gov/exch-ent-dep/2019-01-31" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:ei="http://fasb.org/dis/ei/2019-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" />
+		<title>Document</title>
+	</head>
+	<body><div style="font-family:Times New Roman;font-size:10pt;">
+<div style="display:none"><ix:header><ix:hidden><ix:nonNumeric contextRef="D2020Q3Aug8" name="dei:AmendmentFlag" id="Fact-A6BB47D2010F56D3952A2156468E3801-wk-Fact-A6BB47D2010F56D3952A2156468E3801" format="ixt:booleanfalse">false</ix:nonNumeric><ix:nonNumeric contextRef="D2020Q3Aug8" name="dei:EntityCentralIndexKey" id="Fact-AF3303A167AB5266A03A3CAADB4829A6-wk-Fact-AF3303A167AB5266A03A3CAADB4829A6">0001404912</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:href="kkr-20200804.xsd" xlink:type="simple"></link:schemaRef></ix:references><ix:resources><xbrli:context id="D2020Q3Aug8_us-gaap_StatementClassOfStockAxis_us-gaap_SeriesBPreferredStockMember">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0001404912</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesBPreferredStockMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2020-08-04</xbrli:startDate>
+			<xbrli:endDate>2020-08-04</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context><xbrli:context id="D2020Q3Aug8_us-gaap_StatementClassOfStockAxis_us-gaap_SeriesAPreferredStockMember">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0001404912</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:SeriesAPreferredStockMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2020-08-04</xbrli:startDate>
+			<xbrli:endDate>2020-08-04</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context><xbrli:context id="D2020Q3Aug8_us-gaap_StatementClassOfStockAxis_us-gaap_CommonStockMember">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0001404912</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2020-08-04</xbrli:startDate>
+			<xbrli:endDate>2020-08-04</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context><xbrli:context id="D2020Q3Aug8">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0001404912</xbrli:identifier>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2020-08-04</xbrli:startDate>
+			<xbrli:endDate>2020-08-04</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context></ix:resources></ix:header></div><div><a id="s5C3A8321A6E555C2B5679A3C05F2B048"></a></div><div><div style="line-height:120%;-sec-extract:summary;font-size:10pt;"><span style="font-family:inherit;font-size:10pt;"><br/></span></div></div><div><br/></div><div style="line-height:120%;-sec-extract:summary;"><hr></hr></div><div style="line-height:120%;text-align:center;font-size:14pt;"><span style="font-family:inherit;font-size:10pt;">  <br/></span><span style="font-family:inherit;font-size:14pt;font-weight:bold;">UNITED STATES <br/>SECURITIES AND EXCHANGE COMMISSION</span><span style="font-family:inherit;font-size:10pt;"> <br/></span><span style="font-family:inherit;font-size:11pt;font-weight:bold;">Washington, DC 20549</span><span style="font-family:inherit;font-size:10pt;"> </span></div><div style="line-height:120%;text-align:center;font-size:12pt;"><span style="font-family:inherit;font-size:12pt;font-weight:bold;">______________</span></div><div style="line-height:120%;padding-bottom:16px;padding-top:16px;text-align:center;font-size:14pt;"><span style="font-family:inherit;font-size:14pt;font-weight:bold;">FORM </span><span><ix:nonNumeric id="d22362654e72-wk-Fact-16629734817959AFBAC903BF1192591A" name="dei:DocumentType" contextRef="D2020Q3Aug8"><span style="font-size:14pt;font-weight:bold;">8-K</span></ix:nonNumeric></span><span style="font-family:inherit;font-size:10pt;"> <br/></span><span style="font-family:inherit;font-size:14pt;font-weight:bold;"> CURRENT REPORT</span><span style="font-family:inherit;font-size:10pt;"> <br/></span><span style="font-family:inherit;font-size:11pt;font-weight:bold;">Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934</span></div><div style="line-height:120%;text-align:center;font-size:8pt;"><span style="font-family:inherit;font-size:8pt;font-style:italic;">Date of Report (Date of earliest event reported):  </span><span style="font-family:inherit;font-size:8pt;font-style:italic;"><span><span style="white-space:nowrap"><ix:nonNumeric id="d22362654e86-wk-Fact-ECD11D11019056F98713D861FC715EC4" name="dei:DocumentPeriodEndDate" contextRef="D2020Q3Aug8" format="ixt:datemonthdayyearen">August 4, 2020</ix:nonNumeric></span></span></span><span style="font-family:inherit;font-size:8pt;font-style:italic;"> </span></div><div style="line-height:120%;text-align:center;-sec-extract:summary;font-size:8pt;"><span style="font-family:inherit;font-size:8pt;"><br/></span></div><div style="line-height:120%;text-align:center;font-size:22pt;"><span><ix:nonNumeric id="d22362654e93-wk-Fact-79A078F801E55ADB9218CDCFBA956DA8" name="dei:EntityRegistrantName" contextRef="D2020Q3Aug8"><span style="font-size:22pt;font-weight:bold;">KKR &amp; CO. INC.</span></ix:nonNumeric></span><span style="font-family:inherit;font-size:22pt;font-weight:bold;"> </span></div><div style="line-height:120%;text-align:center;font-size:10pt;"><span style="font-family:inherit;font-size:10pt;"><br/></span><span style="font-family:inherit;font-size:8pt;font-style:italic;">(Exact name of registrant as specified in its charter)</span><div style="padding-left:0px;text-indent:0px;line-height:normal;padding-top:10px;"><table cellpadding="0" cellspacing="0" style="font-family:Times New Roman;font-size:10pt;margin-left:auto;margin-right:auto;width:97.6608187134503%;border-collapse:collapse;text-align:left;"><tr><td colspan="5"></td></tr><tr><td style="width:32%;"></td><td style="width:26%;"></td><td style="width:1%;"></td><td style="width:9%;"></td><td style="width:32%;"></td></tr><tr><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="text-align:center;font-size:10pt;"><span style="font-family:inherit;font-size:10pt;font-weight:bold;"><span><ix:nonNumeric id="d22362654e118-wk-Fact-477571B564BC536E82D0365D2995A214" name="dei:EntityIncorporationStateCountryCode" contextRef="D2020Q3Aug8" format="ixt-sec:stateprovnameen">Delaware</ix:nonNumeric></span></span></div></td><td colspan="3" style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="text-align:center;font-size:10pt;"><span style="font-family:inherit;font-size:10pt;font-weight:bold;"><span><ix:nonNumeric id="d22362654e123-wk-Fact-32AA97FCB06E58E5BA11F739DABF84D6" name="dei:EntityFileNumber" contextRef="D2020Q3Aug8">001-34820</ix:nonNumeric></span></span></div></td><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="text-align:center;font-size:10pt;"><span style="font-family:inherit;font-size:10pt;font-weight:bold;"><span><ix:nonNumeric id="d22362654e138-wk-Fact-E68451EE21335E54AD416BC3EFA9BDCD" name="dei:EntityTaxIdentificationNumber" contextRef="D2020Q3Aug8">26-0426107</ix:nonNumeric></span></span></div></td></tr><tr><td style="vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="text-align:center;font-size:8pt;"><span style="font-family:inherit;font-size:8pt;font-style:italic;">(State or other jurisdiction  <br/>of incorporation)</span></div></td><td colspan="3" style="vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="text-align:center;font-size:8pt;"><span style="font-family:inherit;font-size:8pt;font-style:italic;">&#160;(Commission  <br/>File Number)</span></div></td><td style="vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="text-align:center;font-size:8pt;"><span style="font-family:inherit;font-size:8pt;font-style:italic;">(IRS Employer  <br/>Identification No.)</span></div></td></tr><tr><td style="vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;"><div style="overflow:hidden;height:16px;font-size:10pt;"><span style="font-family:inherit;font-size:10pt;">&#160;</span></div></td><td style="vertical-align:bottom;padding-left:2px;padding-
