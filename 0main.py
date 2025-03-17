@@ -187,9 +187,10 @@ def get_sec_earn_dates(match_file):
         try:
             print("now getting 8k for "+symbol)
             dl.get("8-K", symbol)
-        except:
-            sec_no_data_list = sec_no_data_list+"\n"+symbol
-            write_txt_file(sec_no_data_file,sec_no_data_list)
+        except Exception as e:
+            print(f"Error Type: {type(e).__name__}")
+            #sec_no_data_list = sec_no_data_list+"\n"+symbol
+            #write_txt_file(sec_no_data_file,sec_no_data_list)
             continue
         try:
             earn_dates = os.listdir(stock_folder)
