@@ -172,12 +172,15 @@ def get_sec_earn_dates(match_file):
             #when this fails..then add it to the
             #sec_no_data list, now =9PM..i am go bed..
             number_of_dates = len(k8_date_list)
+            """
             if number_of_dates>25:
                 folder_delete = os.path.join(edgar_folder,stock)
                 print(number_of_dates,stock,"will delete = "+folder_delete)
                 shutil.rmtree(folder_delete) 
+            
             else: 
                 continue
+                """
         if "\n"+symbol in sec_no_data_list:
             continue
         index = stocks.index(val)
@@ -203,21 +206,20 @@ def get_sec_earn_dates(match_file):
         if check_stock==stock_stop_at:
             print("stopped at",stock_stop_at)
             sys.exit()
+        keep_years = ["-20-","-21-","-22-","-23-","-24-","-25-"]
         for b,date in enumerate(earn_dates):
             print(len(look_at),b,len(earn_dates))
         #print(earn_dates)
-            if "-25-" not in date:
-                if "-24-" not in date:
-                    if "-23-" not in date:
-                        if "-22-" not in date:
-                            if "-21-" not in date:
-                                if "-20-" not in date:
-                                    #print(a,len(look_at),b,len(earn_dates))
-                                    #print(date)
-                                    to_delete = os.path.join(stock_folder,date)
-                                    print(to_delete)
-                                    shutil.rmtree(to_delete)
-
+            match = 0
+            for year in keep_years:
+                if year in date:
+                    match = match+1
+            print("match",match)
+            if match==0:
+                to_delete = os.path.join(stock_folder,date)
+                print(to_delete)
+                shutil.rmtree(to_delete)
+            #continue
         earn_dates = os.listdir(stock_folder)
         for b,date in enumerate(earn_dates):
             print(len(look_at),b,len(earn_dates))
@@ -234,13 +236,13 @@ def get_sec_earn_dates(match_file):
                         print("count_earn_lower",count_earn_lower)
                         print("count_earn_upper",count_earn_upper)
                         print("count_earn_total",count_earn_total)
-                        
-                        if count_earn_total>10:
-                        #if "earn" in content or "Earn" in content:
-                            """
+                        #put earn count amount at top of text when redo it
+                        #might have to change this down to 2 or something..
+                        if count_earn_total>2:
+                        #might have to change this down to 2 or something..
+                            content = str(count_earn_total)+"\n"+content
                             with open(check_file, 'w') as file:
-                                file.write(content[0:3000])
-                                """
+                                file.write(content[0:20000])                        
                             continue
                 file.close()        
                 print("deleting= "+to_delete)
