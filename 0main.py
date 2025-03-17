@@ -160,56 +160,56 @@ def get_sec_earn_dates(match_file):
     dl = Downloader("MyCompanyName", "my.email@domain.com")
     print(edgar_stocks)
     stocks = csv_to_book(match_file)
-    sec_no_data_file = "0sec_no_data.txt"
-    sec_no_data_list = load_txt_file(sec_no_data_file)
+    sec_no_data_file = "0sec_no_data.csv"
+    sec_no_data_list = csv_to_book(sec_no_data_file)
     for val in stocks:
         check_stock = val["symbol"]
         stock = check_stock
         symbol = stock
+        match = 0
+        for item in sec_no_data_list:
+            check = item["sec_no_data"]
+            if check==symbol:
+                match=1
+                break
+        if match==1:
+            continue
         if check_stock in edgar_stocks:
             k8_folder = os.path.join(edgar_folder,stock,"8-K")    
             k8_date_list = os.listdir(k8_folder)
-            #when this fails..then add it to the
-            #sec_no_data list, now =9PM..i am go bed..
             number_of_dates = len(k8_date_list)
-            """
             if number_of_dates>25:
                 folder_delete = os.path.join(edgar_folder,stock)
                 print(number_of_dates,stock,"will delete = "+folder_delete)
                 shutil.rmtree(folder_delete) 
-            
-            else: 
-                continue
-                """
-        if "\n"+symbol in sec_no_data_list:
-            continue
         index = stocks.index(val)
         print(index,len(stocks),"stock = "+check_stock)
         stock_folder = os.path.join(edgar_folder,stock,"8-K")
         #print(stock_folder)
+        print("8k attempt for "+symbol)
         try:
-            print("now getting 8k for "+symbol)
             dl.get("8-K", symbol)
         except Exception as e:
             print(f"Error Type: {type(e).__name__}")
-            #sec_no_data_list = sec_no_data_list+"\n"+symbol
-            #write_txt_file(sec_no_data_file,sec_no_data_list)
+            no_data_add_to_sec = {}
+            no_data_add_to_sec["sec_no_data"]=symbol
+            sec_no_data_list.append(no_data_add_to_sec)
+            book_to_csv(sec_no_data_list,sec_no_data_file)
             continue
         try:
             earn_dates = os.listdir(stock_folder)
         except:
-            sec_no_data_list = sec_no_data_list+"\n"+symbol
-            write_txt_file(sec_no_data_file,sec_no_data_list)            
+            #sec_no_data_list = sec_no_data_list+"\n"+symbol
+            no_data_add_to_sec = {}
+            no_data_add_to_sec["sec_no_data"]=symbol
+            sec_no_data_list.append(no_data_add_to_sec)
+            book_to_csv(sec_no_data_list,sec_no_data_file)
+            #write_txt_file(sec_no_data_file,sec_no_data_list)            
             continue
         print(earn_dates) 
-        stock_stop_at = ""
-        if check_stock==stock_stop_at:
-            print("stopped at",stock_stop_at)
-            sys.exit()
         keep_years = ["-20-","-21-","-22-","-23-","-24-","-25-"]
         for b,date in enumerate(earn_dates):
             print(len(look_at),b,len(earn_dates))
-        #print(earn_dates)
             match = 0
             for year in keep_years:
                 if year in date:
@@ -219,7 +219,6 @@ def get_sec_earn_dates(match_file):
                 to_delete = os.path.join(stock_folder,date)
                 print(to_delete)
                 shutil.rmtree(to_delete)
-            #continue
         earn_dates = os.listdir(stock_folder)
         for b,date in enumerate(earn_dates):
             print(len(look_at),b,len(earn_dates))
@@ -247,11 +246,14 @@ def get_sec_earn_dates(match_file):
                 file.close()        
                 print("deleting= "+to_delete)
                 shutil.rmtree(to_delete)
-        #if "TSLA" == symbol:
-        #    sys.exit()
-                                    
-                            
-                   
+
+        earn_dates_check = os.listdir(stock_folder)
+        if earn_dates_check==0:                        
+            #redo..but then just do a search for 1 earn value..
+            meow="meow"
+
+
+
 def get_yahoo_history(upcoming_file):
     # Open the CSV file and load it as a dictionary
     with open(upcoming_file, 'r') as f:
