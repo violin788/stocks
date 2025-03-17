@@ -162,6 +162,7 @@ def get_sec_earn_dates(match_file):
     stocks = csv_to_book(match_file)
     sec_no_data_file = "0sec_no_data.csv"
     sec_no_data_list = csv_to_book(sec_no_data_file)
+    print(stocks)
     for val in stocks:
         check_stock = val["symbol"]
         stock = check_stock
@@ -181,7 +182,11 @@ def get_sec_earn_dates(match_file):
             if number_of_dates>25:
                 folder_delete = os.path.join(edgar_folder,stock)
                 print(number_of_dates,stock,"will delete = "+folder_delete)
-                shutil.rmtree(folder_delete) 
+                shutil.rmtree(folder_delete)
+            #will go to next stock because it is already there..
+            #will not have to overwrite..
+            else:
+                continue 
         index = stocks.index(val)
         print(index,len(stocks),"stock = "+check_stock)
         stock_folder = os.path.join(edgar_folder,stock,"8-K")
@@ -221,7 +226,7 @@ def get_sec_earn_dates(match_file):
                 shutil.rmtree(to_delete)
         earn_dates = os.listdir(stock_folder)
         for b,date in enumerate(earn_dates):
-            print(len(look_at),b,len(earn_dates))
+            #print(len(look_at),b,len(earn_dates))
             check_file = os.path.join(stock_folder,date,"full-submission.txt")
             print(check_file)
             with open(check_file, 'r') as file:
@@ -534,7 +539,7 @@ file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-05-01"
-list_length = 75
+list_length = 50
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
