@@ -1,6 +1,24 @@
 import subprocess
+from datetime import datetime
 # Example command to run in the terminal
 #command = "ls"  # List directory contents (replace with any terminal command)
+alter_files = []
+alter_files.append("0main.py")
+for specific in alter_files:
+    now = datetime.now()
+    time_new = now.strftime("%Y-%m-%d %H:%M:%S") 
+    with open(specific, "r") as file:
+        iden_start_time = "#last updated="
+        iden_end_time = "----------"
+        content = file.read()
+        start_old_time_string = content.find(iden_start_time)
+        end_old_time_string = content.find(iden_end_time,start_old_time_string)
+        old_time_string = content[start_old_time_string:end_old_time_string]
+        new_time_string = iden_start_time+str(time_new)+iden_end_time
+        content = content.replace(old_time_string,new_time_string)
+        with open(specific, "w") as file:
+            file.write(content)
+    print(specific,new_time_string)
 command = """
 git add .
 git commit -m "Updated files"
@@ -9,6 +27,8 @@ git push origin main
 result = subprocess.run(command, shell=True, text=True, capture_output=True)
 # Print the output of the command
 print(result.stdout)
+
+
 
 """
 import subprocess
