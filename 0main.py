@@ -182,6 +182,7 @@ def get_sec_earn_dates(match_file):
             if number_of_dates>30:
                 folder_delete = os.path.join(edgar_folder,stock)
                 print(number_of_dates,stock,"will delete = "+folder_delete)
+                print("number of dates = "+str(number_of_dates))
                 shutil.rmtree(folder_delete)
             #will go to next stock because it is already there..
             #will not have to overwrite..
@@ -242,12 +243,13 @@ def get_sec_earn_dates(match_file):
                         print("count_earn_total",count_earn_total)
                         #put earn count amount at top of text when redo it
                         #might have to change this down to 2 or something..
-                        if count_earn_total>2:
-                        #might have to change this down to 2 or something..
+                        if count_earn_total>2: 
+                            #might have to change this down to 2 or something..
                             content = str(count_earn_total)+"\n"+content
                             with open(check_file, 'w') as file:
                                 file.write(content[0:20000])                        
                             continue
+    
                 file.close()        
                 print("deleting= "+to_delete)
                 shutil.rmtree(to_delete)
@@ -536,8 +538,8 @@ match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
-finnhub_end = "2025-05-01"
-list_length = 100
+finnhub_end = "2025-03-24"
+list_length = 10
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -550,4 +552,4 @@ prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-18 17:42:12----------
+#last updated=2025-03-18 14:03:19----------
