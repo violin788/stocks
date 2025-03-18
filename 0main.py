@@ -488,6 +488,7 @@ def prices_around_earnings(match_file,required_ratio):
             print("specific",specific)
             new["vol*pri"]=int(float(specific["vol*pri"]))
             new["name"]=name
+            new["date"]=specific["date"]
             final_cr2.append(new)
         #abort, leave =="" if you just want it to run
         if symbol=="":
@@ -552,4 +553,4 @@ prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-18 14:04:41----------
+#last updated=2025-03-18 14:27:44----------

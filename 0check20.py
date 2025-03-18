@@ -7,6 +7,7 @@ zero = []
 under = []
 twenty = []
 over_20 = []
+over_30 = []
 for stock in stock_list:
     k8_directory = os.path.join(edgar_folder,stock,"8-K")
     try:
@@ -20,19 +21,21 @@ for stock in stock_list:
     data["k8_count"]=k8_count
     if k8_count==0:
         zero.append(data)    
-    if k8_count==20:
-        twenty.append(data)
     if k8_count>0 and k8_count<20:
         under.append(data)
-    if k8_count>20:
+    if k8_count==20:
+        twenty.append(data)
+    if k8_count>20 and k8_count<30:
         over_20.append(data)
-    #print(stock,k8_count)
-    #print("under")
+    if k8_count>=30:
+        over_30.append(data)
+    
 amounts = {}
 amounts["zero"]=zero
 amounts["under"]=under
 amounts["twenty"]=twenty
 amounts["over_20"]=over_20
+amounts["over_30"]=over_30
 for key,data  in amounts.items():
     print(key)
     for item in data:

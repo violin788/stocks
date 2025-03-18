@@ -1,0 +1,108 @@
+22
+<SEC-DOCUMENT>0000950170-23-048991.txt : 20230920
+<SEC-HEADER>0000950170-23-048991.hdr.sgml : 20230920
+<ACCEPTANCE-DATETIME>20230920161010
+ACCESSION NUMBER:		0000950170-23-048991
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20230920
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20230920
+DATE AS OF CHANGE:		20230920
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			FEDEX CORP
+		CENTRAL INDEX KEY:			0001048911
+		STANDARD INDUSTRIAL CLASSIFICATION:	AIR COURIER SERVICES [4513]
+		IRS NUMBER:				621721435
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0531
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-15829
+		FILM NUMBER:		231266608
+
+	BUSINESS ADDRESS:	
+		STREET 1:		942 SOUTH SHADY GROVE ROAD
+		CITY:			MEMPHIS
+		STATE:			TN
+		ZIP:			38120-
+		BUSINESS PHONE:		9018187500
+
+	MAIL ADDRESS:	
+		STREET 1:		942 SOUTH SHADY GROVE ROAD
+		CITY:			MEMPHIS
+		STATE:			TN
+		ZIP:			38120-
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	FDX CORP
+		DATE OF NAME CHANGE:	19971103
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>fdx-20230920.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="ASCII"?><!-- DFIN New ActiveDisclosure (SM) Inline XBRL Document - http://www.dfinsolutions.com/ --><!-- Creation Date :2023-09-20T08:41:04.4670+00:00 --><!-- Copyright (c) 2023 Donnelly Financial Solutions, Inc. All Rights Reserved. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:nonNumeric="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:fdx="http://www.fedex.com/20230920" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2022-02-16" xmlns:utr="http://www.xbrl.org/2009/utr">
+ <head>
+  <title>8-K</title>
+  <meta http-equiv="Content-Type" content="text/html" />
+ </head>
+ <body style="margin: auto!important;padding: 8px;">
+  <div style="display:none;"><ix:header><ix:hidden><ix:nonNumeric id="F_927d6ffa-76eb-426b-83d4-f545e884dd47" name="dei:EntityCentralIndexKey" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2">0001048911</ix:nonNumeric><ix:nonNumeric id="F_6a9ac2ce-da6a-4ba4-b7f0-a19d068bfd54" name="dei:AmendmentFlag" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2">false</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:type="simple" xlink:href="fdx-20230920.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="C_44be766e-1361-4bda-bd20-c2a3bcb1802a"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">fdx:ZeroPointFourFiveZeroPercentageNotesDueTwoThousandTwentyFiveMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="C_113b9afa-5747-4945-a4eb-1f8104e14ab2"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">fdx:OnePointThreeZeroZeroPercentageNotesDueTwoThousandThirtyOneMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="C_58c7dc58-8440-430c-8cdc-5414098f6d36"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">fdx:ZeroPointNineFiveZeroPercentageNotesDueTwoThousandThirtyThreeMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="C_30b3760c-8399-4871-9057-5b6c4d97e3d0"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">fdx:CommonStockParValueZeroPointOneZeroPerShareMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="C_8f1b5bcc-3f48-43f2-80ce-5fdcd7380d14"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">fdx:OnePointSixTwoFivePercentageNotesDueTwoThousandTwentySevenMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="C_5e5361ed-6c91-454e-bd4f-c26736b9a7a8"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001048911</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">fdx:ZeroPointFourFiveZeroPercentageNotesDueTwoThousandTwentyNineMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2023-09-20</xbrli:startDate><xbrli:endDate>2023-09-20</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:11pt;font-family:'Calibri',sans-serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;padding-bottom:1pt;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:2.25pt double;text-align:left;"><span style="white-space:pre-wrap;font-size:2pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:16pt;font-family:'Times New Roman',serif;min-width:fit-content;">UNITED STATES</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:16pt;font-family:'Times New Roman',serif;min-width:fit-content;">SECURITIES AND EXCHANGE COMMISSION</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:16pt;font-family:'Times New Roman',serif;min-width:fit-content;">Washington, D.C. 20549</span></p>
+  <p style="margin-left:35.187%;text-indent:0;padding-bottom:1pt;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:0.5pt solid;margin-right:35.185%;text-align:center;"><span style="white-space:pre-wrap;font-size:6pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:14pt;font-family:'Times New Roman',serif;min-width:fit-content;">FORM </span><span style="font-size:14pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_5b15bbc7-dd89-4af6-a497-0450d1829d07" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:DocumentType"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:14pt;font-family:'Times New Roman',serif;min-width:fit-content;">8-K</span></ix:nonNumeric></span></p>
+  <p style="margin-left:35.187%;text-indent:0;padding-bottom:1pt;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:0.5pt solid;margin-right:35.185%;text-align:center;"><span style="white-space:pre-wrap;font-size:6pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">CURRENT REPORT</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">Pursuant to Section 13 or 15(d) of</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">the Securities Exchange Act of 1934</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;font-size:6pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">Date of Report (Date of earliest event reported):  </span><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_d3add4ef-c7f8-4787-9616-4af4a69edd46" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:DocumentPeriodEndDate" format="ixt:date-monthname-day-year-en"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">September 20, 2023</span></ix:nonNumeric></span></p>
+  <p style="margin-left:35.187%;text-indent:0;padding-bottom:1pt;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:0.5pt solid;margin-right:35.185%;text-align:center;"><span style="white-space:pre-wrap;font-size:6pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="font-size:22pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_0b3e66e5-1ef1-4e63-9b73-4e6d1eab7891" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:EntityRegistrantName"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:22pt;font-family:'Times New Roman',serif;min-width:fit-content;">FedEx Corporation</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">(Exact name of registrant as specified in its charter)</span></p>
+  <p style="margin-left:35.187%;text-indent:0;padding-bottom:1pt;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:0.5pt solid;margin-right:35.185%;text-align:center;"><span style="white-space:pre-wrap;font-size:6pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:6pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">Commission File Number </span><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_6ab5110a-ddcf-42ec-9d00-4b0f40f100b6" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:EntityFileNumber"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">1-15829</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:6pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p>
+  <table style="margin-left:auto;border-spacing:0;table-layout:fixed;width:100.0%;border-collapse:separate;margin-right:auto;">
+   <tr style="visibility:collapse;">
+    <td style="width:51%;"></td>
+    <td style="width:1.24%;"></td>
+    <td style="width:47.76%;"></td>
+   </tr>
+   <tr style="height:10pt;">
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_d1873776-318f-4ff8-ba70-0b8e4bc116f2" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:EntityIncorporationStateCountryCode" format="ixt-sec:stateprovnameen"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">Delaware</span></ix:nonNumeric></span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_ae27708d-3b02-482c-887c-4acd14ece88a" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:EntityTaxIdentificationNumber"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">62-1721435</span></ix:nonNumeric></span></p></td>
+   </tr>
+   <tr style="height:8pt;">
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:8pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:8pt;font-family:'Times New Roman',serif;min-width:fit-content;">(State or other jurisdiction of</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;"><p style="text-indent:0;font-size:8pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:8pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:8pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:8pt;font-family:'Times New Roman',serif;min-width:fit-content;">(IRS Employer</span></p></td>
+   </tr>
+   <tr style="height:8pt;">
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:8pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:8pt;font-family:'Times New Roman',serif;min-width:fit-content;">incorporation)</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;"><p style="text-indent:0;font-size:8pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:8pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:8pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:8pt;font-family:'Times New Roman',serif;min-width:fit-content;">Identification No.)</span></p></td>
+   </tr>
+   <tr>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p></td>
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">&#160;</span></p></td>
+   </tr>
+   <tr style="height:10pt;">
+    <td style="word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_be684c08-f54e-45ef-913b-e2d356a57a96" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:EntityAddressAddressLine1"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">942 South Shady Grove Road</span></ix:nonNumeric></span><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">, </span><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_71397702-01e6-45e7-a34b-1067150346f7" contextRef="C_2269cd7c-0a37-41dc-8140-d0b1b1938cc2" name="dei:EntityAddressCityOrTown"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">Memphis</span></ix:nonNumeric></span><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:10pt;font-family:'Times New Roman',serif;min-width:fit-content;">, </span><span style="font-size:10pt;font-family:'Times New Roman',serif;"><ix:nonNumeric id="F_9726cde6-f695-4caa-b64f-a1c87389b35d" co
