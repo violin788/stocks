@@ -11,9 +11,9 @@ for specific in alter_files:
         iden_end_time = "----------"
         content = file.read()
         start_old_time_string = content.find(iden_start_time)
-        end_old_time_string = content.find(iden_end_time,start_old_time_string)
+        end_old_time_string = content.find(iden_end_time)
         old_time_string = content[start_old_time_string:end_old_time_string]
-        new_time_string = iden_start_time+str(time_new)+iden_end_time
+        new_time_string = iden_start_time+str(time_new)
         content = content.replace(old_time_string,new_time_string)
         with open(specific, "w") as file:
             file.write(content)
