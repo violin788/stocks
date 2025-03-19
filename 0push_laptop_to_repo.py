@@ -45,6 +45,13 @@ def update_github_repo(repo_path, commit_message):
     push_command = f"git push https://{github_username}:{github_token}@github.com/{github_username}/"+repo_name+".git main"
     subprocess.run(push_command, cwd=repo_path, shell=True, check=True)
     print("Changes pushed to GitHub successfully.")
-commit_message = "updated from laptop to repo"
+
+command = f"""
+git add .
+git commit -m "updated: {time_new}"
+git push origin main
+"""
+
+commit_message = "updated: "+str(time_new)
 update_github_repo(repo_path, commit_message)
 

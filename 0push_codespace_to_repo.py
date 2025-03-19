@@ -19,9 +19,9 @@ for specific in alter_files:
             file.write(content)
     print(specific,new_time_string)
 
-command = """
+command = f"""
 git add .
-git commit -m "updated from codespace"
+git commit -m "updated: {time_new}"
 git push origin main
 """
 result = subprocess.run(command, shell=True, text=True, capture_output=True)

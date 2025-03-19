@@ -191,6 +191,7 @@ def get_sec_earn_dates(match_file):
         stock_folder = os.path.join(edgar_folder,stock,"8-K")
         #print(stock_folder)
         print("8k attempt for "+symbol)
+        print("upload_counter="+str(upload_counter))
         try:
             dl.get("8-K", symbol)
         except Exception as e:
@@ -257,7 +258,7 @@ def get_sec_earn_dates(match_file):
             #redo..but then just do a search for 1 earn value..
             meow="meow"
         upload_counter+=1
-        if value % 10 == 0:
+        if upload_counter % 10 == 0:
             if iden_codespace in laptop_or_codespace:
                 subprocess.run(['python', '0push_codespace_to_repo.py'])
             if iden_laptop in laptop_or_codespace:    
@@ -581,4 +582,4 @@ prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 18:25:17----------
+#last updated=2025-03-19 18:37:16----------
