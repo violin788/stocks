@@ -1,0 +1,12 @@
+{'Date': '20230118', 'Open': '1.2', 'High': '1.2', 'Low': '1.02', 'Close': '1.03', 'Volume': '10700'}
+{'Date': '20230119', 'Open': '1.08', 'High': '1.08', 'Low': '1.02', 'Close': '1.08', 'Volume': '26200'}
+{'Date': '20230120', 'Open': '1.1', 'High': '1.16', 'Low': '0.99', 'Close': '1.09', 'Volume': '84400'}
+{'close': 1.08, 'open': 1.1, 'gap': 1.85, 'same': 1.16, 'oppo': 0.99}
+{'percent_continue': 5.45, 'percent_reverse': 10.0}
+R
+close_move = -0.91
+
+{'Date': '20230314', 'Open': '0.9', 'High': '0.92', 'Low': '0.89', 'Close': '0.89', 'Volume': '3100'}
+{'Date': '20230315', 'Open': '0.84', 'High': '0.89', 'Low': '0.8', 'Close': '0.8', 'Volume': '62800'}
+{'Date': '20230316', 'Open': '0.8', 'High': '0.87', 'Low': '0.61', 'Close': '0.67', 'Volume': '244600'}
+{'close': 0.8, 'open': 0.8, 'gap': 0.0, 'same': '', 'oppo': ''}

@@ -174,21 +174,6 @@ def get_sec_earn_dates(match_file):
                 break
         if match==1:
             continue
-        remaining.append(val)
-
-
-    for val in stocks:
-        check_stock = val["symbol"]
-        stock = check_stock
-        symbol = stock
-        match = 0
-        for item in sec_no_data_list:
-            check = item["sec_no_data"]
-            if check==symbol:
-                match=1
-                break
-        if match==1:
-            continue
         if check_stock in edgar_stocks:
             k8_folder = os.path.join(edgar_folder,stock,"8-K")    
             k8_date_list = os.listdir(k8_folder)
@@ -202,8 +187,16 @@ def get_sec_earn_dates(match_file):
             #will not have to overwrite..
             else:
                 continue 
-        index = stocks.index(val)
-        print(index,len(stocks),"stock = "+check_stock)
+        remaining.append(val)
+    print(len(stocks))
+    print(len(remaining))
+    #sys.exit()
+    for val in remaining:
+        check_stock = val["symbol"]
+        stock = check_stock
+        symbol = stock
+        index = remaining.index(val)
+        print(index,len(remaining),"stock = "+check_stock)
         stock_folder = os.path.join(edgar_folder,stock,"8-K")
         #print(stock_folder)
         print("8k attempt for "+symbol)
@@ -611,7 +604,7 @@ folder_analysis = "data_around_earnings"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-06-17"
-list_length = 150
+list_length = 200
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -624,4 +617,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 21:52:57----------
+#last updated=2025-03-19 22:00:11----------
