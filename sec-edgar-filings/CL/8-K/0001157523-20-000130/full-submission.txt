@@ -1,0 +1,266 @@
+18
+<SEC-DOCUMENT>0001157523-20-000130.txt : 20200131
+<SEC-HEADER>0001157523-20-000130.hdr.sgml : 20200131
+<ACCEPTANCE-DATETIME>20200131080048
+ACCESSION NUMBER:		0001157523-20-000130
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20200131
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20200131
+DATE AS OF CHANGE:		20200131
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			COLGATE PALMOLIVE CO
+		CENTRAL INDEX KEY:			0000021665
+		STANDARD INDUSTRIAL CLASSIFICATION:	PERFUMES, COSMETICS & OTHER TOILET PREPARATIONS [2844]
+		IRS NUMBER:				131815595
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-00644
+		FILM NUMBER:		20563354
+
+	BUSINESS ADDRESS:	
+		STREET 1:		300 PARK AVE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10022
+		BUSINESS PHONE:		2123102000
+
+	MAIL ADDRESS:	
+		STREET 1:		300 PARK AVE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10022
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>a52166394.htm
+<DESCRIPTION>COLGATE-PALMOLIVE COMPANY 8-K
+<TEXT>
+<XBRL>
+<html xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:us-gaap="http://fasb.org/us-gaap/2019-01-31" xmlns:dei="http://xbrl.sec.gov/dei/2019-01-31" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:country="http://xbrl.sec.gov/country/2017-01-31" xmlns:currency="http://xbrl.sec.gov/currency/2019-01-31" xmlns:naics="http://xbrl.sec.gov/naics/2017-01-31" xmlns:sic="http://xbrl.sec.gov/sic/2011-01-31" xmlns:stpr="http://xbrl.sec.gov/stpr/2018-01-31" xmlns:exch="http://xbrl.sec.gov/exch/2019-01-31" xmlns:srt="http://fasb.org/srt/2019-01-31" xmlns:cl="http://colgatepalmolive.com/20200131" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <title></title>
+
+
+  <meta http-equiv="Content-Type" content="text/html" />
+</head>
+<body style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000; background-color: #ffffff;">
+<div id="DSPFiXBRLHidden" style="display: none;"><ix:header><ix:hidden><ix:nonNumeric name="dei:AmendmentFlag" id="Fact_6b52f0707a2d41cabb27f60cf111b30d" contextRef="c20200131to20200131" format="ixt:booleanfalse">false</ix:nonNumeric><ix:nonNumeric name="dei:EntityCentralIndexKey" id="Fact_2928df688f444504b324ad5de765f3eb" contextRef="c20200131to20200131">0000021665</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:href="cl-20200131.xsd" xlink:type="simple"></link:schemaRef></ix:references><ix:resources><xbrli:context id="c20200131to20200131"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000021665</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-31</xbrli:startDate><xbrli:endDate>2020-01-31</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200131to20200131_StatementClassOfStockAxis_Zero000NotesDue2021Member"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000021665</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cl:Zero000NotesDue2021Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-31</xbrli:startDate><xbrli:endDate>2020-01-31</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200131to20200131_StatementClassOfStockAxis_Zero500NotesDue2026Member"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000021665</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cl:Zero500NotesDue2026Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-31</xbrli:startDate><xbrli:endDate>2020-01-31</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200131to20200131_StatementClassOfStockAxis_Zero875NotesDue2039Member"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000021665</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cl:Zero875NotesDue2039Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-31</xbrli:startDate><xbrli:endDate>2020-01-31</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200131to20200131_StatementClassOfStockAxis_One375NotesDue2034Member"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000021665</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cl:One375NotesDue2034Member</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-31</xbrli:startDate><xbrli:endDate>2020-01-31</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200131to20200131_StatementClassOfStockAxis_CommonStock100ParValueMember"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000021665</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">cl:CommonStock100ParValueMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-31</xbrli:startDate><xbrli:endDate>2020-01-31</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div>
+
+  <div>
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold;">UNITED STATES</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold;">SECURITIES AND EXCHANGE COMMISSION</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">WASHINGTON, DC&#160; 20549</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">________________</div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold;">FORM <ix:nonNumeric name="dei:DocumentType" id="Fact_614a39a2291641cf8c3ea7097e6fd0a2" contextRef="c20200131to20200131">8-K</ix:nonNumeric></div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">CURRENT REPORT</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Pursuant to Section 13 or 15(d) of the</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Securities Exchange Act of 1934</div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">Date of Report (Date of earliest event reported) <ix:nonNumeric name="dei:DocumentPeriodEndDate" id="Fact_efe2c9c3999345e2897520066ca30b60" contextRef="c20200131to20200131" format="ixt:datemonthdayyearen">January 31, 2020</ix:nonNumeric></div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold;"><ix:nonNumeric name="dei:EntityRegistrantName" id="Fact_585b361367864c89b4373d63c667a238" contextRef="c20200131to20200131">COLGATE PALMOLIVE COMPANY</ix:nonNumeric><br />
+    </div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">&#160;(Exact name of registrant as specified in its charter)</div>
+
+    <div><br />
+    </div>
+
+    <div>
+      <table cellspacing="0" cellpadding="0" border="0" id="zbb30e260c9af4263a73ce9c5baf3550b" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; color: #000000; width: 100%;">
+
+
+  <tr>
+
+    <td style="width: 33.33%; text-align: center;"><ix:nonNumeric name="dei:EntityIncorporationStateCountryCode" id="Fact_cab272cdc37c45d9b19c1009e00ae120" contextRef="c20200131to20200131" format="ixt-sec:stateprovnameen">Delaware</ix:nonNumeric><br />
+            </td>
+
+    <td style="width: 33.33%; text-align: center;"><ix:nonNumeric name="dei:EntityFileNumber" id="Fact_cafe8c6a18dd4e908148de11cb2d2ae3" contextRef="c20200131to20200131">1-644</ix:nonNumeric><br />
+            </td>
+
+    <td style="width: 33.33%; text-align: center;"><ix:nonNumeric name="dei:EntityTaxIdentificationNumber" id="Fact_423fdfd2c3864ebca40694d526dc5cf5" contextRef="c20200131to20200131">13-1815595</ix:nonNumeric><br />
+            </td>
+
+  </tr>
+
+  <tr>
+
+    <td style="width: 33.33%; text-align: center;">
+              <div><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">(State or Other Jurisdiction</span></div>
+              <div><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">of Incorporation)</span></div>
+            </td>
+
+    <td style="width: 33.33%; text-align: center;">
+              <div><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">(Commission</span></span><br />
+                <span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">File Number)</span></span></div>
+            </td>
+
+    <td style="width: 33.33%; text-align: center;">
+              <div><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">(IRS Employer</span></div>
+              <div><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">Identification No.)</span></div>
+            </td>
+
+  </tr>
+
+
+</table>
+    </div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: left;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;"><span style="text-decoration: underline;"> </span></span>
+      <table cellspacing="0" cellpadding="0" border="0" id="z0842fa89b8784b1f82dc4d61f396f106" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; color: #000000; width: 100%;">
+
+
+  <tr>
+
+    <td style="width: 50%; text-align: center;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;"><span style="text-decoration: underline;"><ix:nonNumeric name="dei:EntityAddressAddressLine1" id="Fact_002bb3dcfb754fa0b9930234b3ba9077" contextRef="c20200131to20200131">300 Park Avenue</ix:nonNumeric>,
+                  <ix:nonNumeric name="dei:EntityAddressCityOrTown" id="Fact_4a509ab65b74488985ddfd176c4a8e76" contextRef="c20200131to20200131">New York</ix:nonNumeric>, <ix:nonNumeric name="dei:EntityAddressStateOrProvince" id="Fact_6aa90e5c9ae94589a297d873f532ad27" contextRef="c20200131to20200131" format="ixt-sec:stateprovnameen">New York</ix:nonNumeric></span></span></td>
+
+    <td style="width: 50%; text-align: center;"><ix:nonNumeric name="dei:EntityAddressPostalZipCode" id="Fact_e5872e5201b749238fdce9d3d40398dc" contextRef="c20200131to20200131">10022</ix:nonNumeric><br />
+            </td>
+
+  </tr>
+
+  <tr>
+
+    <td style="width: 50%; text-align: center;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">(Address of Principal Executive Offices)</span></td>
+
+    <td style="width: 50%; text-align: center;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;">(Zip Code)</span></td>
+
+  </tr>
+
+
+</table>
+    </div>
+
+    <div style="text-align: left;"><span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;"><span style="text-decoration: underline;"> <br />
+        </span></span></div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 10pt;">Registrant&#8217;s telephone number, including area code <span style="font-size: 10pt; font-family: 'Times New Roman',Times,serif;"><span style="text-decoration: underline;">(<ix:nonNumeric name="dei:CityAreaCode" id="Fact_ab8b4d0122a944fdb3ad02f815a76fa5" contextRef="c20200131to20200131">212</ix:nonNumeric>) <ix:nonNumeric name="dei:LocalPhoneNumber" id="Fact_0849b45a088c44c3aa9407b0dc1790b0" contextRef="c20200131to20200131">310-2000</ix:nonNumeric></span></span></div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: justify; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the
+      following provisions (<span style="font-size: 10pt; font-family: 'Times New Roman', Times, serif; font-style: italic;">see </span>General Instruction A.2. below):</div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: justify; text-indent: 18pt;"><ix:nonNumeric name="dei:WrittenCommunications" id="Fact_2d39df881df047ba836e698ec79f57f9" contextRef="c20200131to20200131" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric><span style="text-indent: 0px; font-size: 6pt;">&#160;&#160;&#160; </span><span style="font-size: 10pt; font-family: 'Times New Roman', Times, serif;">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: justify; text-indent: 18pt;"><ix:nonNumeric name="dei:SolicitingMaterial" id="Fact_3ec38cd818284e71a23c12e4dc686755" contextRef="c20200131to20200131" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric><span style="text-indent: 0px; font-size: 6pt;">&#160;&#160;&#160; </span><span style="font-size: 10pt; font-family: 'Times New Roman', Times, serif;">Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: justify; text-indent: 18pt;"><ix:nonNumeric name="dei:PreCommencementTenderOffer" id="Fact_b4d15fbabcdc417594e7f2091ab0215d" contextRef="c20200131to20200131" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric><span style="text-indent: 0px; font-size: 6pt;">&#160;&#160;&#160; </span><span style="font-size: 10pt; font-family: 'Times New Roman', Times, serif;">Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: justify; text-indent: 18pt;"><ix:nonNumeric name="dei:PreCommencementIssuerTenderOffer" id="Fact_b7b32dcbf41343809e82de5d3e88d7e3" contextRef="c20200131to20200131" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric><span style="text-indent: 0px; font-size: 6pt;">&#160;&#160;&#160; </span><span style="font-size: 10pt; font-family: 'Times New Roman', Times, serif;">Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></div>
+
+    <div><br />
+    </div>
+
+    <div style="background-color: #FFFFFF;">
+      <div>
+        <div>
+          <div> Securities registered pursuant to Section 12(b) of the Act:</div>
+
+          <div> <br />
+          </div>
+
+          <table cellspacing="0" cellpadding="0" border="0" id="zc18b762928864317aa8b8cba817ac4aa" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; margin-left: auto; margin-right: auto;">
+
+
+  <tr>
+
+    <td style="width: 32%; text-align: center; font-weight: normal; border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(0, 0, 0); border-top: 2px solid rgb(0, 0, 0); vertical-align: top;">Title of each class<br />
+                </td>
+
+    <td colspan="1" style="width: 2%; text-align: center; font-weight: normal; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); border-top: 2px solid rgb(0, 0, 0); vertical-align: top;">&#160;</td>
+
+    <td style="width: 32%; text-align: center; font-weight: normal; border-bottom: 2px solid rgb(0, 0, 0); border-top: 2px solid rgb(0, 0, 0); vertical-align: top;">Trading Symbol(s)<br />
+                </td>
+
+    <td colspan="1" style="width: 2%; text-align: center; font-weight: normal; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); border-top: 2px solid rgb(0, 0, 0); vertical-align: bottom;">&#160;</td>
+
+    <td style="width: 32%; text-align: center; font-weight: normal; border-bottom: 2px solid rgb(0, 0, 0); border-top: 2px solid rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); vertical-align: bottom;">
+                  <div>Name of each exchange on which</div>
+                  <div>registered<br />
+                  </div>
+                </td>
+
+  </tr>
+
+  <tr>
+
+    <td style="width: 32%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); text-align: center;"><ix:nonNumeric name="dei:Security12bTitle" id="Fact_d2e9f42a06cc4c718d981a10c1eeaf44" contextRef="c20200131to20200131_StatementClassOfStockAxis_CommonStock100ParValueMember">Common Stock, $1.00 par value</ix:nonNumeric><br />
+                </td>
+
+    <td colspan="1" style="width: 2%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0);">&#160;</td>
+
+    <td style="width: 32%; border-bottom: 2px solid rgb(0, 0, 0); text-align: center;"> <ix:nonNumeric name="dei:TradingSymbol" id="Fact_da6cbb19310a42af9ab4e483012bf65a" contextRef="c20200131to20200131_StatementClassOfStockAxis_CommonStock100ParValueMember">CL</ix:nonNumeric><br />
+                </td>
+
+    <td colspan="1" style="width: 2%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0);">&#160;</td>
+
+    <td style="width: 32%; border-bottom: 2px solid rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); text-align: center;"><ix:nonNumeric name="dei:SecurityExchangeName" id="Fact_49c12a6f0b5c4145b3ed0022c5dc3922" contextRef="c20200131to20200131_StatementClassOfStockAxis_CommonStock100ParValueMember" format="ixt-sec:exchnameen">New York Stock Exchange</ix:nonNumeric><br />
+                </td>
+
+  </tr>
+
+  <tr>
+
+    <td rowspan="1" style="width: 32%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); text-align: center;"><ix:nonNumeric name="dei:Security12bTitle" id="Fact_555727fad83748a68f7483e84fb669ae" contextRef="c20200131to20200131_StatementClassOfStockAxis_Zero000NotesDue2021Member">0.000% Notes due 2021</ix:nonNumeric><br />
+                </td>
+
+    <td rowspan="1" colspan="1" style="width: 2%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0);">&#160;</td>
+
+    <td rowspan="1" style="width: 32%; border-bottom: 2px solid rgb(0, 0, 0); text-align: center;"><ix:nonNumeric name="dei:TradingSymbol" id="Fact_4d580eb5606247babf6450d1479f7611" contextRef="c20200131to20200131_StatementClassOfStockAxis_Zero000NotesDue2021Member">CL 21A</ix:nonNumeric><br />
+                </td>
+
+    <td rowspan="1" colspan="1" style="width: 2%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0);">&#160;</td>
+
+    <td rowspan="1" style="width: 32%; border-bottom: 2px solid rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); text-align: center;"><ix:nonNumeric name="dei:SecurityExchangeName" id="Fact_bdeb3a11a94946f893d1b921797072a1" contextRef="c20200131to20200131_StatementClassOfStockAxis_Zero000NotesDue2021Member" format="ixt-sec:exchnameen">New York Stock Exchange</ix:nonNumeric><br />
+                </td>
+
+  </tr>
+
+  <tr>
+
+    <td rowspan="1" style="width: 32%; border-left: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); text-align: center;"><ix:nonNumeric name="dei:Security12bTitle" id="Fact_0798247589704fd384319e4643e7e2e0" contextRef="c20200131to20200131_StatementClassOfStockAxis_Zero500N

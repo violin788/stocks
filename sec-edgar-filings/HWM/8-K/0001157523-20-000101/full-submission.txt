@@ -1,0 +1,307 @@
+17
+<SEC-DOCUMENT>0001157523-20-000101.txt : 20200127
+<SEC-HEADER>0001157523-20-000101.hdr.sgml : 20200127
+<ACCEPTANCE-DATETIME>20200127065541
+ACCESSION NUMBER:		0001157523-20-000101
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20200127
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20200127
+DATE AS OF CHANGE:		20200127
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Arconic Inc.
+		CENTRAL INDEX KEY:			0000004281
+		STANDARD INDUSTRIAL CLASSIFICATION:	ROLLING DRAWING & EXTRUDING OF NONFERROUS METALS [3350]
+		IRS NUMBER:				250317820
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-03610
+		FILM NUMBER:		20547072
+
+	BUSINESS ADDRESS:	
+		STREET 1:		201 ISABELLA STREET
+		STREET 2:		SUITE 200
+		CITY:			PITTSBURGH
+		STATE:			PA
+		ZIP:			15212-5872
+		BUSINESS PHONE:		(412) 553-1940
+
+	MAIL ADDRESS:	
+		STREET 1:		390 PARK AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10022-4608
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ALCOA INC.
+		DATE OF NAME CHANGE:	20141003
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ALCOA INC
+		DATE OF NAME CHANGE:	19990105
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	ALUMINUM CO OF AMERICA
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>a52163858.htm
+<DESCRIPTION>ARCONIC INC. 8-K
+<TEXT>
+<XBRL>
+<html xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:us-gaap="http://fasb.org/us-gaap/2019-01-31" xmlns:dei="http://xbrl.sec.gov/dei/2019-01-31" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:country="http://xbrl.sec.gov/country/2017-01-31" xmlns:currency="http://xbrl.sec.gov/currency/2019-01-31" xmlns:naics="http://xbrl.sec.gov/naics/2017-01-31" xmlns:sic="http://xbrl.sec.gov/sic/2011-01-31" xmlns:stpr="http://xbrl.sec.gov/stpr/2018-01-31" xmlns:exch="http://xbrl.sec.gov/exch/2019-01-31" xmlns:srt="http://fasb.org/srt/2019-01-31" xmlns:arnc="http://arconic.com/20200127" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <title></title>
+
+
+  <meta http-equiv="Content-Type" content="text/html" />
+</head>
+<body style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000; background-color: #ffffff;">
+<div id="DSPFiXBRLHidden" style="display: none;"><ix:header><ix:hidden><ix:nonNumeric name="dei:AmendmentFlag" id="Fact_dcfd2963934449ffaf21722c4ce65f4f" contextRef="c20200127to20200127" format="ixt:booleanfalse">false</ix:nonNumeric><ix:nonNumeric name="dei:EntityCentralIndexKey" id="Fact_36383e5869414404a9942330ad2a789f" contextRef="c20200127to20200127">0000004281</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:href="arnc-20200127.xsd" xlink:type="simple"></link:schemaRef></ix:references><ix:resources><xbrli:context id="c20200127to20200127"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000004281</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-27</xbrli:startDate><xbrli:endDate>2020-01-27</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200127to20200127_EntityListingsExchangeAxis_NYSEAmericanLLCMember_StatementClassOfStockAxis_PreferredClassAMember"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000004281</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:PreferredClassAMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">arnc:NYSEAmericanLLCMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-27</xbrli:startDate><xbrli:endDate>2020-01-27</xbrli:endDate></xbrli:period></xbrli:context><xbrli:context id="c20200127to20200127_EntityListingsExchangeAxis_NewYorkStockExchangeMember_StatementClassOfStockAxis_CommonStockMember"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0000004281</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember><xbrldi:explicitMember dimension="dei:EntityListingsExchangeAxis">arnc:NewYorkStockExchangeMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2020-01-27</xbrli:startDate><xbrli:endDate>2020-01-27</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div>
+
+  <div>
+    <div>
+      <div style="text-align: left; font-family: 'Times New Roman', serif; font-size: 1pt;">&#160;</div>
+
+    </div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">
+      <hr style="height: 2px; color: #000000; background-color: #000000; text-align: center; border: none; margin-left: auto; margin-right: auto;" /><span style="background-color: rgb(255, 255, 255); font-weight: bold; color: rgb(0, 0, 0); font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-style: normal; font-variant: normal; text-transform: none;">UNITED STATES</span></div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">SECURITIES AND
+      EXCHANGE COMMISSION</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Washington, D. C. 20549</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">
+      <hr style="height: 2px; color: #000000; background-color: #000000; text-align: center; border: none; margin-left: auto; margin-right: auto;" />&#160;</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;">FORM <ix:nonNumeric name="dei:DocumentType" id="Fact_ade7955f3bc14254bd0227a4c90f7565" contextRef="c20200127to20200127">8-K</ix:nonNumeric></div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">&#160;</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">CURRENT REPORT</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">PURSUANT TO SECTION&#160;13 OR 15(d)&#160;OF THE</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">SECURITIES EXCHANGE ACT OF 1934</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">&#160;</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Date of Report (Date of earliest event reported): January 27<span style="font-size: 10pt; font-family: 'Times New Roman', Times, serif; color: #000000;">, 2020&#160;</span> (<ix:nonNumeric name="dei:DocumentPeriodEndDate" id="Fact_dc1f6e9e10534da79e2c16f98511544a" contextRef="c20200127to20200127" format="ixt:datemonthdayyearen">January 27, 2020</ix:nonNumeric>)</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">&#160;</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 16pt; font-weight: bold; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-style: normal; font-variant: normal; text-transform: none;"><ix:nonNumeric name="dei:EntityRegistrantName" id="Fact_d583f75d77cc4dc7abc048de15f47398" contextRef="c20200127to20200127">ARCONIC INC.</ix:nonNumeric><br />
+    </div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">(Exact name of registrant as specified in its charter)</div>
+
+    <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">&#160;</div>
+
+    <div>
+      <hr style="height: 2px; color: #000000; background-color: #000000; text-align: center; border: none; margin-left: auto; margin-right: auto;" /></div>
+
+    <div>
+      <div><br />
+      </div>
+
+    </div>
+
+    <div style="text-align: left; font-family: 'Times New Roman',Times,serif; font-size: 10pt;">&#160;</div>
+
+    <table cellspacing="0" cellpadding="0" border="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; border-collapse: collapse; text-align: left; color: #000000;" id="z0bd88ec3327c427aba93be28e573980c">
+
+
+  <tr>
+
+    <td style="width: 33%; vertical-align: top;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;"><ix:nonNumeric name="dei:EntityIncorporationStateCountryCode" id="Fact_cb7cdcb5edec4bff8e1ea3a8ae3ca957" contextRef="c20200127to20200127" format="ixt-sec:stateprovnameen">Delaware</ix:nonNumeric><br />
+            </div>
+          </td>
+
+    <td style="width: 34%; vertical-align: top; text-align: center;" colspan="1"><span style="font-weight: bold;"><ix:nonNumeric name="dei:EntityFileNumber" id="Fact_c147ce01c8d54ca484ec081a4fe8b298" contextRef="c20200127to20200127">001-03610</ix:nonNumeric></span><br />
+          </td>
+
+    <td style="width: 33%; vertical-align: top;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;"><ix:nonNumeric name="dei:EntityTaxIdentificationNumber" id="Fact_37a3d0778a7c499e84900a8424875507" contextRef="c20200127to20200127">25-0317820</ix:nonNumeric><br />
+            </div>
+          </td>
+
+  </tr>
+
+  <tr>
+
+    <td style="width: 33%; vertical-align: bottom;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">(State or other Jurisdiction</div>
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">of Incorporation)</div>
+          </td>
+
+    <td style="width: 34%; vertical-align: top; text-align: center;" colspan="1"><span style="font-weight: bold;">(Commission File Number)</span><br />
+          </td>
+
+    <td style="width: 33%; vertical-align: bottom;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">(I.R.S. Employer</div>
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Identification No.)</div>
+          </td>
+
+  </tr>
+
+
+</table>
+    <div><br />
+    </div>
+
+    <table cellspacing="0" cellpadding="0" border="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; border-collapse: collapse; text-align: left; color: #000000;">
+
+
+  <tr>
+
+    <td rowspan="1" style="width: 50%; vertical-align: bottom;">&#160;&#160;</td>
+
+    <td style="width: 50%; vertical-align: bottom;">&#160;</td>
+
+  </tr>
+
+  <tr>
+
+    <td rowspan="1" style="width: 50%; vertical-align: top;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;"><ix:nonNumeric name="dei:EntityAddressAddressLine1" id="Fact_311c532519734e309462fa2f92927406" contextRef="c20200127to20200127">201 Isabella Street</ix:nonNumeric>,
+              <ix:nonNumeric name="dei:EntityAddressAddressLine2" id="Fact_d901f873a0394703bd6fa9e1d266f2d6" contextRef="c20200127to20200127">Suite 200</ix:nonNumeric>, <ix:nonNumeric name="dei:EntityAddressCityOrTown" id="Fact_383c0035bdf04069b4cdd7ad3fb42e35" contextRef="c20200127to20200127">Pittsburgh</ix:nonNumeric>,
+              <ix:nonNumeric name="dei:EntityAddressStateOrProvince" id="Fact_4747527680b948a48127fc71a4b8fe0d" contextRef="c20200127to20200127" format="ixt-sec:stateprovnameen">Pennsylvania</ix:nonNumeric></div>
+          </td>
+
+    <td style="width: 50%; vertical-align: top;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;"><ix:nonNumeric name="dei:EntityAddressPostalZipCode" id="Fact_f5f0ee91bdbb4c4a9000809b14c5a052" contextRef="c20200127to20200127">15212-5872</ix:nonNumeric><br />
+            </div>
+          </td>
+
+  </tr>
+
+  <tr>
+
+    <td style="width: 50%; vertical-align: top;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">(Address of principal executive offices)</div>
+          </td>
+
+    <td style="width: 50%; vertical-align: top;">
+            <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">(Zip code)</div>
+          </td>
+
+  </tr>
+
+
+</table>
+    <div><br />
+    </div>
+
+    <table cellspacing="0" cellpadding="0" border="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; width: 100%; border-collapse: collapse; text-align: left; color: #000000;">
+
+
+  <tr>
+
+    <td rowspan="1" style="width: 50%; vertical-align: top; font-family: 'Times New Roman',Times,serif; font-size: 10pt; text-align: left;">
+            <div style="text-align: center; font-weight: bold;">Office of Investor Relations (412) 553-1950</div>
+          </td>
+
+  </tr>
+
+  <tr>
+
+    <td rowspan="1" style="width: 50%; vertical-align: top; font-family: 'Times New Roman',Times,serif; font-size: 10pt;">
+            <div style="text-align: center; font-weight: bold;">Office of the Secretary (<ix:nonNumeric name="dei:CityAreaCode" id="Fact_0e95c3dc431344d1a542ca80411d350f" contextRef="c20200127to20200127">412</ix:nonNumeric>) <ix:nonNumeric name="dei:LocalPhoneNumber" id="Fact_41832aa0dd28431bb7d095efc8f477fc" contextRef="c20200127to20200127">553-1940</ix:nonNumeric></div>
+          </td>
+
+  </tr>
+
+
+</table>
+    <div style="background-color: #FFFFFF;">
+      <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 10pt; font-weight: 400;"><span style="font-weight: bold;">(Registrant&#8217;s telephone number, including area code)</span><br />
+      </div>
+
+    </div>
+
+    <div style="background-color: #FFFFFF;">
+      <div><br />
+      </div>
+
+      <div style="text-align: center; font-family: 'Times New Roman',Times,serif; font-size: 10pt; font-weight: bold;">(Former Name or Former Address, if Changed Since Last Report)</div>
+
+    </div>
+
+    <div>&#160;</div>
+
+    <div style="text-align: left; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">Check the appropriate box below if the Form&#160;8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the
+      following provisions:</div>
+
+    <div style="text-align: left; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">&#160;</div>
+
+    <div style="text-align: left; text-indent: -22pt; margin-left: 22pt; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNumeric name="dei:WrittenCommunications" id="Fact_ac4eba5ba9e84529b09672b83b4b01f9" contextRef="c20200127to20200127" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric>&#160;&#160;&#160;&#160;&#160;
+      Written communications pursuant to Rule&#160;425 under the Securities Act (17 CFR 230.425)</div>
+
+    <div style="text-align: left; text-indent: -22pt; margin-left: 22pt; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNumeric name="dei:SolicitingMaterial" id="Fact_92d27acfecc94f4c98d11d745df9404a" contextRef="c20200127to20200127" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric>&#160;&#160;&#160;&#160;&#160;
+      Soliciting material pursuant to Rule&#160;14a-12 under the Exchange Act (17 CFR 240.14a-12)</div>
+
+    <div style="text-align: left; text-indent: -30pt; margin-left: 30pt; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNumeric name="dei:PreCommencementTenderOffer" id="Fact_d8bc0378321f41eba12d82c231a70bc8" contextRef="c20200127to20200127" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric>&#160;&#160;&#160;&#160;&#160;
+      Pre-commencement communications pursuant to Rule&#160;14d-2(b)&#160;under the Exchange Act (17 CFR 240.14d-2(b))</div>
+
+    <div style="text-align: left; text-indent: -30pt; margin-left: 30pt; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNumeric name="dei:PreCommencementIssuerTenderOffer" id="Fact_0c8cc6ce09274c53907da4d6766c4a5e" contextRef="c20200127to20200127" format="ixt-sec:boolballotbox">&#x2610;</ix:nonNumeric>&#160;&#160;&#160;&#160;&#160;
+      Pre-commencement communications pursuant to Rule&#160;13e-4(c)&#160;under the Exchange Act (17 CFR 240.13e-4(c))</div>
+
+    <div><br />
+    </div>
+
+    <div style="text-align: left; margin-right: 16.55pt; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">
+      <div style="text-align: left; font-family: 'Times New Roman',Times,serif; font-size: 10pt;">Securities registered pursuant to Section 12(b) of the Act:</div>
+
+      <div style="text-align: left; font-family: 'Times New Roman',Times,serif; font-size: 10pt;"> <br />
+      </div>
+
+    </div>
+
+    <div style="text-align: left; margin-right: 16.55pt; font-family: 'Times New Roman', Times, serif; font-size: 10pt;">
+      <table cellspacing="0" cellpadding="0" border="0" style="font-family: 'Times New Roman', Times, serif; font-size: 10pt; text-align: left; color: #000000; width: 100%;">
+
+
+  <tr>
+
+    <td style="vertical-align: top; width: 40%;">
+              <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Title of each class</div>
+            </td>
+
+    <td style="vertical-align: top; width: 20%;">
+              <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Ticker Symbol</div>
+            </td>
+
+    <td style="vertical-align: top; width: 40%;">
+              <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt; font-weight: bold;">Name of each exchange on which registered</div>
+            </td>
+
+  </tr>
+
+  <tr>
+
+    <td style="vertical-align: top; width: 40%;">
+              <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNumeric name="dei:Security12bTitle" id="Fact_6a18f6c7f530452284ff2ab0c2fe2ee6" contextRef="c20200127to20200127_EntityListingsExchangeAxis_NewYorkStockExchangeMember_StatementClassOfStockAxis_CommonStockMember">Common Stock, par value $1.00 per share</ix:nonNumeric><br />
+              </div>
+            </td>
+
+    <td style="vertical-align: top; width: 20%;">
+              <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNumeric name="dei:TradingSymbol" id="Fact_9bb40c90f2ad45f79453ad4af735f7a8" contextRef="c20200127to20200127_EntityListingsExchangeAxis_NewYorkStockExchangeMember_StatementClassOfStockAxis_CommonStockMember">ARNC</ix:nonNumeric><br />
+              </div>
+            </td>
+
+    <td style="vertical-align: top; width: 40%;">
+              <div style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 10pt;"><ix:nonNu

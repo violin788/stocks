@@ -384,6 +384,7 @@ def prices_around_earnings(match_file,required_ratio):
         reverse_dictionary = {}
         more = {}
         stock_cr = []
+        ratios_up_vs_down = []
         #for date in dates_list:
         #    print("date look for=",date)
         for specific_date in dates_list:
@@ -430,6 +431,8 @@ def prices_around_earnings(match_file,required_ratio):
                     values["gap"]=gap
                     day_high = float(day["High"])
                     day_low = float(day["Low"])
+                    day_low = float(day["Low"])
+                    close = float(day["Close"])                    
                     same_direction=""
                     opposite_direction=""
                     if gap>0:
@@ -467,7 +470,27 @@ def prices_around_earnings(match_file,required_ratio):
                         new["Amount"]=ratio_continue
                     print("gap",gap)
                     stock_cr.append(new)
+                    move_up = round(float(((day_high/morning)-1)*100),2)
+                    move_down = round(float(((day_low/morning)-1)*100),2)
+                    try:
+                        up_down_ratio = (move_up/move_down)
+                    except ZeroDivisionError:
+                        up_down_ratio=move_up
+                    try:
+                        down_up_ratio = (move_down/move_up)
+                    except ZeroDivisionError:
+                        up_down_ratio=move_down
+                    max_ratio = max(up_down_ratio,up_down_ratio)
+                    ratios_up_vs_down.append(max_ratio)
+
         stock_cr.sort(key=lambda x: x["Date"])
+        #ratios_up_vs_down.sort()
+
+        try:
+            uvd = min(ratios_up_vs_down)
+            uvd = round(uvd,2)
+        except:
+            uvd = "---"
         cr_string = ""
         for item in stock_cr:
             cr_string=cr_string+item["Direction"]
@@ -487,7 +510,8 @@ def prices_around_earnings(match_file,required_ratio):
             new["ratio"]=min2
             print("specific",specific)
             new["vol*pri"]=int(float(specific["vol*pri"]))
-            new["name"]=name
+            new["name"]=name[0:10]
+            new["uvd"]=uvd
             new["date"]=specific["date"]
             final_cr2.append(new)
         #abort, leave =="" if you just want it to run
@@ -539,8 +563,8 @@ match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
-finnhub_end = "2025-03-24"
-list_length = 30
+finnhub_end = "2025-05-01"
+list_length = 90
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -553,4 +577,4 @@ prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-18 23:06:52----------
+#last updated=2025-03-19 14:44:27----------
