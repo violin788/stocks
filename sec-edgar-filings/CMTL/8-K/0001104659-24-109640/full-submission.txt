@@ -1,0 +1,291 @@
+19
+<SEC-DOCUMENT>0001104659-24-109640.txt : 20241018
+<SEC-HEADER>0001104659-24-109640.hdr.sgml : 20241018
+<ACCEPTANCE-DATETIME>20241017211456
+ACCESSION NUMBER:		0001104659-24-109640
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		24
+CONFORMED PERIOD OF REPORT:	20241017
+ITEM INFORMATION:		Entry into a Material Definitive Agreement
+ITEM INFORMATION:		Termination of a Material Definitive Agreement
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant
+ITEM INFORMATION:		Unregistered Sales of Equity Securities
+ITEM INFORMATION:		Material Modifications to Rights of Security Holders
+ITEM INFORMATION:		Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year
+ITEM INFORMATION:		Regulation FD Disclosure
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20241018
+DATE AS OF CHANGE:		20241017
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			COMTECH TELECOMMUNICATIONS CORP /DE/
+		CENTRAL INDEX KEY:			0000023197
+		STANDARD INDUSTRIAL CLASSIFICATION:	RADIO & TV BROADCASTING & COMMUNICATIONS EQUIPMENT [3663]
+		ORGANIZATION NAME:           	04 Manufacturing
+		IRS NUMBER:				112139466
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0731
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-07928
+		FILM NUMBER:		241378743
+
+	BUSINESS ADDRESS:	
+		STREET 1:		305 N 54TH STREET
+		CITY:			CHANDLER
+		STATE:			AZ
+		ZIP:			85226
+		BUSINESS PHONE:		4803332200
+
+	MAIL ADDRESS:	
+		STREET 1:		305 N 54TH STREET
+		CITY:			CHANDLER
+		STATE:			AZ
+		ZIP:			85226
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	COMTECH INC
+		DATE OF NAME CHANGE:	19870503
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	COMTECH TELECOMMUNICATIONS CORP
+		DATE OF NAME CHANGE:	19831215
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	COMTECH LABORATORIES INC
+		DATE OF NAME CHANGE:	19780425
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>tm2426264d1_8k.htm
+<DESCRIPTION>FORM 8-K
+<TEXT>
+<XBRL>
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:us-gaap="http://fasb.org/us-gaap/2023" xmlns:us-roles="http://fasb.org/us-roles/2023" xmlns:country="http://xbrl.sec.gov/country/2023" xmlns:srt="http://fasb.org/srt/2023" xmlns:cmtl="http://comtechtel.com/20241017">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02C_US%2DGAAP%2D2023 -->
+<!-- Field: Set; Name: xdx; ID: xdx_033_cmtl_comtechtel.com_20241017 -->
+<!-- Field: Set; Name: xdx; ID: xdx_044_20241017_20241017 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_056_edei%2D%2DCurrentFiscalYearEndDate_%2D%2DLS0wNy0zMQ== -->
+<!-- Field: Set; Name: xdx; ID: xdx_057_edei%2D%2DEntityCentralIndexKey_0000023197 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000004" name="dei:CurrentFiscalYearEndDate">--07-31</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000005" name="dei:EntityCentralIndexKey">0000023197</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="cmtl-20241017.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2024-10-17">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000023197</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-10-17</xbrli:startDate>
+        <xbrli:endDate>2024-10-17</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="margin: 0">&#160;</p>
+
+<p style="margin: 0pt 0"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>UNITED STATES<br/>
+SECURITIES AND EXCHANGE COMMISSION<br/>
+WASHINGTON, D.C. 20549</b></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="border-bottom: Black 1pt solid; padding: 0.75pt 1pt"><b>&#160;</b></td>
+    <td style="border-bottom: Black 1pt solid; padding: 0.75pt 1pt"><b>&#160;</b></td>
+    <td style="border-bottom: Black 1pt solid; padding: 0.75pt 1pt"><b>&#160;</b></td></tr>
+  <tr style="vertical-align: bottom">
+    <td colspan="3" style="border-bottom: Black 1pt solid; padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b>FORM
+    <span id="xdx_90F_edei--DocumentType_c20241017__20241017_z66sw2GEQ3r4"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000010" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b>CURRENT REPORT<br/>
+PURSUANT TO SECTION 13 OR 15(d) OF THE<br/>
+SECURITIES EXCHANGE ACT OF 1934</b></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="padding: 0.75pt 1pt; width: 49%">&#160;</td>
+    <td style="padding: 0.75pt 1pt; width: 2%">&#160;</td>
+    <td style="padding: 0.75pt 1pt; width: 49%">&#160;</td></tr>
+  <tr>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_90E_edei--DocumentPeriodEndDate_c20241017__20241017_zNxDbEfyiva7"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt:datemonthdayyearen" id="Fact000011" name="dei:DocumentPeriodEndDate">October 17, 2024</ix:nonNumeric></span></b></span></td>
+    <td style="padding-right: 1.25pt; padding-left: 1.25pt">&#160;</td>
+    <td style="padding: 1.5pt 1.25pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_90B_edei--EntityFileNumber_c20241017__20241017_zicbiVlWIpZ4"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000012" name="dei:EntityFileNumber">0-7928</ix:nonNumeric></span></b></span></td></tr>
+  <tr>
+    <td style="border-top: black 1pt solid; padding: 1.5pt 1.25pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt">Date of Report <br/>
+(Date of earliest event reported)</span></td>
+    <td style="padding-right: 1.25pt; padding-left: 1.25pt">&#160;</td>
+    <td style="border-top: black 1pt solid; padding: 1.5pt 1.25pt 6pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt">Commission File Number</span></td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><img src="logo.jpg" alt=""/></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<p style="font: 14pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><span id="xdx_90A_edei--EntityRegistrantName_c20241017__20241017_zbFIyr8q8GSl"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000013" name="dei:EntityRegistrantName">Comtech Telecommunications Corp.</ix:nonNumeric></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(Exact name of registrant as specified in its charter)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td style="border-bottom: black 1pt solid; vertical-align: top; padding-top: 1.5pt; text-align: center; font-size: 10pt; width: 49%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_903_edei--EntityIncorporationStateCountryCode_c20241017__20241017_zPslUWWwchU3"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt-sec:stateprovnameen" id="Fact000014" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="font-size: 10pt; width: 2%">&#160;</td>
+    <td style="border-bottom: black 1pt solid; vertical-align: top; padding-top: 1.5pt; text-align: center; font-size: 10pt; width: 49%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90B_edei--EntityTaxIdentificationNumber_c20241017__20241017_zPT9jkjzCec9"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000015" name="dei:EntityTaxIdentificationNumber">11-2139466</ix:nonNumeric></span></b></span></td></tr>
+  <tr>
+    <td style="vertical-align: top; padding-top: 1.5pt; padding-bottom: 1.5pt">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">(State or other jurisdiction of</p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">incorporation or organization)</p></td>
+    <td style="font-size: 10pt">&#160;</td>
+    <td style="vertical-align: top; padding-top: 1.5pt; text-align: center; font-size: 10pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">(I.R.S. Employer Identification Number)</span></td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center">&#160;&#160;&#160;&#160;</p>
+
+
+
+<p style="margin: 0"></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td colspan="2">&#160;</td>
+    <td colspan="6">&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+  <tr>
+    <td colspan="3">&#160;</td>
+    <td colspan="9" style="border-bottom: Black 1pt solid; padding-top: 1.5pt; padding-bottom: 1.5pt; vertical-align: top">
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_902_edei--EntityAddressAddressLine1_c20241017__20241017_zyAByPmlOFZf"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000016" name="dei:EntityAddressAddressLine1">305 N 54th Street</ix:nonNumeric></span> </b></p>
+    <p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: center"><b><span id="xdx_909_edei--EntityAddressCityOrTown_c20241017__20241017_zGucUcGxQdrk"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000017" name="dei:EntityAddressCityOrTown">Chandler</ix:nonNumeric></span>, <span id="xdx_90C_edei--EntityAddressStateOrProvince_c20241017__20241017_zUWHouIA0Kz9"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt-sec:stateprovnameen" id="Fact000018" name="dei:EntityAddressStateOrProvince">Arizona</ix:nonNumeric></span> <span id="xdx_907_edei--EntityAddressPostalZipCode_c20241017__20241017_zEN0pCwJka9c"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000019" name="dei:EntityAddressPostalZipCode">85226</ix:nonNumeric></span></b></p></td>
+    <td colspan="3">&#160;</td></tr>
+  <tr>
+    <td colspan="3">&#160;</td>
+    <td colspan="9" style="padding-top: 1.5pt; padding-bottom: 1.5pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt">(Address of Principal Executive Offices) (Zip Code)</span></td>
+    <td colspan="3">&#160;</td></tr>
+  <tr>
+    <td colspan="3">&#160;</td>
+    <td colspan="9">&#160;</td>
+    <td colspan="3">&#160;</td></tr>
+  <tr>
+    <td colspan="3">&#160;</td>
+    <td colspan="9" style="border-bottom: Black 1pt solid; padding-top: 1.5pt; padding-bottom: 1.5pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b>(<span id="xdx_90A_edei--CityAreaCode_c20241017__20241017_zzxTmRGGjQqh"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000020" name="dei:CityAreaCode">480</ix:nonNumeric></span>) <span id="xdx_900_edei--LocalPhoneNumber_c20241017__20241017_zVZI7nY31Wfk"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000021" name="dei:LocalPhoneNumber">333-2200</ix:nonNumeric></span></b></span></td>
+    <td colspan="3">&#160;</td></tr>
+  <tr>
+    <td colspan="3">&#160;</td>
+    <td colspan="9" style="padding-top: 1.5pt; padding-bottom: 1.5pt; vertical-align: top; font-size: 10pt; text-align: center"><span style="font-size: 10pt">(Registrant&#8217;s telephone number, including area code)</span></td>
+    <td colspan="3">&#160;</td></tr>
+  <tr>
+    <td style="width: 6%">&#160;</td>
+    <td style="width: 6%">&#160;</td>
+    <td style="width: 6%">&#160;</td>
+    <td style="width: 11%">&#160;</td>
+    <td style="width: 5%">&#160;</td>
+    <td style="width: 5%">&#160;</td>
+    <td style="width: 1%">&#160;</td>
+    <td style="width: 1%">&#160;</td>
+    <td style="width: 1%">&#160;</td>
+    <td style="width: 18%">&#160;</td>
+    <td style="width: 1%">&#160;</td>
+    <td style="width: 15%">&#160;</td>
+    <td style="width: 8%">&#160;</td>
+    <td style="width: 8%">&#160;</td>
+    <td style="width: 8%">&#160;</td></tr>
+  </table>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Check the appropriate box below if the Form 8-K filing is intended
+to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_901_edei--WrittenCommunications_c20241017__20241017_z1wecfdT4tOg"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt:booleanfalse" id="Fact000022" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></span> Written communications
+pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_903_edei--SolicitingMaterial_c20241017__20241017_zUtapIXf5RRl"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt:booleanfalse" id="Fact000023" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></span> Soliciting material
+pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_90A_edei--PreCommencementTenderOffer_c20241017__20241017_zsI2cZE4xzp3"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></span> Pre-commencement
+communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0"><span style="font-family: Wingdings"><span id="xdx_909_edei--PreCommencementIssuerTenderOffer_c20241017__20241017_zkdyBFukQev"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt:booleanfalse" id="Fact000025" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></span> Pre-commencement
+communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="vertical-align: bottom">
+    <td colspan="3" style="padding: 1.5pt 1.25pt; font-size: 10pt; text-align: center"><span style="font-size: 10pt">Securities registered pursuant to Section 12(b) of the Act:</span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="border-top: Black 1pt solid; border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding: 1.5pt 1.25pt 1.5pt 1.5pt; font-size: 10pt; text-align: center; width: 40%"><span style="font-size: 10pt">Title of each class</span></td>
+    <td style="border-top: Black 1pt solid; border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding: 1.5pt 1.25pt 1.5pt 1.5pt; font-size: 10pt; text-align: center; width: 20%"><span style="font-size: 10pt">Trading Symbol(s)</span></td>
+    <td style="border: Black 1pt solid; padding: 1.5pt; font-size: 10pt; text-align: center; width: 40%"><span style="font-size: 10pt">Name of exchange on which registered</span></td></tr>
+  <tr style="vertical-align: bottom">
+    <td style="border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding: 1.5pt 1.25pt 1.5pt 1.5pt; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_906_edei--Security12bTitle_c20241017__20241017_zOXmKGjCY7Ya"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000026" name="dei:Security12bTitle">Common Stock, par value $0.10 per share</ix:nonNumeric></span></b></span></td>
+    <td style="border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding: 1.5pt 1.25pt 1.5pt 1.5pt; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_908_edei--TradingSymbol_c20241017__20241017_zijdpFVXZJT5"><ix:nonNumeric contextRef="AsOf2024-10-17" id="Fact000027" name="dei:TradingSymbol">CMTL</ix:nonNumeric></span></b></span></td>
+    <td style="border-right: Black 1pt solid; border-bottom: Black 1pt solid; border-left: Black 1pt solid; padding: 1.5pt; font-size: 10pt; text-align: center"><span style="font-size: 10pt"><b><span id="xdx_90C_edei--SecurityExchangeName_c20241017__20241017_zEwwJiuHIvU7"><ix:nonNumeric contextRef="AsOf2024-10-17" format="ixt-sec:exchnameen" id="Fact000028" name="dei:SecurityExchangeName">Nasdaq Stock Market LLC</ix:nonNumeric></span></b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">Indicate by check mark whether the registrant is an emerging growth
+company as defined in Rule 405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule 12b-2 of the Securities Exchange
+Act of 1934 (&#167;240.12b-2 of this chapter).</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margi
