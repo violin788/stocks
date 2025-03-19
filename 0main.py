@@ -594,8 +594,8 @@ file_vol_pri = "0vol_pri_list.csv"
 folder_analysis = "data_around_earnings"
 
 finnhub_start = "2025-03-17"
-finnhub_end = "2025-06-01"
-list_length = 100
+finnhub_end = "2025-06-17"
+list_length = 150
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -608,4 +608,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 21:01:28----------
+#last updated=2025-03-19 21:14:13----------
