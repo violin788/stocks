@@ -423,7 +423,6 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
                     for key_other, out in days_surrounding.items():
                         print(symbol,key_other,out)
                         stock_data+=str(out)+"\n"
-                    stock_data+="\n"
                     print("max_vol",max_vol)
                     get_close=""
                     if key=="after":
@@ -451,12 +450,17 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
                         opposite_direction=day_high
                     values["same"]=same_direction
                     values["oppo"]=opposite_direction
+                    stock_data+=str(values)+"\n"
                     print("values",values)
                     if gap==0:
                         print("gap=0, abort!")
                         continue
                     percent_continue = abs(float(int(((same_direction/morning)-1)*10000)/100))
                     percent_reverse = abs(float(int(((opposite_direction/morning)-1)*10000)/100))
+                    more_data = {}
+                    more_data["percent_continue"]=percent_continue
+                    more_data["percent_reverse"]=percent_reverse
+                    stock_data+=str(more_data)+"\n"
                     if percent_continue==0:
                         percent_continue=1
                     if percent_reverse==0:
@@ -476,6 +480,9 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
                     if ratio_continue==ratio_reverse:
                         new["Direction"]="E"
                         new["Amount"]=ratio_continue
+                    
+                    stock_data+=str(new["Direction"])+"\n"
+                    stock_data+="\n"
                     print("gap",gap)
                     stock_cr.append(new)
                     move_up = round(float(((day_high/morning)-1)*100),2)
@@ -590,4 +597,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 20:24:48----------
+#last updated=2025-03-19 20:43:47----------
