@@ -21,7 +21,7 @@ for specific in alter_files:
 
 command = """
 git add .
-git commit -m "Updated files"
+git commit -m "updated from codespace"
 git push origin main
 """
 result = subprocess.run(command, shell=True, text=True, capture_output=True)
