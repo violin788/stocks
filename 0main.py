@@ -157,13 +157,10 @@ def get_sec_earn_dates(match_file):
     sec_no_data_file = "0sec_no_data.csv"
     sec_no_data_list = csv_to_book(sec_no_data_file)
     print(stocks)
-    #upload every 10 gets
-    #counter is what does it
-    counter = 0
+    upload_counter = 0
     iden_codespace = "codespace"
     iden_laptop = "???"
     laptop_or_codespace = platform.node()
-    upload = [10,20,30,40,50,60,70,80,90,100]
     for val in stocks:
         check_stock = val["symbol"]
         stock = check_stock
@@ -259,8 +256,8 @@ def get_sec_earn_dates(match_file):
         if earn_dates_check==0:                        
             #redo..but then just do a search for 1 earn value..
             meow="meow"
-        counter+=1
-        if counter in upload: 
+        upload_counter+=1
+        if value % 10 == 0:
             if iden_codespace in laptop_or_codespace:
                 subprocess.run(['python', '0push_codespace_to_repo.py'])
             if iden_laptop in laptop_or_codespace:    
@@ -571,7 +568,7 @@ file_vol_pri = "0vol_pri_list.csv"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-05-01"
-list_length = 200
+list_length = 150
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -584,4 +581,4 @@ prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 18:17:13----------
+#last updated=2025-03-19 18:25:17----------

@@ -1,0 +1,319 @@
+10
+<SEC-DOCUMENT>0001104659-20-056215.txt : 20200504
+<SEC-HEADER>0001104659-20-056215.hdr.sgml : 20200504
+<ACCEPTANCE-DATETIME>20200504162625
+ACCESSION NUMBER:		0001104659-20-056215
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		17
+CONFORMED PERIOD OF REPORT:	20200504
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Other Events
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20200504
+DATE AS OF CHANGE:		20200504
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			AMERICAN INTERNATIONAL GROUP INC
+		CENTRAL INDEX KEY:			0000005272
+		STANDARD INDUSTRIAL CLASSIFICATION:	FIRE, MARINE & CASUALTY INSURANCE [6331]
+		IRS NUMBER:				132592361
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-08787
+		FILM NUMBER:		20845225
+
+	BUSINESS ADDRESS:	
+		STREET 1:		175 WATER STREET
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10038
+		BUSINESS PHONE:		2127707000
+
+	MAIL ADDRESS:	
+		STREET 1:		175 WATER STREET
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10038
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	AMERICAN INTERNATIONAL ENTERPRISES INC
+		DATE OF NAME CHANGE:	19700507
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>tm2018462d1_8k.htm
+<DESCRIPTION>FORM 8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2019-01-31" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:us-gaap="http://fasb.org/us-gaap/2019-01-31" xmlns:us-roles="http://fasb.org/us-roles/2019-01-31" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:country="http://xbrl.sec.gov/country/2017-01-31" xmlns:srt="http://fasb.org/srt/2019-01-31" xmlns:aig="http://aigcorporate.com/20200504">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html" /></head>
+<!-- Field: Set; Name: xdx; ID: xdx_029_US%2DGAAP%2D2019_exch -->
+<!-- Field: Set; Name: xdx; ID: xdx_03D_aig_aigcorporate.com_20200504 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04C_20200503_20200504 -->
+<!-- Field: Set; Name: xdx; ID: xdx_05A_edei%2D%2DEntityCentralIndexKey_0000005272 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_075_SO_T%2D%2D\tm2013227%2D1\tm2013227%2D1__8kseq1\tm2013227%2D1__8k.xdxs -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+  <ix:hidden>
+    <ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityCentralIndexKey">0000005272</ix:nonNumeric>
+    <ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt:booleanfalse" name="dei:AmendmentFlag">false</ix:nonNumeric>
+    </ix:hidden>
+  <ix:references>
+    <link:schemaRef xlink:href="aig-20200504.xsd" xlink:type="simple" />
+    </ix:references>
+  <ix:resources>
+    <xbrli:context id="From2020-05-03to2020-05-04">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2020-05-032020-05-04_us-gaap_CommonStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2020-05-032020-05-04_custom_WarrantsExpiringJanuary192021Member">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aig:WarrantsExpiringJanuary192021Member</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2020-05-032020-05-04_custom_SeriesA2JuniorSubordinatedDebenturesMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aig:SeriesA2JuniorSubordinatedDebenturesMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2020-05-032020-05-04_custom_SeriesA3JuniorSubordinatedDebenturesMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aig:SeriesA3JuniorSubordinatedDebenturesMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2020-05-032020-05-04_custom_StockPurchaseRightsMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aig:StockPurchaseRightsMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="From2020-05-032020-05-04_custom_DepositarySharesEachRepresenting11000thInterestInShareOfSeries5.85NoncumulativePerpetualPreferredStockMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000005272</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">aig:DepositarySharesEachRepresenting11000thInterestInShareOfSeries5.85NoncumulativePerpetualPreferredStockMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2020-05-03</xbrli:startDate>
+        <xbrli:endDate>2020-05-04</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+    </ix:resources>
+  </ix:header>
+</div>
+
+
+<p style="margin: 0"></p>
+
+<!-- Field: Rule-Page -->
+<!-- Field: /Rule-Page -->
+
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"></p>
+
+<!-- Field: Rule-Page --><div style="margin-top: 12pt; margin-bottom: 3pt; width: 100%"><div style="border-top: Black 2pt solid; border-bottom: Black 1pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"></p>
+
+<p style="font: 16pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>UNITED STATES</b></p>
+
+<p style="font: 16pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>SECURITIES AND EXCHANGE COMMISSION</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>Washington, D.C.
+20549</b>&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<p style="font: 16pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>FORM <span id="xdx_900_edei--DocumentType_c20200503__20200504_zT2uKqK0mY7c"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>Pursuant to Section
+13 or 15(d) of</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>The Securities Exchange Act of 1934</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><b>&#160;</b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-size: 10pt">Date
+of Report (Date of earliest event reported):&#160;&#160;<b><span id="xdx_90D_edei--DocumentPeriodEndDate_c20200503__20200504_zeVT0jn8vcyl"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt:datemonthdayyearen" name="dei:DocumentPeriodEndDate">May
+4, 2020</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 100%; text-align: center"><span style="font-size: 20pt"><b><span id="xdx_902_edei--EntityRegistrantName_c20200503__20200504_zPFjX3HHWdmg"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityRegistrantName">AMERICAN INTERNATIONAL GROUP, INC.</ix:nonNumeric></span></b></span></td>
+    </tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center"><span style="font-size: 10pt">(Exact name of registrant as specified in its charter)</span></td>
+    </tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt"></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 31%; text-align: center"><b><span id="xdx_90A_edei--EntityIncorporationStateCountryCode_c20200503__20200504_zb5comMVhWQ7"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt-sec:stateprovnameen" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></td>
+    <td style="width: 2%; text-align: center">&#160;</td>
+    <td style="width: 34%; text-align: center"><b><span id="xdx_902_edei--EntityFileNumber_c20200503__20200504_zeyTJkW30qXc"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityFileNumber">1-8787</ix:nonNumeric></span></b></td>
+    <td style="width: 2%; text-align: center">&#160;</td>
+    <td style="width: 31%; text-align: center"><b><span id="xdx_901_edei--EntityTaxIdentificationNumber_c20200503__20200504_z6aphrHCM1Y"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityTaxIdentificationNumber">13-2592361</ix:nonNumeric></span></b></td></tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center"><p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(State
+                                   or other jurisdiction <br />
+                                   of&#160;incorporation)</p></td>
+    <td style="text-align: center">&#160;</td>
+    <td style="text-align: center"><span style="font-size: 10pt">(Commission File Number)</span></td>
+    <td style="text-align: center">&#160;</td>
+    <td style="text-align: center"><p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center">(IRS
+                                   Employer Identification No.)</p></td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 100%; text-align: center"><b><span id="xdx_903_edei--EntityAddressAddressLine1_c20200503__20200504_zNX81YiiNUWl"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityAddressAddressLine1">175 Water Street</ix:nonNumeric></span><br /> <span id="xdx_90B_edei--EntityAddressCityOrTown_c20200503__20200504_zTlvj6spQMed"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityAddressCityOrTown">New York</ix:nonNumeric></span>, <span id="xdx_909_edei--EntityAddressStateOrProvince_c20200503__20200504_zKaAXXR9Z1Mi"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt-sec:stateprovnameen" name="dei:EntityAddressStateOrProvince">New York</ix:nonNumeric></span> <span id="xdx_905_edei--EntityAddressPostalZipCode_c20200503__20200504_z8nAKyIXfFX8"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:EntityAddressPostalZipCode">10038</ix:nonNumeric></span></b></td>
+    </tr>
+<tr style="vertical-align: top">
+    <td style="text-align: center"><span style="font-size: 10pt">(Address of principal executive offices)</span></td>
+    </tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt">Registrant&#8217;s
+telephone number, including area code:&#160;&#160;<b>(<span id="xdx_905_edei--CityAreaCode_c20200503__20200504_zzx7TWregLK8"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:CityAreaCode">212</ix:nonNumeric></span></b><b>)
+<span id="xdx_908_edei--LocalPhoneNumber_c20200503__20200504_zdp8sIEK0Pe5"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" name="dei:LocalPhoneNumber">770-7000</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: center; margin-bottom: 0pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">Check the appropriate
+box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the
+following provisions (<span style="text-decoration: underline">see</span> General Instruction A.2. below):</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt/normal Times New Roman, Times, Serif; font-size-adjust: none; font-stretch: normal; width: 100%">
+<tr style="vertical-align: top">
+    <td style="width: 0.25in"><span style="font-family: Wingdings"><span id="xdx_909_edei--WrittenCommunications_c20200503__20200504_zlAfDyI5ngWe"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt:booleanfalse" name="dei:WrittenCommunications">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font: 10pt Times New Roman, Times, Serif">Written communications
+    pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+<tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td style="font-size: 10pt">&#160;</td></tr>
+<tr style="vertical-align: top">
+    <td><span style="font-family: Wingdings"><span id="xdx_908_edei--SolicitingMaterial_c20200503__20200504_zskQFPBh9CH9"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt:booleanfalse" name="dei:SolicitingMaterial">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font: 10pt Times New Roman, Times, Serif">Soliciting material
+    pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+<tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td style="font-size: 10pt">&#160;</td></tr>
+<tr style="vertical-align: top">
+    <td><span style="font-family: Wingdings"><span id="xdx_906_edei--PreCommencementTenderOffer_c20200503__20200504_zqMwaRmnfFR2"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt:booleanfalse" name="dei:PreCommencementTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font: 10pt Times New Roman, Times, Serif">Pre-commencement communications pursuant to
+    Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+<tr style="vertical-align: top">
+    <td>&#160;</td>
+    <td>&#160;</td></tr>
+<tr style="vertical-align: top">
+    <td><span style="font-family: Wingdings"><span id="xdx_908_edei--PreCommencementIssuerTenderOffer_c20200503__20200504_zzov4D9u8FR6"><ix:nonNumeric contextRef="From2020-05-03to2020-05-04" format="ixt:booleanfalse" name="dei:PreCommencementIssuerTenderOffer">&#168;</ix:nonNumeric></span></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif"><span style="font: 10pt Times New Roman, Times, Serif">Pre-commencement communications pursuant to
+    Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+</table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt"></p>
+
+<p style="border-bottom: Black 1pt solid; font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt">&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; text-align: left; margin-bottom: 0pt">Securities registered pursuant to Section
+12(b) of the Act:</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 24.5pt">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+<tr st
