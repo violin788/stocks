@@ -1,0 +1,36 @@
+{'Date': '20230313', 'Open': '1.97', 'High': '2.05', 'Low': '1.92', 'Close': '1.94', 'Volume': '44400'}
+{'Date': '20230314', 'Open': '2.0', 'High': '2.01', 'Low': '1.93', 'Close': '1.95', 'Volume': '50200'}
+{'Date': '20230315', 'Open': '2.0', 'High': '2.0', 'Low': '1.78', 'Close': '1.78', 'Volume': '146800'}
+{'close': 1.95, 'open': 2.0, 'gap': 2.56, 'same': 2.0, 'oppo': 1.78}
+{'percent_continue': 0.0, 'percent_reverse': 10.99}
+R
+close_move = -11.0
+
+{'Date': '20230612', 'Open': '2.01', 'High': '2.1', 'Low': '2.01', 'Close': '2.05', 'Volume': '28400'}
+{'Date': '20230613', 'Open': '2.1', 'High': '2.23', 'Low': '2.0', 'Close': '2.2', 'Volume': '29900'}
+{'Date': '20230614', 'Open': '2.24', 'High': '2.24', 'Low': '2.11', 'Close': '2.15', 'Volume': '56300'}
+{'close': 2.2, 'open': 2.24, 'gap': 1.82, 'same': 2.24, 'oppo': 2.11}
+{'percent_continue': 0.0, 'percent_reverse': 5.8}
+R
+close_move = -4.02
+
+{'Date': '20240312', 'Open': '1.69', 'High': '1.71', 'Low': '1.66', 'Close': '1.66', 'Volume': '44200'}
+{'Date': '20240313', 'Open': '1.66', 'High': '1.76', 'Low': '1.63', 'Close': '1.67', 'Volume': '46100'}
+{'Date': '20240314', 'Open': '1.65', 'High': '1.75', 'Low': '1.65', 'Close': '1.72', 'Volume': '67800'}
+{'close': 1.67, 'open': 1.65, 'gap': -1.2, 'same': 1.65, 'oppo': 1.75}
+{'percent_continue': 0.0, 'percent_reverse': 6.06}
+R
+close_move = 4.24
+
+{'Date': '20240613', 'Open': '1.45', 'High': '1.53', 'Low': '1.45', 'Close': '1.48', 'Volume': '19500'}
+{'Date': '20240614', 'Open': '1.46', 'High': '1.51', 'Low': '1.42', 'Close': '1.43', 'Volume': '18300'}
+{'Date': '20240617', 'Open': '1.44', 'High': '1.49', 'Low': '1.42', 'Close': '1.48', 'Volume': '43200'}
+{'close': 1.43, 'open': 1.44, 'gap': 0.7, 'same': 1.49, 'oppo': 1.42}
+{'percent_continue': 3.47, 'percent_reverse': 1.38}
+C
+close_move = 2.78
+
+{'Date': '20241105', 'Open': '1.87', 'High': '1.87', 'Low': '1.77', 'Close': '1.81', 'Volume': '11000'}
+{'Date': '20241106', 'Open': '1.84', 'High': '1.91', 'Low': '1.84', 'Close': '1.9', 'Volume': '20700'}
+{'Date': '20241107', 'Open': '1.9', 'High': '1.95', 'Low': '1.88', 'Close': '1.9', 'Volume': '47000'}
+{'close': 1.9, 'open': 1.9, 'gap': 0.0, 'same': '', 'oppo': ''}

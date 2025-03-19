@@ -1,0 +1,8 @@
+{'Date': '20230919', 'Open': '11.51', 'High': '12.39', 'Low': '11.13', 'Close': '11.23', 'Volume': '7238'}
+{'Date': '20230920', 'Open': '10.96', 'High': '11.76', 'Low': '10.08', 'Close': '10.46', 'Volume': '14005'}
+{'Date': '20230921', 'Open': '13.02', 'High': '13.02', 'Low': '10.58', 'Close': '11.26', 'Volume': '35462'}
+{'close': 10.46, 'open': 13.02, 'gap': 24.47, 'same': 13.02, 'oppo': 10.58}
+{'percent_continue': 0.0, 'percent_reverse': 18.74}
+R
+close_move = -13.52
+
