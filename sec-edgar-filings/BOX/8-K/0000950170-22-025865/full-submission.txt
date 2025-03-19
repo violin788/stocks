@@ -1,0 +1,105 @@
+9
+<SEC-DOCUMENT>0000950170-22-025865.txt : 20221130
+<SEC-HEADER>0000950170-22-025865.hdr.sgml : 20221130
+<ACCEPTANCE-DATETIME>20221130160604
+ACCESSION NUMBER:		0000950170-22-025865
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		13
+CONFORMED PERIOD OF REPORT:	20221130
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20221130
+DATE AS OF CHANGE:		20221130
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BOX INC
+		CENTRAL INDEX KEY:			0001372612
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-PREPACKAGED SOFTWARE [7372]
+		IRS NUMBER:				202714444
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0131
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-36805
+		FILM NUMBER:		221435633
+
+	BUSINESS ADDRESS:	
+		STREET 1:		900 JEFFERSON AVE
+		CITY:			REDWOOD CITY
+		STATE:			CA
+		ZIP:			94063
+		BUSINESS PHONE:		877-729-4269
+
+	MAIL ADDRESS:	
+		STREET 1:		900 JEFFERSON AVE
+		CITY:			REDWOOD CITY
+		STATE:			CA
+		ZIP:			94063
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BOX.NET INC
+		DATE OF NAME CHANGE:	20060814
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>box-20221130.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="ASCII"?><!-- DFIN New ActiveDisclosure (SM) Inline XBRL Document - http://www.dfinsolutions.com/ --><!-- Creation Date :2022-11-30T12:08:19.6966+00:00 --><!-- Copyright (c) 2022 Donnelly Financial Solutions, Inc. All Rights Reserved. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:nonNumeric="http://www.xbrl.org/dtr/type/non-numeric" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:box="http://www.box.com/20221130" xmlns:utr="http://www.xbrl.org/2009/utr">
+ <head>
+  <title>8-K</title>
+  <meta http-equiv="Content-Type" content="text/html" />
+ </head>
+ <body>
+  <div style="display:none;"><ix:header><ix:hidden><ix:nonNumeric id="F_57531913-fac0-4a20-b207-1b63377af8f7" name="dei:AmendmentFlag" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" format="ixt:booleanfalse">false</ix:nonNumeric><ix:nonNumeric id="F_6dd0a0a3-1ec7-4614-b5b9-7d8b4208a550" name="dei:EntityCentralIndexKey" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610">0001372612</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:type="simple" xlink:href="box-20221130.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001372612</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2022-11-30</xbrli:startDate><xbrli:endDate>2022-11-30</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div>
+  <p style="text-indent:0.0%;padding-bottom:1.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;border-bottom:2.25pt double;text-align:left;"><span style="white-space:pre-wrap;font-size:4.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:2.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:16.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">UNITED STATES</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:16.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">SECURITIES AND EXCHANGE COMMISSION</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">Washington, D.C. 20549</span></p>
+  <p style="margin-left:33.333%;text-indent:0.0%;padding-bottom:1.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;border-bottom:0.5pt solid;margin-right:33.333%;text-align:center;"><span style="white-space:pre-wrap;font-size:6.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:6.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:16.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">FORM </span><span style="font-size:16.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_17a32bfd-74c4-4e0c-a218-ebffdee99dfb" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:DocumentType"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:16.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">8-K</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:6.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:12.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">CURRENT REPORT</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:12.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">Pursuant to Section 13 or 15(d) of</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:12.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">The Securities Exchange Act of 1934</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:6.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">Date of Report (Date of earliest event reported)</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:6.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_40a9f73f-76b7-42d2-8686-85d1e0e828d0" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:DocumentPeriodEndDate" format="ixt:datemonthdayyearen"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">November 30, 2022</span></ix:nonNumeric></span></p>
+  <p style="margin-left:33.333%;text-indent:0.0%;padding-bottom:1.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;border-bottom:0.5pt solid;margin-right:33.333%;text-align:center;"><span style="white-space:pre-wrap;font-size:6.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:2.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:20.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_ef5e2a09-b2da-4888-bd54-846531c302a2" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityRegistrantName"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:20.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">Box, Inc.</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(Exact name of registrant as specified in its charter)</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:left;"><span style="white-space:pre-wrap;font-size:6.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p>
+  <table style="margin-left:auto;border-spacing:0;table-layout:fixed;width:100.0%;border-collapse:separate;margin-right:auto;">
+   <tr style="visibility:collapse;">
+    <td style="width:34.0%;"></td>
+    <td style="width:1.0%;"></td>
+    <td style="width:30.0%;"></td>
+    <td style="width:1.0%;"></td>
+    <td style="width:34.0%;"></td>
+   </tr>
+   <tr style="height:10.0pt;">
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_0002f76b-1fff-49f0-9d5f-dee6c8e7e001" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityIncorporationStateCountryCode" format="ixt-sec:stateprovnameen"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">Delaware</span></ix:nonNumeric></span></p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:bottom;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:left;"><span style="white-space:pre-wrap;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_1a4b030e-25b0-4104-8877-505b8cf71f36" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityFileNumber"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">001-36805</span></ix:nonNumeric></span></p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:bottom;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:left;"><span style="white-space:pre-wrap;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_24bc18de-c6c5-41af-b7f2-83d72a9b8e67" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityTaxIdentificationNumber"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">20-2714444</span></ix:nonNumeric></span></p></td>
+   </tr>
+   <tr style="height:8.0pt;">
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0.0pt;font-size:8.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:8.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(State or other jurisdiction of incorporation)</span></p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:bottom;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:left;"><span style="white-space:pre-wrap;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0.0pt;font-size:8.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:8.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(Commission File Number)</span></p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:bottom;"><p style="text-indent:0.0pt;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:left;"><span style="white-space:pre-wrap;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"></span>&#160;</p></td>
+    <td style="background-color:rgba(0,0,0,0);word-break:break-word;white-space:pre-wrap;vertical-align:top;text-align:left;"><p style="text-indent:0.0pt;font-size:8.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:8.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(IRS Employer Identification No.)</span></p></td>
+   </tr>
+  </table>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:10.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_6e010dca-f2d0-48cc-8907-336d44a072a6" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityAddressAddressLine1"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">900 Jefferson Ave.</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_d3b92fb8-96e1-43c2-b0dd-0768ebecc194" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityAddressCityOrTown"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">Redwood City</span></ix:nonNumeric></span><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">, </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_efcd2511-c872-4359-997f-aff394e18cb8" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityAddressStateOrProvince" format="ixt-sec:stateprovnameen"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">California</span></ix:nonNumeric></span><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;"> </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_e286ab11-d16b-4360-85e2-4a7782a401d2" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:EntityAddressPostalZipCode"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">94063</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:8.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(Address of principal executive offices, including zip code)</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:6.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(</span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_34bfb88f-a45f-4ff3-9094-93762ab21e5a" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:CityAreaCode"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">877</span></ix:nonNumeric></span><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">) </span><span style="font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;"><ix:nonNumeric id="F_564dd172-7589-4b7b-933d-312d42dc263d" contextRef="C_4de495b5-fe21-4eff-aa4f-7ea592ee7610" name="dei:LocalPhoneNumber"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:10.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">729-4269</span></ix:nonNumeric></span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:0.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="background-color:rgba(0,0,0,0);color:rgba(0,0,0,1);white-space:pre-wrap;font-weight:bold;font-size:8.0pt;font-family:&quot;Times New Roman&quot;, serif;min-width:fit-content;">(Registrant&#x2019;s telephone number, including area code)</span></p>
+  <p style="text-indent:0.0%;font-size:10.0pt;margin-top:6.0pt;font-family:Times New Roman;margin-bottom:0.0pt;text-align:center;"><span style="backgr
