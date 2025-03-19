@@ -393,6 +393,7 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
         ratios_up_vs_down = []
         #for date in dates_list:
         #    print("date look for=",date)
+        direction_close=""
         for specific_date in dates_list:
             #print("specific_date",specific_date)
             days_surrounding = {}
@@ -480,8 +481,17 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
                     if ratio_continue==ratio_reverse:
                         new["Direction"]="E"
                         new["Amount"]=ratio_continue
-                    
+                    close_move = round(float(((close/morning)-1)*100),2)                       
+                    if gap>0 and close_move>0:
+                        direction_close+="C"
+                    if gap>0 and close_move<0:
+                        direction_close+="R"
+                    if gap<0 and close_move>0:
+                        direction_close+="R"
+                    if gap<0 and close_move<0:
+                        direction_close+="C"
                     stock_data+=str(new["Direction"])+"\n"
+                    stock_data+="close_move = "+str(close_move)+"\n"                    
                     stock_data+="\n"
                     print("gap",gap)
                     stock_cr.append(new)
@@ -517,11 +527,12 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
         #if min2>required_ratio:
         if min2>0: 
             new = {}
-            new["symbol"]=symbol
-            new["direction"]=cr_string
+            new["sym"]=symbol
+            new["CvR"]=cr_string
+            new["OvC"]=direction_close
             new["ratio"]=min2
             print("specific",specific)
-            new["vol*pri"]=int(float(specific["vol*pri"]))
+            new["v*p"]=int(float(specific["vol*pri"]))
             new["name"]=name[0:10]
             new["uvd"]=uvd
             new["date"]=specific["date"]
@@ -537,10 +548,10 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
         #leave =="" if you just want it to run
         if symbol=="":
             sys.exit()
-    final = sorted(final_cr2,key=lambda x: x["vol*pri"])
+    final = sorted(final_cr2,key=lambda x: x["v*p"])
     same_direction = []
     for item in final:
-        direction = item["direction"]
+        direction = item["CvR"]
         if "CCCCCCCC" in direction or "RRRRRRRR" in direction:
             same_direction.append(item)
     final = final+same_direction
@@ -597,4 +608,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 20:43:56----------
+#last updated=2025-03-19 21:01:24----------

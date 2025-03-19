@@ -8,6 +8,7 @@
 {'close': 142.36, 'open': 145.29, 'gap': 2.06, 'same': 148.69, 'oppo': 138.26}
 {'percent_continue': 2.34, 'percent_reverse': 4.83}
 R
+close_move = -3.95
 
 {'Date': '20231103', 'Open': '91.83', 'High': '94.59', 'Low': '90.58', 'Close': '92.43', 'Volume': '48900'}
 {'Date': '20231106', 'Open': '94.52', 'High': '96.37', 'Low': '88.3', 'Close': '91.13', 'Volume': '76000'}
@@ -15,6 +16,7 @@ R
 {'close': 92.43, 'open': 94.52, 'gap': 2.26, 'same': 96.37, 'oppo': 88.3}
 {'percent_continue': 1.95, 'percent_reverse': 6.58}
 R
+close_move = -3.59
 
 {'Date': '20240202', 'Open': '91.38', 'High': '94.29', 'Low': '89.5', 'Close': '93.38', 'Volume': '60700'}
 {'Date': '20240205', 'Open': '91.86', 'High': '100.88', 'Low': '90.7', 'Close': '98.64', 'Volume': '93300'}
@@ -22,6 +24,7 @@ R
 {'close': 93.38, 'open': 91.86, 'gap': -1.63, 'same': 90.7, 'oppo': 100.88}
 {'percent_continue': 1.26, 'percent_reverse': 9.81}
 R
+close_move = 7.38
 
 {'Date': '20240604', 'Open': '92.41', 'High': '98.3', 'Low': '89.84', 'Close': '94.39', 'Volume': '41200'}
 {'Date': '20240605', 'Open': '94.39', 'High': '108.06', 'Low': '94.39', 'Close': '106.8', 'Volume': '62300'}
@@ -33,6 +36,7 @@ R
 {'close': 106.5, 'open': 105.67, 'gap': -0.78, 'same': 97.49, 'oppo': 106.54}
 {'percent_continue': 7.74, 'percent_reverse': 0.82}
 C
+close_move = -1.28
 
 {'Date': '20241106', 'Open': '132.76', 'High': '140.18', 'Low': '130.49', 'Close': '133.82', 'Volume': '63600'}
 {'Date': '20241107', 'Open': '133.21', 'High': '133.21', 'Low': '116.78', 'Close': '117.59', 'Volume': '47300'}
@@ -40,6 +44,7 @@ C
 {'close': 133.82, 'open': 133.21, 'gap': -0.46, 'same': 116.78, 'oppo': 133.21}
 {'percent_continue': 12.33, 'percent_reverse': 0.0}
 C
+close_move = -11.73
 
 {'Date': '20250203', 'Open': '132.72', 'High': '135.49', 'Low': '132.34', 'Close': '133.77', 'Volume': '22400'}
 {'Date': '20250204', 'Open': '135.34', 'High': '152.57', 'Low': '135.34', 'Close': '137.11', 'Volume': '68500'}
@@ -47,4 +52,5 @@ C
 {'close': 133.77, 'open': 135.34, 'gap': 1.17, 'same': 152.57, 'oppo': 135.34}
 {'percent_continue': 12.73, 'percent_reverse': 0.0}
 C
+close_move = 1.31
 
