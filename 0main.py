@@ -1,16 +1,10 @@
-import json
-import os
-import csv
-import inspect
+import json, os, csv, inspect
 from datetime import datetime
-import time
-import sys
-import shutil
+import time, sys, shutil
 from pathlib import Path
-import pandas as pd
-import yfinance as yf
-import finnhub
-import psutil
+import pandas as pd, yfinance as yf, finnhub
+import psutil, platform,subprocess
+
 
 def load_txt_file(txt_file):
     #content = load_txt_file("file.txt")
@@ -163,6 +157,13 @@ def get_sec_earn_dates(match_file):
     sec_no_data_file = "0sec_no_data.csv"
     sec_no_data_list = csv_to_book(sec_no_data_file)
     print(stocks)
+    #upload every 10 gets
+    #counter is what does it
+    counter = 0
+    iden_codespace = "codespace"
+    iden_laptop = "???"
+    laptop_or_codespace = platform.node()
+    upload = [10,20,30,40,50,60,70,80,90,100]
     for val in stocks:
         check_stock = val["symbol"]
         stock = check_stock
@@ -258,6 +259,12 @@ def get_sec_earn_dates(match_file):
         if earn_dates_check==0:                        
             #redo..but then just do a search for 1 earn value..
             meow="meow"
+        counter+=1
+        if counter in upload: 
+            if iden_codespace in laptop_or_codespace:
+                subprocess.run(['python', '0push_codespace_to_repo.py'])
+            if iden_laptop in laptop_or_codespace:    
+                subprocess.run(['python', '0push_laptop_to_repo.py'])
 
 def get_yahoo_history(upcoming_file):
     # Open the CSV file and load it as a dictionary
@@ -577,4 +584,4 @@ prices_around_earnings(upcoming_file,required_ratio)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 12:51:11----------
+#last updated=2025-03-19 18:15:43----------
