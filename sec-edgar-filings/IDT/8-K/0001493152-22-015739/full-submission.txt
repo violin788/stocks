@@ -1,0 +1,226 @@
+14
+<SEC-DOCUMENT>0001493152-22-015739.txt : 20220602
+<SEC-HEADER>0001493152-22-015739.hdr.sgml : 20220602
+<ACCEPTANCE-DATETIME>20220602165526
+ACCESSION NUMBER:		0001493152-22-015739
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		14
+CONFORMED PERIOD OF REPORT:	20220602
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20220602
+DATE AS OF CHANGE:		20220602
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			IDT CORP
+		CENTRAL INDEX KEY:			0001005731
+		STANDARD INDUSTRIAL CLASSIFICATION:	TELEPHONE COMMUNICATIONS (NO RADIO TELEPHONE) [4813]
+		IRS NUMBER:				223415036
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0731
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-16371
+		FILM NUMBER:		22991636
+
+	BUSINESS ADDRESS:	
+		STREET 1:		520 BROAD ST
+		CITY:			NEWARK
+		STATE:			NJ
+		ZIP:			07102
+		BUSINESS PHONE:		973 438 1000
+
+	MAIL ADDRESS:	
+		STREET 1:		520 BROAD STREET
+		CITY:			NEWARK
+		STATE:			NJ
+		ZIP:			07102
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>form8-k.htm
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:us-roles="http://fasb.org/us-roles/2022" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:srt="http://fasb.org/srt/2022" xmlns:IDT="http://idt.net/20220602">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html" />
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02B_US%2DGAAP%2D2022 -->
+<!-- Field: Set; Name: xdx; ID: xdx_033_IDT_idt.net_20220602 -->
+<!-- Field: Set; Name: xdx; ID: xdx_04F_20220602_20220602 -->
+<!-- Field: Set; Name: xdx; ID: xdx_05B_edei%2D%2DEntityCentralIndexKey_0001005731 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityCentralIndexKey">0001005731</ix:nonNumeric>
+  <ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="idt-20220602.xsd" xlink:type="simple" />
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="From2022-06-02to2022-06-02">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0001005731</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2022-06-02</xbrli:startDate>
+        <xbrli:endDate>2022-06-02</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="width: 100%"><div style="border-top: Black 4pt solid; border-bottom: Black 1.5pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; text-align: center; margin-top: 0pt; margin-bottom: 0pt"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b>UNITED
+STATES</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b>SECURITIES
+AND EXCHANGE COMMISSION</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 12pt"><b>Washington,
+D.C. 20549</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="margin-left: auto; margin-right: auto; width: 25%"><div style="border-top: Black 1.5pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b>FORM
+<span id="xdx_90B_edei--DocumentType_c20220602__20220602_z79tQzI5aK51"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="margin-left: auto; margin-right: auto; width: 25%"><div style="border-top: Black 1.5pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>CURRENT
+REPORT</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Pursuant
+to Section 13 or 15(d) of the Securities Exchange Act of 1934</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Date
+of Report (Date of earliest event reported): <span id="xdx_90C_edei--DocumentPeriodEndDate_c20220602__20220602_zC9q53ydCGO4"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" format="ixt:datemonthdayyearen" name="dei:DocumentPeriodEndDate">June 2, 2022</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 18pt"><b><span id="xdx_907_edei--EntityRegistrantName_c20220602__20220602_zUfliBm9rIJ6"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityRegistrantName">IDT
+CORPORATION</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Exact
+name of registrant as specified in its charter)</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="margin-left: auto; margin-right: auto; width: 25%"><div style="border-top: Black 1.5pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; vertical-align: top; width: 32%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_902_edei--EntityIncorporationStateCountryCode_c20220602__20220602_zmRpBOkTnRfk"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" format="ixt-sec:stateprovnameen" name="dei:EntityIncorporationStateCountryCode">Delaware</ix:nonNumeric></span></b></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1.5pt; vertical-align: bottom; width: 2%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; vertical-align: top; width: 32%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90F_edei--EntityFileNumber_c20220602__20220602_zwOdq80Ku2ud"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityFileNumber">1-16371</ix:nonNumeric></span></b></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1.5pt; vertical-align: bottom; width: 2%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; vertical-align: top; width: 32%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_903_edei--EntityTaxIdentificationNumber_c20220602__20220602_zcyC1KpPeIz7"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityTaxIdentificationNumber">22-3415036</ix:nonNumeric></span></b></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(State or other jurisdiction</b></span></p>
+                                                                                <p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>of incorporation)</b></span></p></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Commission</b></span></p>
+                                                                                <p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>File Number)</b></span></p></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(IRS Employer</b></span></p>
+                                                                                <p style="margin-top: 0; margin-bottom: 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Identification No.)</b></span></p></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roman, Times, Serif; width: 100%; border-collapse: collapse">
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; vertical-align: top; width: 49%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_908_edei--EntityAddressAddressLine1_c20220602__20220602_zmrxEf4zgR7b"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityAddressAddressLine1">520
+    Broad Street</ix:nonNumeric></span> <span id="xdx_908_edei--EntityAddressCityOrTown_c20220602__20220602_z5s7jOJoNe0e"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityAddressCityOrTown">Newark</ix:nonNumeric></span>, <span id="xdx_90D_edei--EntityAddressStateOrProvince_c20220602__20220602_zMN1XPbDmATa"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" format="ixt-sec:stateprovnameen" name="dei:EntityAddressStateOrProvince">New Jersey</ix:nonNumeric></span></b></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; padding-bottom: 1.5pt; vertical-align: bottom; width: 2%"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="border-bottom: Black 1.5pt solid; font: 10pt Times New Roman, Times, Serif; vertical-align: top; width: 49%; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90D_edei--EntityAddressPostalZipCode_c20220602__20220602_z9q0VrnCPta8"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityAddressPostalZipCode">07102</ix:nonNumeric></span></b></span></td></tr>
+  <tr style="font: 10pt Times New Roman, Times, Serif">
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Address
+    of principal executive offices)</b></span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: bottom"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></td>
+    <td style="font: 10pt Times New Roman, Times, Serif; vertical-align: top; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Zip
+    Code)</b></span></td></tr>
+  </table>
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span>&#160;</p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>Registrant&#8217;s
+telephone number, including area code: <span id="xdx_90F_edei--CityAreaCode_c20220602__20220602_zr2l36846Rf1"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:CityAreaCode">(973)</ix:nonNumeric></span> <span id="xdx_908_edei--LocalPhoneNumber_c20220602__20220602_zKQj8Y9FTRuk"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:LocalPhoneNumber">438-1000</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b><span id="xdx_90E_edei--EntityInformationFormerLegalOrRegisteredName_c20220602__20220602_zRfw748FvRB1"><ix:nonNumeric contextRef="From2022-06-02to2022-06-02" name="dei:EntityInformationFormerLegalOrRegisteredName">Not
+Applicable</ix:nonNumeric></span></b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"><b>(Former
+name or former address, if changed since last report.)</b></span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt"></span></p>
+
+<!-- Field: Rule-Page --><div style="margin-left: auto; margin-right: auto; width: 25%"><div style="border-top: Black 1.5pt solid; font-size: 1pt">&#160;</div></div><!-- Field: /Rule-Page -->
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt; text-align: center"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0; text-align: justify"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">Check
+the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under
+any of the following provisions (see General Instruction A.2. below):</span></p>
+
+<p style="font: 10pt Times New Roman, Times, Serif; margin: 0pt 0pt 0pt 0"><span style="font-family: Times New Roman, Times, Serif; font-size: 10pt">&#160;</span></p>
+
+<table cellspacing="0" cellpadding="0" style="font: 10pt Times New Roma
