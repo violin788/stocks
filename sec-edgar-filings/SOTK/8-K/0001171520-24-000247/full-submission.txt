@@ -1,0 +1,262 @@
+5
+<SEC-DOCUMENT>0001171520-24-000247.txt : 20240711
+<SEC-HEADER>0001171520-24-000247.hdr.sgml : 20240711
+<ACCEPTANCE-DATETIME>20240711070926
+ACCESSION NUMBER:		0001171520-24-000247
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		16
+CONFORMED PERIOD OF REPORT:	20240711
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Regulation FD Disclosure
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20240711
+DATE AS OF CHANGE:		20240711
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			SONO TEK CORP
+		CENTRAL INDEX KEY:			0000806172
+		STANDARD INDUSTRIAL CLASSIFICATION:	SPECIAL INDUSTRY MACHINERY, NEC [3559]
+		ORGANIZATION NAME:           	06 Technology
+		IRS NUMBER:				141568099
+		STATE OF INCORPORATION:			NY
+		FISCAL YEAR END:			0228
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-40763
+		FILM NUMBER:		241111025
+
+	BUSINESS ADDRESS:	
+		STREET 1:		2012 RT 9W BLDG 3
+		CITY:			MILTON
+		STATE:			NY
+		ZIP:			12547
+		BUSINESS PHONE:		8457952020
+
+	MAIL ADDRESS:	
+		STREET 1:		2012 RT. 9W, BLDG. 3,
+		CITY:			MILTON
+		STATE:			NY
+		ZIP:			12547
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>eps11352.htm
+<TEXT>
+<XBRL>
+<?xml version='1.0' encoding='ASCII'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:us-roles="http://fasb.org/us-roles/2024" xmlns:country="http://xbrl.sec.gov/country/2024" xmlns:srt="http://fasb.org/srt/2024" xmlns:sotk="http://sono-tek.com/20240711">
+<head>
+     <title>Sono-Tek Corp. Form 8-K</title>
+<meta http-equiv="Content-Type" content="text/html"/>
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02D_US%2DGAAP%2D2024 -->
+<!-- Field: Set; Name: xdx; ID: xdx_031_sotk_sono%2Dtek.com_20240711 -->
+<!-- Field: Set; Name: xdx; ID: xdx_044_20240711_20240711 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_051_edei%2D%2DEntityCentralIndexKey_0000806172 -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body style="font: 10pt Times New Roman, Times, Serif">
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000003" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000004" name="dei:EntityCentralIndexKey">0000806172</ix:nonNumeric>
+  <ix:nonNumeric contextRef="AsOf2024-07-11" id="xdx2ixbrl0011" name="dei:EntityRegistrantName">SONO TEK CORP</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="sotk-20240711.xsd" xlink:type="simple"/>
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="AsOf2024-07-11">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000806172</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-07-11</xbrli:startDate>
+        <xbrli:endDate>2024-07-11</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center">UNITED STATES</p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center">SECURITIES AND EXCHANGE COMMISSION</p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center">Washington, D.C. 20549</p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center"><b>FORM <span id="xdx_90B_edei--DocumentType_c20240711__20240711_zdipLsLzt4el"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000009" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center"><b>CURRENT REPORT</b></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">Date of Report (Date of earliest event reported): <b><span id="xdx_904_edei--DocumentPeriodEndDate_c20240711__20240711_zWEypdwUVpSe"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt:datemonthdayyearen" id="Fact000010" name="dei:DocumentPeriodEndDate">July 11, 2024</ix:nonNumeric></span></b></p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 12pt Cambria,serif; margin: 0; text-align: center"><b><span style="text-decoration: underline"><span id="xdx_903_edei--EntityRegistrantName_dxL_c20240711__20240711_zLY1HG09krS6" title="::XDX::SONO%20TEK%20CORP"><span style="-sec-ix-hidden: xdx2ixbrl0011">Sono-Tek Corporation</span></span></span></b></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">(Exact name of registrant as specified in its charter)</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">Commission File Number: <b><span id="xdx_900_edei--EntityFileNumber_c20240711__20240711_zuwFr7rAJUTc"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000012" name="dei:EntityFileNumber">000-16035</ix:nonNumeric></span></b></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="width: 100%; border-collapse: collapse; font-size: 12pt">
+  <tr style="vertical-align: top">
+    <td style="width: 52%; font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt"><b><span style="text-decoration: underline"><span id="xdx_90F_edei--EntityIncorporationStateCountryCode_c20240711__20240711_zEF2VLlLpaba"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt-sec:stateprovnameen" id="Fact000013" name="dei:EntityIncorporationStateCountryCode">New York</ix:nonNumeric></span></span></b></span></td>
+    <td style="width: 5%; font-family: Times New Roman,serif; text-align: center">&#160;</td>
+    <td style="width: 43%; font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt"><b><span style="text-decoration: underline"><span id="xdx_901_edei--EntityTaxIdentificationNumber_c20240711__20240711_zbfQr0hZZri6"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000014" name="dei:EntityTaxIdentificationNumber">14-1568099</ix:nonNumeric></span></span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt">(State of Incorporation)</span></td>
+    <td style="font-family: Times New Roman,serif; text-align: center">&#160;</td>
+    <td style="font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt">(I.R.S. Employer ID No.)</span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="font-family: Times New Roman,serif; text-align: center">&#160;</td>
+    <td style="font-family: Times New Roman,serif; text-align: center">&#160;</td>
+    <td style="font-family: Times New Roman,serif; text-align: center">&#160;</td></tr>
+  <tr style="vertical-align: top">
+    <td style="font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt"><b><span style="text-decoration: underline"><span id="xdx_90C_edei--EntityAddressAddressLine1_c20240711__20240711_z2HlSJYbqauh"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000015" name="dei:EntityAddressAddressLine1">2012 Route 9W</ix:nonNumeric></span>, <span id="xdx_904_edei--EntityAddressCityOrTown_c20240711__20240711_zfa8k2uRG7Uf"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000016" name="dei:EntityAddressCityOrTown">Milton</ix:nonNumeric></span>, <span id="xdx_909_edei--EntityAddressStateOrProvince_c20240711__20240711_zlkKvi0W01Ci"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt-sec:stateprovnameen" id="Fact000017" name="dei:EntityAddressStateOrProvince">New York</ix:nonNumeric></span></span></b></span></td>
+    <td style="font-family: Times New Roman,serif; text-align: center">&#160;</td>
+    <td style="font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt"><b><span style="text-decoration: underline"><span id="xdx_90B_edei--EntityAddressPostalZipCode_c20240711__20240711_zi5QF0e2EZm1"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000018" name="dei:EntityAddressPostalZipCode">12547</ix:nonNumeric></span></span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt">(Address of Principal Executive Offices)</span></td>
+    <td style="font-family: Times New Roman,serif; text-align: center">&#160;</td>
+    <td style="font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 10pt">(Zip Code)</span></td></tr>
+  </table>
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0; text-align: center">Registrant&#8217;s telephone number, including area code: <b><span id="xdx_90D_edei--CityAreaCode_c20240711__20240711_zbPHhVoK35Di"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000019" name="dei:CityAreaCode">(845)</ix:nonNumeric></span> <span id="xdx_907_edei--LocalPhoneNumber_c20240711__20240711_zxp55vWky4I1"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000020" name="dei:LocalPhoneNumber">795-2020</ix:nonNumeric></span></b></p>
+
+<p style="font: 10pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">Check appropriate box below if the Form 8-K filing is intended to simultaneously satisfy
+the filing obligations of the registrant under any of the following provisions:</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="width: 100%; font-size: 12pt">
+  <tr style="vertical-align: top">
+    <td style="width: 5%; padding-bottom: 6pt; font-family: Times New Roman,serif"><span style="font-family: MS Mincho; font-size: 10.5pt"><span id="xdx_909_edei--WrittenCommunications_c20240711__20240711_z9Vo0xQ0StDh"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt:booleanfalse" id="Fact000021" name="dei:WrittenCommunications">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="width: 95%; padding-bottom: 6pt; font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 10.5pt">Written communications pursuant to Rule 425 under Securities Act (17 CFR 230.425)</span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="padding-bottom: 6pt; font-family: Times New Roman,serif"><span style="font-family: MS Mincho; font-size: 10.5pt"><span id="xdx_907_edei--SolicitingMaterial_c20240711__20240711_zTsQDXOhb5zf"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt:booleanfalse" id="Fact000022" name="dei:SolicitingMaterial">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="padding-bottom: 6pt; font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 10.5pt">Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="padding-bottom: 6pt; font-family: Times New Roman,serif"><span style="font-family: MS Mincho; font-size: 10.5pt"><span id="xdx_901_edei--PreCommencementTenderOffer_c20240711__20240711_zmBoePsGX9Cd"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt:booleanfalse" id="Fact000023" name="dei:PreCommencementTenderOffer">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="padding-bottom: 6pt; font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 10.5pt">Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="font-family: Times New Roman,serif"><span style="font-family: MS Mincho; font-size: 10.5pt"><span id="xdx_907_edei--PreCommencementIssuerTenderOffer_c20240711__20240711_zpE1JTWxJkh"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt:booleanfalse" id="Fact000024" name="dei:PreCommencementIssuerTenderOffer">&#9744;</ix:nonNumeric></span></span></td>
+    <td style="font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 10.5pt">Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr>
+  </table>
+<p style="font: 11pt Cambria,serif; margin: 0 0 0 0.5in; text-indent: -0.5in">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">Securities registered pursuant to Section 12(b) of the Act:</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<table cellspacing="0" cellpadding="0" style="width: 100%; border-collapse: collapse; font-size: 12pt">
+  <tr style="vertical-align: bottom">
+    <td style="width: 30%; font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 9pt"><b><span style="text-decoration: underline">Title of each class</span></b></span></td>
+    <td style="width: 13%; font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 9pt"><b>Trading</b></span><span style="font-size: 9pt"><br/>
+<span style="font-family: Cambria,serif"><b><span style="text-decoration: underline">Symbol(s)</span></b></span></span></td>
+    <td style="width: 57%; font-family: Times New Roman,serif; text-align: center"><span style="font-family: Cambria,serif; font-size: 9pt"><b><span style="text-decoration: underline">Name of each exchange on which registered</span></b></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="padding-top: 3pt; font-family: Times New Roman,serif"><span style="font-size: 11pt"><span id="xdx_902_edei--Security12bTitle_c20240711__20240711_zgPMFtcgz7Ij"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000025" name="dei:Security12bTitle">Common Stock, $0.01 par value per share</ix:nonNumeric></span></span></td>
+    <td style="padding-top: 3pt; font-family: Times New Roman,serif; text-align: center"><span style="font-size: 11pt"><span id="xdx_90C_edei--TradingSymbol_c20240711__20240711_z6BrAP9feKgh"><ix:nonNumeric contextRef="AsOf2024-07-11" id="Fact000026" name="dei:TradingSymbol">SOTK</ix:nonNumeric></span></span></td>
+    <td style="padding-top: 3pt; font-family: Times New Roman,serif; text-align: center"><span style="font-size: 11pt"><span id="xdx_90A_edei--SecurityExchangeName_c20240711__20240711_zm8kmxDUMsw2"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt-sec:exchnameen" id="Fact000027" name="dei:SecurityExchangeName">NASDAQ</ix:nonNumeric></span></span></td></tr>
+  </table>
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">Indicate by check mark whether the registrant is an emerging growth company as defined
+in Rule 405 of the Securities Act of 1933 (&#167;230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (&#167;240.12b-2
+of this chapter).</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Times New Roman,serif; margin: 0"><span style="font-family: Cambria,serif">Emerging growth company </span><span style="font-family: MS Mincho"><span id="xdx_909_edei--EntityEmergingGrowthCompany_c20240711__20240711_zVPhyW1ldGH1"><ix:nonNumeric contextRef="AsOf2024-07-11" format="ixt:booleanfalse" id="Fact000028" name="dei:EntityEmergingGrowthCompany">&#9744;</ix:nonNumeric></span></span></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Times New Roman,serif; margin: 0"><span style="font-family: Cambria,serif">If an emerging growth company, indicate
+by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial
+accounting standards provided pursuant to Section 13(a) of the Exchange Act. </span><span style="font-family: MS Mincho">&#9744;</span></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+
+<!-- Field: Page; Sequence: 1 -->
+    <div style="border-bottom: rgb(98,145,178) 2pt solid; margin-top: 12pt; margin-bottom: 6pt; padding-bottom: 2pt"></div>
+    <div style="break-before: page; margin-top: 6pt; margin-bottom: 12pt">&#160;</div>
+    <!-- Field: /Page -->
+
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0"><b>Item 2.02: Results of Operations and Financial Condition.</b></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0"><b>Item 7.01: Regulation FD Disclosure</b></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">On July 11, 2024, Sono-Tek Corporation issued a press release regarding its financial results
+for the quarter ended May 31, 2024 in the form attached as exhibit 99.1.</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">The information furnished pursuant to this Item 7.01, including Exhibit 99.1, shall not
+be deemed &#8220;filed&#8221; for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the &#8220;Exchange Act&#8221;)
+or otherwise subject to the liabilities under such section and shall not be deemed to be incorporated by reference into any filing of
+the Company under the Securities Act of 1933, as amended, or the Exchange Act.</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0"><b>Item 9.01: Financial Statements and Exhibits.</b></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">&#160;</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0">(d) Exhibits</p>
+
+<p style="font: 11pt Cambria,serif; margin: 0"></p>
+
+<p style="font: 11pt Cambria,serif; margin: 0 0 0 45pt">&#160;</p>
+<table cellspacing="0" cellpadding="0" style="width: 100%; border-collapse: collapse; font-size: 12pt">
+  <tr style="vertical-align: top">
+    <td style="width: 11%; font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 11pt">99.1 </span></td>
+    <td style="width: 89%; font-family: Times New Roman,serif"><span style="font-family: Cambria,serif; font-size: 11pt"><a href="ex99-1.htm">Press Release dated July 11, 2024.</a></span></td></tr>
+  <tr style="vertical-align: top">
+    <td style="font-family: Times New Roman
