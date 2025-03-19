@@ -329,7 +329,7 @@ def get_yahoo_history(upcoming_file):
         writer.writeheader()
         writer.writerows(compare)
 
-def prices_around_earnings(match_file,required_ratio):
+def prices_around_earnings(match_file,required_ratio,folder_analysis):
     stock_list = csv_to_book(match_file)
     cwd = os.getcwd()
     edgar_folder = os.path.join(cwd,"sec-edgar-filings")          
@@ -344,6 +344,7 @@ def prices_around_earnings(match_file,required_ratio):
         symbol = specific["symbol"]
         stock = specific["symbol"]
         name = specific["name"]
+        stock_data= ""
         print(symbol)
         print(stock_list.index(specific),len(stock_list))
         k8_dir = os.path.join(edgar_folder,stock,"8-K")  
@@ -421,6 +422,8 @@ def prices_around_earnings(match_file,required_ratio):
                 if max_vol==day:
                     for key_other, out in days_surrounding.items():
                         print(symbol,key_other,out)
+                        stock_data+=str(out)+"\n"
+                    stock_data+="\n"
                     print("max_vol",max_vol)
                     get_close=""
                     if key=="after":
@@ -487,10 +490,8 @@ def prices_around_earnings(match_file,required_ratio):
                         up_down_ratio=move_down
                     max_ratio = max(up_down_ratio,up_down_ratio)
                     ratios_up_vs_down.append(max_ratio)
-
         stock_cr.sort(key=lambda x: x["Date"])
         #ratios_up_vs_down.sort()
-
         try:
             uvd = min(ratios_up_vs_down)
             uvd = round(uvd,2)
@@ -505,7 +506,6 @@ def prices_around_earnings(match_file,required_ratio):
         #min_value=stock_cr[0]["Amount"]
         min_value = min(stock_cr, key=lambda x: x['Amount'])["Amount"]
         print("min_value",min_value)
-
         min2= int((min_value-1)*100)
         #if min2>required_ratio:
         if min2>0: 
@@ -519,7 +519,15 @@ def prices_around_earnings(match_file,required_ratio):
             new["uvd"]=uvd
             new["date"]=specific["date"]
             final_cr2.append(new)
-        #abort, leave =="" if you just want it to run
+            folder_analysis = os.path.join(cwd,folder_analysis)
+            data_file = os.path.join(folder_analysis,symbol+".txt")
+            to_write=""
+            #for key, data in new.items():
+            #    to_write+=str(key)+":"+str(data)+"\n"
+            write_txt_file(data_file,stock_data)
+
+        #stop at specific stock
+        #leave =="" if you just want it to run
         if symbol=="":
             sys.exit()
     final = sorted(final_cr2,key=lambda x: x["vol*pri"])
@@ -529,11 +537,10 @@ def prices_around_earnings(match_file,required_ratio):
         if "CCCCCCCC" in direction or "RRRRRRRR" in direction:
             same_direction.append(item)
     final = final+same_direction
-
     for item in final:
         print("item",item)
 
-def specific_day(start_day,end_day, file_to_load):
+def specific_day(start_day,end_day, file_to_load,folder_analysis):
     list = []
     with open(file_to_load, mode='r') as file:
         reader = csv.reader(file)
@@ -566,6 +573,7 @@ google_vp_file = "0vp_google_data.csv"
 history_header = [["date","open","high","low","close","volume"]]
 match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
+folder_analysis = "data_around_earnings"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-06-01"
@@ -578,8 +586,8 @@ stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
 get_yahoo_history(upcoming_file)
 get_sec_earn_dates(upcoming_file)
-prices_around_earnings(upcoming_file,required_ratio)
+prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-19 19:47:53----------
+#last updated=2025-03-19 20:24:48----------
