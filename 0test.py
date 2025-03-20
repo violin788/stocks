@@ -1,4 +1,3 @@
-import os 
 
 def csv_to_book(file_to_load):
     #list = csv_to_book("0upcoming.csv")
@@ -8,34 +7,33 @@ def csv_to_book(file_to_load):
     return(loaded_list)
 
 
-def history_save(data,symbol,ending):
-    #history_save("CVS","-history.csv")
-    cwd = os.getcwd()
-    check_letter=  symbol[0]
-    if 'A' <= check_letter <= 'M':
-        print("AM")
-        folder_save = "history-yahoo-A-M"
-    if 'N' <= check_letter <= 'Z':
-        print("NZ")
-        folder_save = "history-yahoo-N-Z"
-    file_save = os.path.join(cwd,folder_save,symbol+ending) 
-    book_to_csv(data,file_save)
+import os,shutil
+import sys,csv
+#folder_history.append"sec-edgar-filings2"
+ranges = []
+ranges.append(["A","D"])
+ranges.append(["E","H"])
+ranges.append(["I","L"])
+ranges.append(["M","P"])
+ranges.append(["Q","T"])
+ranges.append(["U","Z"])
+cwd = os.getcwd()
+history_folder = os.path.join(cwd,"history-yahoo") 
 
-import csv
-def history_load(symbol):
+def history_load(subfolders,symbol,ending):
+    #prices = history_load(ranges,symbol,"-history.csv")
     cwd = os.getcwd()
-    #history_load("CVS"):
     check_letter=  symbol[0]
-    if 'A' <= check_letter <= 'M':
-        print("AM")
-        folder_load = "history-yahoo-A-M"
-    if 'N' <= check_letter <= 'Z':
-        print("NZ")
-        folder_load = "history-yahoo-N-Z"
-    file_open = os.path.join(cwd,folder_load,symbol+"-history.csv") 
+    for range in ranges:
+        if range[0] <= check_letter <= range[1]:
+            print(range)
+            break
+    folder_load = "history-yahoo-"+range[0]+"-"+range[1]
+    print(folder_load)
+    file_open = os.path.join(history_folder,folder_load,symbol+ending) 
     print(file_open)
     loaded_csv = csv_to_book(file_open)
     return loaded_csv
 
-test = history_load("COE")
-print(test)
+prices = history_load(ranges,"ADBE","-history.csv")
+print(prices)

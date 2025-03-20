@@ -23,6 +23,7 @@ def csv_to_book(file_to_load):
         reader = csv.DictReader(f)        
         loaded_list = list(reader)
     return(loaded_list)
+
 def book_to_csv(book,output_file):
     #book_to_csv(dictionary,"0upcoming.csv")
     with open(output_file, 'w', newline='') as f:
@@ -273,17 +274,27 @@ def get_sec_earn_dates(match_file):
             if iden_laptop in laptop_or_codespace:    
                 subprocess.run(['python', '0push_laptop_to_repo.py'])
 
-def history_load(symbol,ending):
-    #prices = history_load("CVS","-history.csv")
+ranges = []
+ranges.append(["A","D"])
+ranges.append(["E","H"])
+ranges.append(["I","L"])
+ranges.append(["M","P"])
+ranges.append(["Q","T"])
+ranges.append(["U","Z"])
+cwd = os.getcwd()
+history_folder = os.path.join(cwd,"history-yahoo") 
+
+def history_load(subfolders,symbol,ending):
+    #prices = history_load(ranges,symbol,"-history.csv")
     cwd = os.getcwd()
     check_letter=  symbol[0]
-    if 'A' <= check_letter <= 'M':
-        print("AM")
-        folder_load = "history-yahoo-A-M"
-    if 'N' <= check_letter <= 'Z':
-        print("NZ")
-        folder_load = "history-yahoo-N-Z"
-    file_open = os.path.join(cwd,folder_load,symbol+ending) 
+    for range in ranges:
+        if range[0] <= check_letter <= range[1]:
+            print(range)
+            break
+    folder_load = "history-yahoo-"+range[0]+"-"+range[1]
+    print(folder_load)
+    file_open = os.path.join(history_folder,folder_load,symbol+ending) 
     print(file_open)
     loaded_csv = csv_to_book(file_open)
     return loaded_csv
@@ -342,7 +353,7 @@ def get_yahoo_history(upcoming_file):
     for item in upcoming:
         symbol = item["symbol"]
         print(symbol)
-        data = history_load(symbol,"-history.csv")
+        data = history_load(ranges,symbol,"-history.csv")
         index = upcoming.index(item)
         try:
             price = float(data[0]["Close"])
@@ -428,7 +439,7 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
             csv_reader = csv.DictReader(file)
             list_prices = [row for row in csv_reader]   
             """
-        list_prices = history_load(symbol,"-history.csv")
+        list_prices = history_load(ranges,symbol,"-history.csv")
         continue_list=  []
         reverse_list = []
         continue_dictionary= {}
@@ -656,4 +667,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-20 15:18:08----------
+#last updated=2025-03-20 15:46:41----------
