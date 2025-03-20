@@ -292,7 +292,8 @@ def get_yahoo_history(upcoming_file):
         data.columns = data.columns.get_level_values(0)  # Remove multi-index headers
         # Move "Open" to the second column and round all float values to 2 decimal places
         data = data[['Open', 'High', 'Low', 'Close', 'Volume']].round(2)
-        data.to_csv(symbol+'-history.csv', index_label='Date')
+        output_file = os.path.join(cwd,"history-yahoo",symbol+'-history.csv')
+        data.to_csv(output_file, index_label='Date')
         print(symbol+'-history.csv'+" saved")
         print(upcoming.index(item),len(upcoming))
         time.sleep(2)
@@ -389,7 +390,8 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
         dates_list = earn_dates2
         object_current_datetime = datetime.now()    
         list_prices = []
-        prices_file = symbol + "-history.csv"
+        #prices_file = symbol + "-history.csv"
+        prices_file = os.path.join(cwd,"history-yahoo",symbol+'-history.csv')
         with open(prices_file, mode='r') as file:
             csv_reader = csv.DictReader(file)
             list_prices = [row for row in csv_reader]   
@@ -601,6 +603,7 @@ history_header = [["date","open","high","low","close","volume"]]
 match_file = "0match.csv"
 file_vol_pri = "0vol_pri_list.csv"
 folder_analysis = "data_around_earnings"
+folder_history = "history-yahoo"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-06-17"
@@ -612,9 +615,11 @@ get_finnhub_earnings(finnhub_folder,finnhub_start,finnhub_end)
 stocks_from_finnhub_data(finnhub_file,stock_name_file,upcoming_file)
 most_vol_pri(list_length,file_vol_pri,upcoming_file)
 get_yahoo_history(upcoming_file)
+#add history folder to function
 get_sec_earn_dates(upcoming_file)
 prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
+#add history folder to function
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-20 12:30:39----------
+#last updated=2025-03-20 12:44:07----------
