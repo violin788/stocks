@@ -1,11 +1,15 @@
 import subprocess
 import os,sys
+import pytz
 from datetime import datetime
 alter_files = []
 alter_files.append("0main.py")
 for specific in alter_files:
+    virginia_tz = pytz.timezone('America/New_York')
+    virginia_time = datetime.now(virginia_tz)
+    print("Virginia Time:", virginia_time)
     now = datetime.now()
-    time_new = now.strftime("%Y-%m-%d %H:%M:%S") 
+    time_new = virginia_time.strftime("%Y-%m-%d %H:%M:%S") 
     with open(specific, "r") as file:
         iden_start_time = "#last updated="
         iden_end_time = "----------"
