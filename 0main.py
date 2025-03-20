@@ -274,21 +274,21 @@ def get_sec_earn_dates(match_file):
             if iden_laptop in laptop_or_codespace:    
                 subprocess.run(['python', '0push_laptop_to_repo.py'])
 
-ranges = []
-ranges.append(["A","D"])
-ranges.append(["E","H"])
-ranges.append(["I","L"])
-ranges.append(["M","P"])
-ranges.append(["Q","T"])
-ranges.append(["U","Z"])
+ranges_history = []
+ranges_history.append(["A","D"])
+ranges_history.append(["E","H"])
+ranges_history.append(["I","L"])
+ranges_history.append(["M","P"])
+ranges_history.append(["Q","T"])
+ranges_history.append(["U","Z"])
 cwd = os.getcwd()
 history_folder = os.path.join(cwd,"history-yahoo") 
 
 def history_load(subfolders,symbol,ending):
-    #prices = history_load(ranges,symbol,"-history.csv")
+    #prices = history_load(ranges_history,symbol,"-history.csv")
     cwd = os.getcwd()
     check_letter=  symbol[0]
-    for range in ranges:
+    for range in ranges_history:
         if range[0] <= check_letter <= range[1]:
             print(range)
             break
@@ -300,18 +300,17 @@ def history_load(subfolders,symbol,ending):
     return loaded_csv
 
 def history_save(data,symbol,ending):
-    #history_save("CVS","-history.csv")
-    cwd = os.getcwd()
+    #history_save(data,symbol,"-history.csv")
     check_letter=  symbol[0]
-    if 'A' <= check_letter <= 'M':
-        print("AM")
-        folder_save = "history-yahoo-A-M"
-    if 'N' <= check_letter <= 'Z':
-        print("NZ")
-        folder_save = "history-yahoo-N-Z"
-    file_save = os.path.join(cwd,folder_save,symbol+ending) 
+    for range in ranges_history:
+        if range[0] <= check_letter <= range[1]:
+            print(range)
+            break
+    folder_save = "history-yahoo-"+range[0]+"-"+range[1]
+    print(folder_save)
+    file_save = os.path.join(history_folder,folder_save,symbol+ending) 
+    print(file_save)
     data.to_csv(file_save, index_label='Date')
-    #book_to_csv(data,file_save)
 
 
 
@@ -322,12 +321,12 @@ def get_yahoo_history(upcoming_file):
         upcoming = list(reader)
     # Print the loaded data
     print(upcoming)
-    cwd = os.getcwd()
-    folder_history1 = os.path.join(cwd,"history-yahoo-A-M") 
-    folder_history2 = os.path.join(cwd,"history-yahoo-N-Z") 
-    list_history1 = os.listdir(folder_history1)
-    list_history2 = os.listdir(folder_history2)
-    file_list = list_history1+list_history2
+    file_list = []
+    for range in ranges_history:
+        folder_range = os.path.join(history_folder,"history-yahoo-"+range[0]+"-"+range[1]) 
+        print(folder_range)
+        list_range = os.listdir(folder_range)
+        file_list+=list_range
     for item in upcoming:
         symbol = item["symbol"]
         date = item["date"]
@@ -353,7 +352,7 @@ def get_yahoo_history(upcoming_file):
     for item in upcoming:
         symbol = item["symbol"]
         print(symbol)
-        data = history_load(ranges,symbol,"-history.csv")
+        data = history_load(ranges_history,symbol,"-history.csv")
         index = upcoming.index(item)
         try:
             price = float(data[0]["Close"])
@@ -439,7 +438,7 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
             csv_reader = csv.DictReader(file)
             list_prices = [row for row in csv_reader]   
             """
-        list_prices = history_load(ranges,symbol,"-history.csv")
+        list_prices = history_load(ranges_history,symbol,"-history.csv")
         continue_list=  []
         reverse_list = []
         continue_dictionary= {}
@@ -652,7 +651,7 @@ folder_history = "history-yahoo"
 
 finnhub_start = "2025-03-17"
 finnhub_end = "2025-06-17"
-list_length = 400
+list_length = 500
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -667,4 +666,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-20 15:46:41----------
+#last updated=2025-03-20 16:03:47----------
