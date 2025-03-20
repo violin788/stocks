@@ -1,0 +1,149 @@
+22
+<SEC-DOCUMENT>0000950170-23-066548.txt : 20231129
+<SEC-HEADER>0000950170-23-066548.hdr.sgml : 20231129
+<ACCEPTANCE-DATETIME>20231129070308
+ACCESSION NUMBER:		0000950170-23-066548
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		13
+CONFORMED PERIOD OF REPORT:	20231129
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Regulation FD Disclosure
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20231129
+DATE AS OF CHANGE:		20231129
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Petco Health & Wellness Company, Inc.
+		CENTRAL INDEX KEY:			0001826470
+		STANDARD INDUSTRIAL CLASSIFICATION:	RETAIL-RETAIL STORES, NEC [5990]
+		IRS NUMBER:				811005932
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			0128
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-39878
+		FILM NUMBER:		231448427
+
+	BUSINESS ADDRESS:	
+		STREET 1:		10850 VIA FRONTERA
+		CITY:			SAN DIEGO
+		STATE:			CA
+		ZIP:			92127
+		BUSINESS PHONE:		1-858-453-7845
+
+	MAIL ADDRESS:	
+		STREET 1:		10850 VIA FRONTERA
+		CITY:			SAN DIEGO
+		STATE:			CA
+		ZIP:			92127
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	PET Acquisition LLC
+		DATE OF NAME CHANGE:	20200929
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	Petco Acquisition LLC
+		DATE OF NAME CHANGE:	20200929
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>woof-20231129.htm
+<DESCRIPTION>8-K
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="ASCII"?><!-- DFIN New ActiveDisclosure (SM) Inline XBRL Document - http://www.dfinsolutions.com/ --><!-- Creation Date :2023-11-28T23:57:17.0025+00:00 --><!-- Copyright (c) 2023 Donnelly Financial Solutions, Inc. All Rights Reserved. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:nonNumeric="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dei="http://xbrl.sec.gov/dei/2023" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2022-02-16" xmlns:woof="http://petco.com/20231129">
+ <head>
+  <title>8-K</title>
+  <meta http-equiv="Content-Type" content="text/html" />
+ </head>
+ <body style="margin: auto!important;padding: 8px;">
+  <div style="display:none;"><ix:header><ix:hidden><ix:nonNumeric id="F_91115693-2295-47ca-9c9b-c9dcef780896" name="dei:AmendmentFlag" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33">false</ix:nonNumeric><ix:nonNumeric id="F_3b0641ee-2090-4c14-919f-fb9385ad380e" name="dei:EntityCentralIndexKey" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33">0001826470</ix:nonNumeric></ix:hidden><ix:references><link:schemaRef xlink:type="simple" xlink:href="woof-20231129.xsd"></link:schemaRef></ix:references><ix:resources><xbrli:context id="C_2c60907c-418a-4791-833e-154da7cbdd33"><xbrli:entity><xbrli:identifier scheme="http://www.sec.gov/CIK">0001826470</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2023-11-29</xbrli:startDate><xbrli:endDate>2023-11-29</xbrli:endDate></xbrli:period></xbrli:context></ix:resources></ix:header></div>
+  <p style="border-top:2.25pt double #000000;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:5.75pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:18pt;font-family:Times New Roman;min-width:fit-content;">UNITED STATES<br />SECURITIES AND EXCHANGE COMMISSION<br /></span><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:12pt;font-family:Times New Roman;min-width:fit-content;">WASHINGTON, D.C. 20549</span></p>
+  <p style="margin-left:40%;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:0.75pt solid #000000;margin-right:40%;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:10pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:18pt;font-family:Times New Roman;min-width:fit-content;">FORM </span><span style="font-size:18pt;font-family:Times New Roman;"><ix:nonNumeric id="F_dc261445-0ade-4dcf-acec-dce54eb35130" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:DocumentType"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:18pt;font-family:Times New Roman;min-width:fit-content;">8-K</span></ix:nonNumeric></span></p>
+  <p style="margin-left:40%;font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;border-bottom:0.75pt solid #000000;margin-right:40%;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:9pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:12pt;font-family:Times New Roman;min-width:fit-content;">CURRENT REPORT</span></p>
+  <p style="font-size:10pt;margin-top:9pt;font-family:Times New Roman;margin-bottom:6pt;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:12pt;font-family:Times New Roman;min-width:fit-content;">Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934</span></p>
+  <table style="border-spacing:0;table-layout:fixed;width:100.0%;border-collapse:separate;">
+   <tr style="visibility:collapse;">
+    <td style="width:100%;"></td>
+   </tr>
+   <tr style="height:10pt;word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;margin-right:0.02986111111111111in;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">Date of Report (Date of earliest event reported): </span><span><ix:nonNumeric id="F_6d5302ff-1d1f-4bdd-83ba-60f056acd133" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:DocumentPeriodEndDate" format="ixt:date-monthname-day-year-en"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">November 29, 2023</span></ix:nonNumeric></span></p></td>
+   </tr>
+  </table>
+  <p style="margin-left:40%;font-size:10pt;margin-top:5pt;font-family:Times New Roman;margin-bottom:0;border-bottom:0.75pt solid #000000;margin-right:40%;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:5pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="font-size:24pt;font-family:Times New Roman;"><ix:nonNumeric id="F_36df90b1-fe69-4ccd-8162-ac87962d37ce" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityRegistrantName"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:24pt;font-family:Times New Roman;min-width:fit-content;">Petco Health and Wellness Company, Inc.</span></ix:nonNumeric></span></p>
+  <p style="font-size:10pt;margin-top:3pt;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:7.5pt;font-family:Times New Roman;min-width:fit-content;">(Exact name of Registrant as Specified in Its Charter)</span></p>
+  <p style="margin-left:40%;font-size:10pt;margin-top:9pt;font-family:Times New Roman;margin-bottom:0;border-bottom:0.75pt solid #000000;margin-right:40%;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <table style="border-spacing:0;table-layout:fixed;width:100.0%;border-collapse:separate;">
+   <tr style="visibility:collapse;">
+    <td style="width:20%;"></td>
+    <td style="width:1%;"></td>
+    <td style="width:20%;"></td>
+    <td style="width:18%;"></td>
+    <td style="width:41%;"></td>
+   </tr>
+   <tr style="height:10pt;word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td colspan="3" style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span><ix:nonNumeric id="F_f724ad2c-10bd-476b-b38b-e456bb4559c1" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityIncorporationStateCountryCode" format="ixt-sec:stateprovnameen"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">Delaware</span></ix:nonNumeric></span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span><ix:nonNumeric id="F_e7f68069-784b-4717-b62a-d0c248b932c6" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityFileNumber"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">001-39878</span></ix:nonNumeric></span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span><ix:nonNumeric id="F_da146bf0-cc1d-4bbb-b90b-58a9dc6e3610" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityTaxIdentificationNumber"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">81-1005932</span></ix:nonNumeric></span></p></td>
+   </tr>
+   <tr style="height:7pt;word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td colspan="3" style="padding-top:0.01in;vertical-align:top;"><p style="font-size:7.5pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">(State or Other Jurisdiction<br />of Incorporation)</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:7.5pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">(Commission File Number)</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:7.5pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">(IRS Employer<br />Identification No.)</span></p></td>
+   </tr>
+   <tr style="word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+   </tr>
+   <tr style="height:10pt;word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td colspan="3" style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span><ix:nonNumeric id="F_3cd0e3ef-d50b-4f59-aa0e-a0f2d9bfb2bb" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityAddressAddressLine1"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">10850 Via Frontera</span></ix:nonNumeric></span></p></td>
+    <td colspan="2" style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+   </tr>
+   <tr style="height:10pt;word-break:break-word;white-space:pre-wrap;">
+    <td colspan="3" style="padding-top:0.01in;vertical-align:top;text-align:left;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span><ix:nonNumeric id="F_4ff8521d-d5b4-490e-9f30-cd1ed5c41c3d" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityAddressCityOrTown"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">San Diego</span></ix:nonNumeric></span><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">, </span><span><ix:nonNumeric id="F_b0ab5e09-3ff5-4085-82ea-ee654605fb4c" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityAddressStateOrProvince" format="ixt-sec:stateprovnameen"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">California</span></ix:nonNumeric></span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:bottom;text-align:left;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span><ix:nonNumeric id="F_9476a12b-8073-4602-bbc5-5c3e38bde5a2" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:EntityAddressPostalZipCode"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">92127</span></ix:nonNumeric></span></p></td>
+   </tr>
+   <tr style="height:7pt;word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td colspan="3" style="padding-top:0.01in;vertical-align:top;"><p style="font-size:7.5pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">(Address of Principal Executive Offices)</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+    <td style="padding-top:0.01in;vertical-align:top;"><p style="font-size:7.5pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">(Zip Code)</span></p></td>
+   </tr>
+  </table>
+  <p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <table style="border-spacing:0;table-layout:fixed;width:100.0%;border-collapse:separate;">
+   <tr style="visibility:collapse;">
+    <td style="width:100%;"></td>
+   </tr>
+   <tr style="height:10pt;word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td style="padding-top:0.125in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;margin-right:0.02986111111111111in;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">Registrant&#x2019;s Telephone Number, Including Area Code:</span><span style="color:#000000;white-space:pre-wrap;min-width:fit-content;"> </span><span><ix:nonNumeric id="F_f6184cb5-014e-4cea-b4a9-36b6df5b4a36" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:CityAreaCode"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">(858)</span></ix:nonNumeric></span><span style="color:#000000;white-space:pre-wrap;min-width:fit-content;"> </span><span><ix:nonNumeric id="F_7b3bd14a-6e21-4227-b13a-55db2e2e8c48" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:LocalPhoneNumber"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;min-width:fit-content;">453-7845</span></ix:nonNumeric></span></p></td>
+   </tr>
+  </table>
+  <p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <table style="border-spacing:0;table-layout:fixed;width:100.0%;border-collapse:separate;">
+   <tr style="visibility:collapse;">
+    <td style="width:100%;"></td>
+   </tr>
+   <tr style="word-break:break-word;white-space:pre-wrap;text-align:left;">
+    <td style="padding-top:0.125in;vertical-align:top;"><p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="white-space:pre-wrap;min-width:fit-content;">&#160;</span></p></td>
+   </tr>
+  </table>
+  <p style="font-size:10pt;margin-top:0;font-family:Times New Roman;margin-bottom:0;text-align:center;"><span style="color:#000000;white-space:pre-wrap;font-weight:bold;font-size:7.5pt;font-family:Times New Roman;min-width:fit-content;">(Former Name or Former Address, if Changed Since Last Report)</span></p>
+  <p style="margin-left:40%;font-size:10pt;margin-top:9.35pt;font-family:Times New Roman;margin-bottom:0;border-bottom:0.75pt solid #000000;margin-right:40%;text-align:left;"><span style="white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">&#160;</span></p>
+  <p style="font-size:10pt;margin-top:9.35pt;font-family:Times New Roman;margin-bottom:6pt;text-align:left;"><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;">Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</span><span style="color:#000000;white-space:pre-wrap;font-size:10pt;font-family:Times New Roman;min-width:fit-content;"> </span></p>
+  <div style="text-indent:-24.5pt;padding-left:24.5pt;margin-top:9pt;margin-bottom:0;text-align:left;"><span style="margin-right:1em;margin-right:1em;"><span style="font-size:10pt;font-family:Times New Roman;"><ix:nonNumeric id="F_f3470250-44cc-4efd-a1f4-6e42ebc076a4" contextRef="C_2c60907c-418a-4791-833e-154da7cbdd33" name="dei:WrittenCommunications" format="ixt-sec:boolballotbox"><span style="font-size:10pt;font-family:Times
