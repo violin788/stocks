@@ -1,0 +1,198 @@
+22
+<SEC-DOCUMENT>0001753926-24-002037.txt : 20241205
+<SEC-HEADER>0001753926-24-002037.hdr.sgml : 20241205
+<ACCEPTANCE-DATETIME>20241205094529
+ACCESSION NUMBER:		0001753926-24-002037
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		16
+CONFORMED PERIOD OF REPORT:	20241205
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20241205
+DATE AS OF CHANGE:		20241205
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			HOVNANIAN ENTERPRISES INC
+		CENTRAL INDEX KEY:			0000357294
+		STANDARD INDUSTRIAL CLASSIFICATION:	OPERATIVE BUILDERS [1531]
+		ORGANIZATION NAME:           	05 Real Estate & Construction
+		IRS NUMBER:				221851059
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1031
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	001-08551
+		FILM NUMBER:		241528033
+
+	BUSINESS ADDRESS:	
+		STREET 1:		90 MATAWAN ROAD, 5TH FLOOR
+		CITY:			MATAWAN
+		STATE:			NJ
+		ZIP:			07747
+		BUSINESS PHONE:		7327477800
+
+	MAIL ADDRESS:	
+		STREET 1:		90 MATAWAN ROAD, 5TH FLOOR
+		CITY:			MATAWAN
+		STATE:			NJ
+		ZIP:			07747
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>hov-20241205.htm
+<DESCRIPTION>FORM 8-K
+<TEXT>
+<XBRL>
+<?xml version='1.0' encoding='ASCII'?>
+<!--Created by Genesis Filings LLC, Powered by IRIS Carbon, Unique Code 6751bb4a2eea2b0b18379e39, Generated At Thu, 05 Dec 2024 14:40:26 GMT-->
+<html xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:utr="http://www.xbrl.org/2009/utr" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2020-02-12" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:hov="http://www.khov.com/20241205" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"><head><title>hov-20241205.htm</title><meta http-equiv="Content-Type" content="text/html"/></head><body><div style="display:none"><ix:header>
+
+  <ix:hidden>
+    <ix:nonNumeric contextRef="D20241205_PreferredStockPurchaseRights1CustomMember" name="dei:NoTradingSymbolFlag" id="Tag26">true</ix:nonNumeric>
+    <ix:nonNumeric contextRef="D20241205" name="dei:EntityCentralIndexKey" id="Tag27">0000357294</ix:nonNumeric>
+    <ix:nonNumeric contextRef="D20241205" name="dei:AmendmentFlag" id="Tag28">false</ix:nonNumeric>
+  </ix:hidden>
+  <ix:references>
+    <link:schemaRef xlink:href="hov-20241205.xsd" xlink:type="simple"/>
+  </ix:references>
+  <ix:resources>
+    <xbrli:context id="D20241205">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000357294</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-12-05</xbrli:startDate>
+        <xbrli:endDate>2024-12-05</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="D20241205_ClassACommonStock001ParValuePerShareCustomMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000357294</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">hov:ClassACommonStock001ParValuePerShareCustomMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-12-05</xbrli:startDate>
+        <xbrli:endDate>2024-12-05</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="D20241205_PreferredStockPurchaseRights1CustomMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000357294</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">hov:PreferredStockPurchaseRights1CustomMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-12-05</xbrli:startDate>
+        <xbrli:endDate>2024-12-05</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="D20241205_DepositarySharesEachRepresenting11000thOfAShareOf7625SeriesAPreferredStockCustomMember">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000357294</xbrli:identifier>
+        <xbrli:segment>
+          <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">hov:DepositarySharesEachRepresenting11000thOfAShareOf7625SeriesAPreferredStockCustomMember</xbrldi:explicitMember>
+        </xbrli:segment>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2024-12-05</xbrli:startDate>
+        <xbrli:endDate>2024-12-05</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <ix:relationship arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" linkRole="http://www.xbrl.org/2003/role/link" fromRefs="Tag1" toRefs="footnote1"/>
+  </ix:resources>
+</ix:header></div><div><div id="Dh99inmz4zlemmk94jg72" style="font-family: 'times new roman', times; font-size: 10pt;">
+<p style="margin: 0pt 0pt 10pt; text-align: center; text-indent: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">UNITED STATES</span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">SECURITIES AND EXCHANGE COMMISSION</span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">WASHINGTON, D.C. 20549</span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">FORM <ix:nonNumeric contextRef="D20241205" name="dei:DocumentType" id="Tag25">8-K</ix:nonNumeric></span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">CURRENT REPORT</span></p>
+<p style="margin: 10pt 0pt 0pt; text-align: center; text-indent: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">PURSUANT TO SECTION 13 OR 15(d) OF THE</span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">SECURITIES EXCHANGE ACT OF 1934</span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Date of Report (Date of earliest event reported): </span><ix:nonNumeric contextRef="D20241205" name="dei:DocumentPeriodEndDate" id="Tag24" format="ixt:date-monthname-day-year-en">December 5, 2024</ix:nonNumeric></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:EntityRegistrantName" id="Tag23">HOVNANIAN ENTERPRISES, INC.</ix:nonNumeric></span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(Exact Name of Registrant as Specified in its Charter)</span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin: 0px auto; font-family: 'times new roman'; font-size: 10pt;" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top;">
+<p style="margin: 0pt; break-after: avoid; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:EntityIncorporationStateCountryCode" id="Tag22" format="ixt-sec:stateprovnameen">Delaware</ix:nonNumeric></span></p>
+<p style="margin: 0pt; break-after: avoid; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(State or Other</span></p>
+<p style="margin: 0pt; break-after: avoid; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Jurisdiction</span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">of Incorporation)</span></p> </td>
+<td style="vertical-align: top;">
+<p style="margin: 0pt; break-after: avoid; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:EntityFileNumber" id="Tag21">1-8551</ix:nonNumeric></span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(Commission File Number)</span></p> </td>
+<td style="vertical-align: top;">
+<p style="margin: 0pt; break-after: avoid; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:EntityTaxIdentificationNumber" id="Tag10">22-1851059</ix:nonNumeric></span></p>
+<p style="margin: 0pt; break-after: avoid; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(IRS Employer</span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Identification No.)</span></p> </td> </tr> </tbody> </table>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:EntityAddressAddressLine1" id="Tag8">90 Matawan Road, Fifth Floor</ix:nonNumeric></span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:EntityAddressCityOrTown" id="Tag20">Matawan</ix:nonNumeric>, <ix:nonNumeric contextRef="D20241205" name="dei:EntityAddressStateOrProvince" id="Tag19" format="ixt-sec:stateprovnameen">New Jersey</ix:nonNumeric> <ix:nonNumeric contextRef="D20241205" name="dei:EntityAddressPostalZipCode" id="Tag7">07747</ix:nonNumeric></span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(Address of Principal Executive Offices) (Zip Code)</span></p>
+<p style="margin: 0pt;"><span style="font-family: 'Times New Roman'; font-size: 10pt;"> </span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">(<ix:nonNumeric contextRef="D20241205" name="dei:CityAreaCode" id="Tag16">732</ix:nonNumeric>) <ix:nonNumeric contextRef="D20241205" name="dei:LocalPhoneNumber" id="Tag14">747-7800</ix:nonNumeric></span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(Registrant&#8217;s telephone number, including area code)</span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; font-weight: bold; line-height: inherit;">Not Applicable</span></p>
+<p style="margin: 0pt; text-align: center; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">(Former Name or Former Address, if Changed Since</span><br/><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Last Report)</span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt; font-family: 'times new roman'; font-size: 10pt;" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 4%;">
+<p style="margin: 0pt;"><span style="font-family: 'Segoe UI Emoji'; font-size: 10pt; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:WrittenCommunications" id="Tag15" format="ixt-sec:boolballotbox">&#9744;</ix:nonNumeric></span></p> </td>
+<td style="vertical-align: top; width: 96%;">
+<p style="margin: 0pt;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></p> </td> </tr> </tbody> </table>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt; font-family: 'times new roman'; font-size: 10pt;" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 4%;">
+<p style="margin: 0pt;"><span style="font-family: 'Segoe UI Emoji'; font-size: 10pt; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:SolicitingMaterial" id="Tag17" format="ixt-sec:boolballotbox">&#9744;</ix:nonNumeric></span></p> </td>
+<td style="vertical-align: top; width: 96%;">
+<p style="margin: 0pt;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></p> </td> </tr> </tbody> </table>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt; font-family: 'times new roman'; font-size: 10pt; width: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 4%;">
+<p style="margin: 0pt;"><span style="font-family: 'Segoe UI Emoji'; font-size: 10pt; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:PreCommencementTenderOffer" id="Tag13" format="ixt-sec:boolballotbox">&#9744;</ix:nonNumeric></span></p> </td>
+<td style="vertical-align: top; width: 96%;">
+<p style="margin: 0pt;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></p> </td> </tr> </tbody> </table>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-left: 0pt; font-family: 'times new roman'; font-size: 10pt;" width="100%">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 4%;">
+<p style="margin: 0pt;"><span style="font-family: 'Segoe UI Emoji'; font-size: 10pt; line-height: inherit;"><ix:nonNumeric contextRef="D20241205" name="dei:PreCommencementIssuerTenderOffer" id="Tag18" format="ixt-sec:boolballotbox">&#9744;</ix:nonNumeric></span></p> </td>
+<td style="vertical-align: top; width: 96%;">
+<p style="margin: 0pt;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></p> </td> </tr> </tbody> </table>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;">Securities registered pursuant to Section 12(b) of the Act.</span></p>
+<p style="margin: 0pt; line-height: 1.2;"><span style="font-family: 'Times New Roman'; font-size: 10pt; line-height: inherit;"> </span></p>
+<table cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin: 0px auto; font-family: 'times new roman'; font-size: 10pt; width: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.75pt; vertical-align: middle;">
+<p style="margin: 0pt; page-break-after: avoid; text-align: center;"><span style="font-family: 'Times New Roman'; font-size: 10pt;">Title of each class</span></p> </td>
+<td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.75pt; vertical-align: middle;">
+<p style="margin: 0pt; page-break-after: avoid; text-align: center;"><span style="font-family: 'Times New Roman'; font-size: 10pt;">Trading </span><span style="font-family: 'Times New Roman'; font-size: 10pt;">symbol(s)</span></p> </td>
+<td style="border-bottom-color: #000000; border-bottom-style: solid; border-bottom-width: 0.75pt; vertical-align: middle;">
+<p style="margin: 0pt; page-break-after: avoid; text-align: center;"><span style="font-family: 'Times New Roman'; font-size: 10pt;">Name of each exchange on </span><span style="font-family: 'Times New Roman'; font-size: 10pt;">which registered</span></p> </td> </tr>
+<tr>
+<td style="border-bottom: 0.75pt solid #000000; vertical-align: middle; width: 19.8%;">
+<p style="margin: 0pt; page-break-after: avoid; text-align: center;"><span style="font-family: 'Times New Roman'; font-size: 10pt;"><ix:nonNumeric contextRef="D20241205_ClassACommonStock001ParValuePerShareCustomMember" name="dei:Security12bTitle" id="Tag6">Class A Common Stock $0.01 par value per share</ix:nonNumeric></span></p> </td>
+<td style="border-bottom: 0.75pt solid #000000; vertical-align: middle; width: 13.9%;">
+<p style="margin: 0pt; page-break-after: avoid; text-align: center;"><span style="font-family: 'Times New Roman'; font-size: 10pt;"><ix:nonNumeric contextRef="D20241205_ClassACommonStock001ParValuePerShareCustomMember" name="dei:TradingSymbol" id="Tag9">HOV</ix:nonNumeric></span></p> </td>
+<td style="border-bottom: 0.75pt solid #000000; vertical-align: middle; width: 19.8%;">
+<p style="margin: 0pt; page-break-after: avoid; text-align: center;"><span style="font-family: 'Times New Roman'; font-size: 10pt;"><ix:nonNumeric contextRef="D20241205_ClassACommonStock001ParValuePerShareCustomMember" name="dei:SecurityExchangeName" id="Tag5" format="ixt-sec:exchnameen">New York Stock Exchange</ix:nonNumeric></span></p> </td> </tr>
+<tr>
+<td style="border-bottom-colo

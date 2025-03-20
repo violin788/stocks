@@ -273,6 +273,37 @@ def get_sec_earn_dates(match_file):
             if iden_laptop in laptop_or_codespace:    
                 subprocess.run(['python', '0push_laptop_to_repo.py'])
 
+def history_load(symbol,ending):
+    #prices = history_load("CVS","-history.csv")
+    cwd = os.getcwd()
+    check_letter=  symbol[0]
+    if 'A' <= check_letter <= 'M':
+        print("AM")
+        folder_load = "history-yahoo-A-M"
+    if 'N' <= check_letter <= 'Z':
+        print("NZ")
+        folder_load = "history-yahoo-N-Z"
+    file_open = os.path.join(cwd,folder_load,symbol+ending) 
+    print(file_open)
+    loaded_csv = csv_to_book(file_open)
+    return loaded_csv
+
+def history_save(data,symbol,ending):
+    #history_save("CVS","-history.csv")
+    cwd = os.getcwd()
+    check_letter=  symbol[0]
+    if 'A' <= check_letter <= 'M':
+        print("AM")
+        folder_save = "history-yahoo-A-M"
+    if 'N' <= check_letter <= 'Z':
+        print("NZ")
+        folder_save = "history-yahoo-N-Z"
+    file_save = os.path.join(cwd,folder_save,symbol+ending) 
+    data.to_csv(file_save, index_label='Date')
+    #book_to_csv(data,file_save)
+
+
+
 def get_yahoo_history(upcoming_file):
     # Open the CSV file and load it as a dictionary
     with open(upcoming_file, 'r') as f:
@@ -281,7 +312,11 @@ def get_yahoo_history(upcoming_file):
     # Print the loaded data
     print(upcoming)
     cwd = os.getcwd()
-    file_list = os.listdir(cwd)
+    folder_history1 = os.path.join(cwd,"history-yahoo-A-M") 
+    folder_history2 = os.path.join(cwd,"history-yahoo-N-Z") 
+    list_history1 = os.listdir(folder_history1)
+    list_history2 = os.listdir(folder_history2)
+    file_list = list_history1+list_history2
     for item in upcoming:
         symbol = item["symbol"]
         date = item["date"]
@@ -293,7 +328,12 @@ def get_yahoo_history(upcoming_file):
         # Move "Open" to the second column and round all float values to 2 decimal places
         data = data[['Open', 'High', 'Low', 'Close', 'Volume']].round(2)
         output_file = os.path.join(cwd,"history-yahoo",symbol+'-history.csv')
-        data.to_csv(output_file, index_label='Date')
+        
+        print(data)
+        #data.to_csv(output_file, index_label='Date')
+        history_save(data,symbol,"-history.csv")
+        
+        
         print(symbol+'-history.csv'+" saved")
         print(upcoming.index(item),len(upcoming))
         time.sleep(2)
@@ -302,18 +342,8 @@ def get_yahoo_history(upcoming_file):
     for item in upcoming:
         symbol = item["symbol"]
         print(symbol)
-        load_file = symbol+"-history.csv"
-        with open(load_file, 'r') as f:
-            reader = csv.DictReader(f)        
-            prices = list(reader)     
-            #print(prices)
-        print(load_file)
+        data = history_load(symbol,"-history.csv")
         index = upcoming.index(item)
-        #if index<55:
-        #    continue
-        with open(load_file, mode='r') as file:
-            reader = csv.DictReader(file)  # Reads CSV as a list of dictionaries
-            data = list(reader)
         try:
             price = float(data[0]["Close"])
         except:
@@ -389,12 +419,16 @@ def prices_around_earnings(match_file,required_ratio,folder_analysis):
             earn_dates2.append(new)
         dates_list = earn_dates2
         object_current_datetime = datetime.now()    
+        
+        """
         list_prices = []
         #prices_file = symbol + "-history.csv"
         prices_file = os.path.join(cwd,"history-yahoo",symbol+'-history.csv')
         with open(prices_file, mode='r') as file:
             csv_reader = csv.DictReader(file)
             list_prices = [row for row in csv_reader]   
+            """
+        list_prices = history_load(symbol,"-history.csv")
         continue_list=  []
         reverse_list = []
         continue_dictionary= {}
@@ -622,4 +656,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-20 14:34:43----------
+#last updated=2025-03-20 15:18:08----------
