@@ -1,0 +1,317 @@
+22
+<SEC-DOCUMENT>0001206774-22-002614.txt : 20221101
+<SEC-HEADER>0001206774-22-002614.hdr.sgml : 20221101
+<ACCEPTANCE-DATETIME>20221101073134
+ACCESSION NUMBER:		0001206774-22-002614
+CONFORMED SUBMISSION TYPE:	8-K
+PUBLIC DOCUMENT COUNT:		30
+CONFORMED PERIOD OF REPORT:	20221031
+ITEM INFORMATION:		Results of Operations and Financial Condition
+ITEM INFORMATION:		Financial Statements and Exhibits
+FILED AS OF DATE:		20221101
+DATE AS OF CHANGE:		20221101
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			TRANSCAT INC
+		CENTRAL INDEX KEY:			0000099302
+		STANDARD INDUSTRIAL CLASSIFICATION:	INSTRUMENTS FOR MEAS & TESTING OF ELECTRICITY & ELEC SIGNALS [3825]
+		IRS NUMBER:				160874418
+		STATE OF INCORPORATION:			OH
+		FISCAL YEAR END:			0325
+
+	FILING VALUES:
+		FORM TYPE:		8-K
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-03905
+		FILM NUMBER:		221348509
+
+	BUSINESS ADDRESS:	
+		STREET 1:		35 VANTAGE POINT DRIVE
+		CITY:			ROCHESTER
+		STATE:			NY
+		ZIP:			14624
+		BUSINESS PHONE:		5853527777
+
+	MAIL ADDRESS:	
+		STREET 1:		35 VANTAGE POINT DRIVE
+		CITY:			ROCHESTER
+		STATE:			NY
+		ZIP:			14624
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	TRANSMATION INC
+		DATE OF NAME CHANGE:	19920703
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>8-K
+<SEQUENCE>1
+<FILENAME>transcat4124641-8k.htm
+<DESCRIPTION>CURRENT REPORT
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ix="http://www.xbrl.org/2013/inlineXBRL" xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2015-02-26" xmlns:ixt-sec="http://www.sec.gov/inlineXBRL/transformation/2015-08-31" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:dei="http://xbrl.sec.gov/dei/2022" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:us-gaap="http://fasb.org/us-gaap/2022" xmlns:us-gaap-supplement="http://fasb.org/us-gaap-sup/2022q3" xmlns:srt-supplement="http://fasb.org/srt-sup/2022q3" xmlns:us-roles="http://fasb.org/us-roles/2022" xmlns:country="http://xbrl.sec.gov/country/2022" xmlns:srt="http://fasb.org/srt/2022" xmlns:TRNS="http://transcat.com/20221031">
+<head>
+     <title></title>
+<meta http-equiv="Content-Type" content="text/html" />
+</head>
+<!-- Field: Set; Name: xdx; ID: xdx_02B_US%2DGAAP%2D2022 -->
+<!-- Field: Set; Name: xdx; ID: xdx_03E_TRNS_transcat.com_20221031 -->
+<!-- Field: Set; Name: xdx; ID: xdx_048_20221030_20221031 -->
+<!-- Field: Set; Name: xdx; ID: xdx_056_edei%2D%2DEntityCentralIndexKey_0000099302 -->
+<!-- Field: Set; Name: xdx; ID: xdx_059_edei%2D%2DAmendmentFlag_false -->
+<!-- Field: Set; Name: xdx; ID: xdx_06B_USD_1_iso4217%2D%2DUSD -->
+<!-- Field: Set; Name: xdx; ID: xdx_062_Shares_2_xbrli%2D%2Dshares -->
+<!-- Field: Set; Name: xdx; ID: xdx_06D_USDPShares_3_iso4217%2D%2DUSD_xbrli%2D%2Dshares -->
+<body>
+<div style="display: none">
+<ix:header>
+ <ix:hidden>
+  <ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityCentralIndexKey">0000099302</ix:nonNumeric>
+  <ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:AmendmentFlag">false</ix:nonNumeric>
+  </ix:hidden>
+ <ix:references>
+  <link:schemaRef xlink:href="trns-20221031.xsd" xlink:type="simple" />
+  </ix:references>
+ <ix:resources>
+    <xbrli:context id="From2022-10-30to2022-10-31">
+      <xbrli:entity>
+        <xbrli:identifier scheme="http://www.sec.gov/CIK">0000099302</xbrli:identifier>
+      </xbrli:entity>
+      <xbrli:period>
+        <xbrli:startDate>2022-10-30</xbrli:startDate>
+        <xbrli:endDate>2022-10-31</xbrli:endDate>
+      </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="USD">
+      <xbrli:measure>iso4217:USD</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="Shares">
+      <xbrli:measure>xbrli:shares</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="USDPShares">
+      <xbrli:divide>
+        <xbrli:unitNumerator>
+          <xbrli:measure>iso4217:USD</xbrli:measure>
+        </xbrli:unitNumerator>
+        <xbrli:unitDenominator>
+          <xbrli:measure>xbrli:shares</xbrli:measure>
+        </xbrli:unitDenominator>
+      </xbrli:divide>
+    </xbrli:unit>
+  </ix:resources>
+ </ix:header>
+</div>
+
+
+<p style="text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b>UNITED STATES<br /></b></span><span style="font-size: 12pt; font-family: Times New Roman"><b>SECURITIES AND EXCHANGE COMMISSION<br />Washington, D.C. 20549</b></span></p>
+
+<p style="text-align: center"><span style="font-size: 14pt; font-family: Times New Roman"><b>FORM <span id="xdx_90F_edei--DocumentType_c20221030__20221031_zdQsa2N45Kri"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:DocumentType">8-K</ix:nonNumeric></span></b></span></p>
+
+<p style="text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b>CURRENT REPORT<br /></b></span><span style="font-size: 12pt; font-family: Times New Roman"><b>Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934</b></span></p>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 60%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 99%; white-space: nowrap; text-align: left"><span style="font-size: 10pt; font-family: Times New Roman">Date of Report (Date of earliest event reported)</span></td>
+
+   <td style="border-bottom: #000000 1pt solid; width: 1%; white-space: nowrap; text-align: left"><span style="font-size: 12pt; font-family: Times New Roman"><b><span id="xdx_90D_edei--DocumentPeriodEndDate_c20221030__20221031_zLc2JViqLkqk"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt:datemonthdayyearen" name="dei:DocumentPeriodEndDate">October 31, 2022</ix:nonNumeric></span></b></span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 99%; white-space: nowrap; text-align: left">&#160;&#160;&#160;&#160;&#160;</td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: left"><span style="font-size: 12pt; font-family: Times New Roman"><b></b></span></td></tr></table>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 100%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="border-bottom: #000000 1pt solid; width: 100%; text-align: center"><span style="font-size: 18pt; font-family: Times New Roman"><b><span id="xdx_901_edei--EntityRegistrantName_c20221030__20221031_z8oQB3AbSOK9"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityRegistrantName">Transcat, Inc</ix:nonNumeric></span></b></span><span style="font-size: 18pt; font-family: Times New Roman">.</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 100%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(Exact name of registrant as specified in its charter)</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 100%; white-space: nowrap; text-align: center">&#160;&#160;&#160;&#160;&#160;</td></tr></table>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 100%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="border-bottom: black 1pt solid; width: 33%; white-space: nowrap; text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b><span id="xdx_90E_edei--EntityIncorporationStateCountryCode_c20221030__20221031_zdiEfG5zSBo8"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt-sec:stateprovnameen" name="dei:EntityIncorporationStateCountryCode">Ohio</ix:nonNumeric></span></b></span></td>
+
+   <td style="border-bottom: black 1pt solid; width: 1%; white-space: nowrap; text-align: center">&#160;&#160;&#160;&#160;&#160;</td>
+
+   <td style="border-bottom: black 1pt solid; width: 32%; white-space: nowrap; text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b><span id="xdx_90A_edei--EntityFileNumber_c20221030__20221031_zvamnHupHCIa"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityFileNumber">000-03905</ix:nonNumeric></span></b></span></td>
+
+   <td style="border-bottom: black 1pt solid; width: 1%; white-space: nowrap; text-align: center">&#160;&#160;&#160;&#160;&#160;</td>
+
+   <td style="border-bottom: black 1pt solid; width: 33%; white-space: nowrap; text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b><span id="xdx_90C_edei--EntityTaxIdentificationNumber_c20221030__20221031_z5BwVvfaZl03"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityTaxIdentificationNumber">16-0874418</ix:nonNumeric></span></b></span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 33%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(State or other jurisdiction</span></td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: center"></td>
+
+   <td style="width: 32%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(Commission</span></td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: center"></td>
+
+   <td style="width: 33%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(IRS Employer</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 33%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">of incorporation)</span></td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: center"></td>
+
+   <td style="width: 32%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">File Number)</span></td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: center"></td>
+
+   <td style="width: 33%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">Identification No.)</span></td></tr></table>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 100%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="white-space: nowrap; text-align: center">&#160;</td>
+
+   <td style="white-space: nowrap; text-align: center">&#160;</td>
+
+   <td style="white-space: nowrap; text-align: center">&#160;</td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="border-bottom: black 1pt solid; width: 50%; white-space: nowrap; text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b><span id="xdx_90A_edei--EntityAddressAddressLine1_c20221030__20221031_zrnJIW0EP8l7"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityAddressAddressLine1">35 Vantage Point Drive</ix:nonNumeric></span>, <span id="xdx_90C_edei--EntityAddressCityOrTown_c20221030__20221031_zlQHISuG9FX9"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityAddressCityOrTown">Rochester</ix:nonNumeric></span>, <span id="xdx_90C_edei--EntityAddressStateOrProvince_c20221030__20221031_zbvU81EU8lZf"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt-sec:stateprovnameen" name="dei:EntityAddressStateOrProvince">New York</ix:nonNumeric></span></b></span></td>
+
+   <td style="border-bottom: black 1pt solid; width: 1%; white-space: nowrap; text-align: center">&#160;&#160;&#160;&#160;&#160;</td>
+
+   <td style="border-bottom: black 1pt solid; width: 49%; white-space: nowrap; text-align: center"><span style="font-size: 12pt; font-family: Times New Roman"><b><span id="xdx_903_edei--EntityAddressPostalZipCode_c20221030__20221031_zASWGAb4Ugb8"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:EntityAddressPostalZipCode">14624</ix:nonNumeric></span></b></span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 50%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(Address of principal executive offices)</span></td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: center"></td>
+
+   <td style="width: 49%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(Zip Code)</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 50%; white-space: nowrap; text-align: center"></td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: center">&#160;&#160;&#160;&#160;&#160;</td>
+
+   <td style="width: 49%; white-space: nowrap; text-align: center"></td></tr></table>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 60%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 99%; white-space: nowrap; text-align: left"><span style="font-size: 10pt; font-family: Times New Roman">Registrant's telephone number, including area code</span></td>
+
+   <td style="border-bottom: #000000 1pt solid; width: 1%; white-space: nowrap; text-align: left"><span style="font-size: 12pt; font-family: Times New Roman"><b>(</b></span><b><span id="xdx_902_edei--CityAreaCode_c20221030__20221031_zwcuMKMZCrlg"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:CityAreaCode">585</ix:nonNumeric></span></b><span style="font-size: 12pt; font-family: Times New Roman"><b>) </b></span><b><span id="xdx_904_edei--LocalPhoneNumber_c20221030__20221031_zyDzVwDD1ft6"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:LocalPhoneNumber">352-7777</ix:nonNumeric></span></b></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 99%; white-space: nowrap; text-align: left">&#160;&#160;&#160;&#160;&#160;</td>
+
+   <td style="width: 1%; white-space: nowrap; text-align: left"><span style="font-size: 12pt; font-family: Times New Roman"><b></b></span></td></tr></table>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 100%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="border-bottom: #000000 1pt solid; width: 99%; white-space: nowrap; text-align: center">&#160;&#160;&#160;&#160;&#160;</td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 99%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">(Former name or former address, if changed since last report)</span></td></tr></table>
+
+<p style="text-align: justify"><span style="font-size: 10pt; font-family: Times New Roman">Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:</span></p>
+
+<table cellspacing="0" cellpadding="0" border="0" style="line-height: 14pt; border-collapse: collapse; width: 100%">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"><span style="font-size: 10pt; font-family: Times New Roman"><span id="xdx_90C_edei--WrittenCommunications_c20221030__20221031_zSw0NqaRxocd"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt:booleanfalse" name="dei:WrittenCommunications">[ ]</ix:nonNumeric></span></span></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left"><span style="font-size: 10pt; font-family: Times New Roman">Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left">&#160;&#160;&#160;&#160;&#160;</td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"><span style="font-size: 10pt; font-family: Times New Roman"><span id="xdx_90F_edei--SolicitingMaterial_c20221030__20221031_zxT41RW66Y1k"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt:booleanfalse" name="dei:SolicitingMaterial">[ ]</ix:nonNumeric></span></span></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left"><span style="font-size: 10pt; font-family: Times New Roman">Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left">&#160;&#160;&#160;&#160;&#160;</td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"><span style="font-size: 10pt; font-family: Times New Roman"><span id="xdx_900_edei--PreCommencementTenderOffer_c20221030__20221031_zMxdJ28VD90k"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt:booleanfalse" name="dei:PreCommencementTenderOffer">[ ]</ix:nonNumeric></span></span></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left"><span style="font-size: 10pt; font-family: Times New Roman">Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left">&#160;&#160;&#160;&#160;&#160;</td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="width: 1%; white-space: nowrap; text-align: left; padding-right: 15pt"><span style="font-size: 10pt; font-family: Times New Roman"><span id="xdx_90B_edei--PreCommencementIssuerTenderOffer_c20221030__20221031_zogcDY7esKqh"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" format="ixt:booleanfalse" name="dei:PreCommencementIssuerTenderOffer">[ ]</ix:nonNumeric></span></span></td>
+
+   <td style="width: 99%; white-space: nowrap; text-align: left"><span style="font-size: 10pt; font-family: Times New Roman">Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))</span></td></tr></table>
+
+<p style="text-align: justify"><span style="font-size: 10pt; font-family: Times New Roman">Securities registered pursuant to Section 12(b) of the Act:</span></p>
+
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%; line-height: 14pt; border-collapse: collapse">
+
+
+
+<tr style="vertical-align: bottom">
+
+   <td style="border: black 1pt solid; width: 35%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">Title of each class</span></td>
+
+   <td style="border-top: black 1pt solid; border-right: black 1pt solid; border-bottom: black 1pt solid; width: 32%; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman">Trading Symbol(s)</span></td>
+
+   <td style="border-top: black 1pt solid; border-right: black 1pt solid; border-bottom: black 1pt solid; width: 33%; white-space: nowrap; text-align: center; padding-left: 4pt; padding-right: 4pt"><span style="font-size: 10pt; font-family: Times New Roman">Name of each exchange on which registered</span></td></tr>
+
+<tr style="vertical-align: bottom">
+
+   <td style="border-right: black 1pt solid; border-bottom: black 1pt solid; border-left: black 1pt solid; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New Roman"><span id="xdx_90F_edei--Security12bTitle_c20221030__20221031_zupVB6Qsm7C5"><ix:nonNumeric contextRef="From2022-10-30to2022-10-31" name="dei:Security12bTitle">Common Stock, $0.50 par value</ix:nonNumeric></span></span></td>
+
+   <td style="border-right: black 1pt solid; border-bottom: black 1pt solid; white-space: nowrap; text-align: center"><span style="font-size: 10pt; font-family: Times New
