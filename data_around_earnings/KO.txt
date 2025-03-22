@@ -1,0 +1,64 @@
+{'Date': '20230421', 'Open': '60.22', 'High': '60.48', 'Low': '60.03', 'Close': '60.27', 'Volume': '12931100'}
+{'Date': '20230424', 'Open': '60.93', 'High': '61.15', 'Low': '59.86', 'Close': '60.17', 'Volume': '15532300'}
+{'Date': '20230425', 'Open': '60.38', 'High': '60.38', 'Low': '59.87', 'Close': '60.08', 'Volume': '12818900'}
+{'close': 60.27, 'open': 60.93, 'gap': 1.1, 'same': 61.15, 'oppo': 59.86}
+{'percent_continue': 0.36, 'percent_reverse': 1.75}
+R
+close_move = -1.25
+
+{'Date': '20230725', 'Open': '59.07', 'High': '59.15', 'Low': '58.83', 'Close': '59.02', 'Volume': '13422700'}
+{'Date': '20230726', 'Open': '58.65', 'High': '59.89', 'Low': '58.21', 'Close': '59.78', 'Volume': '17145500'}
+{'Date': '20230727', 'Open': '59.78', 'High': '59.99', 'Low': '59.14', 'Close': '59.2', 'Volume': '11517100'}
+{'close': 59.02, 'open': 58.65, 'gap': -0.63, 'same': 58.21, 'oppo': 59.89}
+{'percent_continue': 0.75, 'percent_reverse': 2.11}
+R
+close_move = 1.93
+
+{'Date': '20231023', 'Open': '51.97', 'High': '52.46', 'Low': '51.65', 'Close': '51.68', 'Volume': '21212700'}
+{'Date': '20231024', 'Open': '53.18', 'High': '53.68', 'Low': '52.85', 'Close': '53.17', 'Volume': '25290800'}
+{'Date': '20231025', 'Open': '53.29', 'High': '53.73', 'Low': '53.1', 'Close': '53.63', 'Volume': '16701000'}
+{'close': 51.68, 'open': 53.18, 'gap': 2.9, 'same': 53.68, 'oppo': 52.85}
+{'percent_continue': 0.94, 'percent_reverse': 0.62}
+C
+close_move = -0.02
+
+{'Date': '20240212', 'Open': '57.47', 'High': '57.56', 'Low': '56.79', 'Close': '57.51', 'Volume': '13516800'}
+{'Date': '20240213', 'Open': '57.31', 'High': '58.43', 'Low': '56.63', 'Close': '57.17', 'Volume': '24195700'}
+{'Date': '20240214', 'Open': '57.0', 'High': '57.4', 'Low': '56.87', 'Close': '57.11', 'Volume': '15872500'}
+{'close': 57.51, 'open': 57.31, 'gap': -0.35, 'same': 56.63, 'oppo': 58.43}
+{'percent_continue': 1.18, 'percent_reverse': 1.95}
+R
+close_move = -0.24
+
+{'Date': '20240429', 'Open': '60.12', 'High': '60.25', 'Low': '59.74', 'Close': '60.24', 'Volume': '13409300'}
+{'Date': '20240430', 'Open': '60.34', 'High': '61.01', 'Low': '59.68', 'Close': '59.98', 'Volume': '19349200'}
+{'Date': '20240501', 'Open': '60.01', 'High': '60.75', 'Low': '59.43', 'Close': '60.13', 'Volume': '16729800'}
+{'close': 60.24, 'open': 60.34, 'gap': 0.17, 'same': 61.01, 'oppo': 59.68}
+{'percent_continue': 1.11, 'percent_reverse': 1.09}
+C
+close_move = -0.6
+
+{'Date': '20240722', 'Open': '63.85', 'High': '63.89', 'Low': '62.94', 'Close': '63.38', 'Volume': '11794200'}
+{'Date': '20240723', 'Open': '64.02', 'High': '64.62', 'Low': '63.46', 'Close': '63.56', 'Volume': '11810300'}
+{'Date': '20240724', 'Open': '63.69', 'High': '64.55', 'Low': '63.44', 'Close': '64.39', 'Volume': '13244600'}
+{'close': 63.56, 'open': 63.69, 'gap': 0.2, 'same': 64.55, 'oppo': 63.44}
+{'percent_continue': 1.35, 'percent_reverse': 0.39}
+C
+close_move = 1.1
+
+{'Date': '20241022', 'Open': '67.98', 'High': '68.72', 'Low': '67.66', 'Close': '68.42', 'Volume': '18603300'}
+{'Date': '20241023', 'Open': '66.0', 'High': '67.68', 'Low': '65.59', 'Close': '67.0', 'Volume': '24655200'}
+{'Date': '20241024', 'Open': '66.65', 'High': '67.03', 'Low': '65.96', 'Close': '66.3', 'Volume': '17568800'}
+{'close': 68.42, 'open': 66.0, 'gap': -3.54, 'same': 65.59, 'oppo': 67.68}
+{'percent_continue': 0.62, 'percent_reverse': 2.54}
+R
+close_move = 1.52
+
+{'Date': '20250210', 'Open': '63.63', 'High': '64.18', 'Low': '63.19', 'Close': '64.08', 'Volume': '16154300'}
+{'Date': '20250211', 'Open': '67.01', 'High': '67.17', 'Low': '65.92', 'Close': '67.1', 'Volume': '30589100'}
+{'Date': '20250212', 'Open': '66.38', 'High': '68.32', 'Low': '66.38', 'Close': '68.21', 'Volume': '26033800'}
+{'close': 64.08, 'open': 67.01, 'gap': 4.57, 'same': 67.17, 'oppo': 65.92}
+{'percent_continue': 0.23, 'percent_reverse': 1.62}
+R
+close_move = 0.13
+

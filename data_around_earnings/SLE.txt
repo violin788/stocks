@@ -1,0 +1,36 @@
+{'Date': '20230515', 'Open': '13.14', 'High': '13.8', 'Low': '12.22', 'Close': '13.52', 'Volume': '9965'}
+{'Date': '20230516', 'Open': '13.0', 'High': '13.4', 'Low': '12.4', 'Close': '12.4', 'Volume': '6300'}
+{'Date': '20230517', 'Open': '12.64', 'High': '13.0', 'Low': '11.0', 'Close': '11.28', 'Volume': '11650'}
+{'close': 12.4, 'open': 12.64, 'gap': 1.94, 'same': 13.0, 'oppo': 11.0}
+{'percent_continue': 2.84, 'percent_reverse': 12.97}
+R
+close_move = -10.76
+
+{'Date': '20230814', 'Open': '6.8', 'High': '6.8', 'Low': '6.04', 'Close': '6.2', 'Volume': '36800'}
+{'Date': '20230815', 'Open': '6.6', 'High': '7.34', 'Low': '6.2', 'Close': '6.58', 'Volume': '494380'}
+{'Date': '20230816', 'Open': '6.0', 'High': '6.0', 'Low': '5.26', 'Close': '5.4', 'Volume': '53555'}
+{'close': 6.2, 'open': 6.6, 'gap': 6.45, 'same': 7.34, 'oppo': 6.2}
+{'percent_continue': 11.21, 'percent_reverse': 6.06}
+C
+close_move = -0.3
+
+{'Date': '20231114', 'Open': '1.3', 'High': '1.35', 'Low': '1.29', 'Close': '1.32', 'Volume': '115200'}
+{'Date': '20231115', 'Open': '1.35', 'High': '1.55', 'Low': '1.35', 'Close': '1.4', 'Volume': '147800'}
+{'Date': '20231116', 'Open': '1.47', 'High': '1.6', 'Low': '1.3', 'Close': '1.54', 'Volume': '63800'}
+{'close': 1.32, 'open': 1.35, 'gap': 2.27, 'same': 1.55, 'oppo': 1.35}
+{'percent_continue': 14.81, 'percent_reverse': 0.0}
+C
+close_move = 3.7
+
+{'Date': '20240326', 'Open': '2.32', 'High': '2.45', 'Low': '2.19', 'Close': '2.29', 'Volume': '58400'}
+{'Date': '20240327', 'Open': '2.29', 'High': '2.53', 'Low': '2.2', 'Close': '2.5', 'Volume': '81000'}
+{'Date': '20240328', 'Open': '2.49', 'High': '2.49', 'Low': '2.12', 'Close': '2.15', 'Volume': '61400'}
+{'close': 2.29, 'open': 2.29, 'gap': 0.0, 'same': '', 'oppo': ''}
+{'Date': '20240820', 'Open': '1.33', 'High': '1.33', 'Low': '1.19', 'Close': '1.26', 'Volume': '34900'}
+{'Date': '20240821', 'Open': '1.25', 'High': '1.26', 'Low': '1.17', 'Close': '1.25', 'Volume': '32800'}
+{'Date': '20240822', 'Open': '1.23', 'High': '1.32', 'Low': '1.21', 'Close': '1.22', 'Volume': '51200'}
+{'close': 1.25, 'open': 1.23, 'gap': -1.6, 'same': 1.21, 'oppo': 1.32}
+{'percent_continue': 1.62, 'percent_reverse': 7.31}
+R
+close_move = -0.81
+

@@ -1,0 +1,8 @@
+{'Date': '20231114', 'Open': '1.4', 'High': '1.5', 'Low': '1.4', 'Close': '1.44', 'Volume': '6900'}
+{'Date': '20231115', 'Open': '1.45', 'High': '1.45', 'Low': '1.38', 'Close': '1.41', 'Volume': '8300'}
+{'Date': '20231116', 'Open': '1.38', 'High': '1.43', 'Low': '1.38', 'Close': '1.43', 'Volume': '16300'}
+{'close': 1.41, 'open': 1.38, 'gap': -2.13, 'same': 1.38, 'oppo': 1.43}
+{'percent_continue': 0.0, 'percent_reverse': 3.62}
+R
+close_move = 3.62
+
