@@ -244,17 +244,22 @@ def get_sec_earn_dates(match_file):
                 to_delete = os.path.join(stock_folder,date)            
                 if "ITEM INFORMATION:		Results of Operations and Financial Condition" in content:
                     if "ITEM INFORMATION:		Financial Statements and Exhibits" in content:
+                        #end up doing a count for "2.02" as well?
+                        #put at beginning of file like "earn" count?
                         count_earn_lower = content.count("earn")
                         count_earn_upper = content.count("Earn")
                         count_earn_total = count_earn_lower+count_earn_upper
                         print("count_earn_lower",count_earn_lower)
                         print("count_earn_upper",count_earn_upper)
                         print("count_earn_total",count_earn_total)
+                        count_202 = content.count("2.02")
                         #put earn count amount at top of text when redo it
                         #might have to change this down to 2 or something..
                         if count_earn_total>2: 
                             #might have to change this down to 2 or something..
-                            content = str(count_earn_total)+"\n"+content
+                            prefix="earn_count="+str(count_earn_total)+"\n"
+                            prefix+="2.02_count="+str(count_202)+"\n"
+                            content=prefix+content
                             with open(check_file, 'w') as file:
                                 file.write(content[0:20000])                        
                             continue
@@ -649,9 +654,9 @@ file_vol_pri = "0vol_pri_list.csv"
 folder_analysis = "data_around_earnings"
 folder_history = "history-yahoo"
 
-finnhub_start = "2025-03-22"
-finnhub_end = "2025-05-01"
-list_length = 50
+finnhub_start = "2025-03-17"
+finnhub_end = "2025-03-24"
+list_length = 10
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -666,4 +671,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-22 06:46:06----------
+#last updated=2025-03-22 08:18:03----------
