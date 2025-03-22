@@ -261,7 +261,7 @@ def get_sec_earn_dates(match_file):
                             prefix+="2.02_count="+str(count_202)+"\n"
                             content=prefix+content
                             with open(check_file, 'w') as file:
-                                file.write(content[0:20000])                        
+                                file.write(content[0:10000])                        
                             continue
     
                 file.close()        
@@ -654,9 +654,9 @@ file_vol_pri = "0vol_pri_list.csv"
 folder_analysis = "data_around_earnings"
 folder_history = "history-yahoo"
 
-finnhub_start = "2025-03-17"
-finnhub_end = "2025-03-24"
-list_length = 10
+finnhub_start = "2025-03-22"
+finnhub_end = "2025-04-10"
+list_length = 20
 finnhub_file = os.path.join(finnhub_folder,finnhub_start+"."+finnhub_end+".json")
 
 create_if_not_exist()
@@ -671,4 +671,4 @@ prices_around_earnings(upcoming_file,required_ratio,folder_analysis)
 """
 #specific_day(start_date,end_date, match_file)
 """
-#last updated=2025-03-22 08:18:51----------
+#last updated=2025-03-22 08:25:28----------
